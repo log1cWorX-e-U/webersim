@@ -46,9 +46,43 @@ l_0 \approx (2,5)^{1/3} \cdot 1,32 \times 10^{-15} \, \text{m} \approx 1,8 \time
 \subsection{Physikalische Bedeutung}
 \label{sub:bec_l0_bedeutung}
 
-Die Länge \( l_0 \) ist die kleinste physikalisch mögliche Distanz. 
-Sie ist zugleich die Compton-Wellenlänge des Neutrinos 
-(siehe Anhang~\ref{app:neutrino_oszillation}) und die fundamentale Gitterkonstante des fraktalen Raumes.
+Die Länge \( l_0 \) ist die kleinste physikalisch mögliche Distanz – 
+die fundamentale Gitterkonstante des fraktalen Raumes.
+
+\textbf{Wichtige Klarstellung:} \( l_0 \) ist \emph{nicht} die Compton-Wellenlänge 
+des Neutrinos. Diese ist viel größer (siehe Anhang~\ref{app:neutrino_oszillation}):
+
+\[
+\lambda_\nu = \frac{\hbar}{m_\nu c} = l_0 \left( \frac{L_{Q,0}}{l_0} \right)^{(3-D)/2} \approx 2 \times 10^{-9} \, \text{m} \tag{K.3}
+\]
+
+mit \( L_{Q,0} = 10^{26} \, \text{m} \) (Hubble-Länge).
+
+Die minimale Größe eines BEC-Objekts ist jedoch weiterhin \( R_{\min} = l_0 \), 
+da BEC-Objekte aus Cooper-Paaren (gebundenen Fermionen) aufgebaut sind, 
+nicht aus Neutrinos. Die unterschiedlichen Skalen sind physikalisch konsistent:
+Das Neutrino ist nichtlokal und vermittelt das Quantenpotential über große 
+Distanzen, während BEC-Objekte lokale materielle Kondensate sind.
+
+\subsection{Die Neutrino-Compton-Wellenlänge im Vergleich}
+\label{sub:bec_l0_compton_vergleich}
+
+Die folgende Tabelle fasst die verschiedenen Skalen zusammen:
+
+\[
+\begin{array}{l|c|c}
+\text{Größe} & \text{Symbol} & \text{Numerischer Wert} \\
+\hline
+\text{Fundamentale Gitterkonstante} & l_0 & 1,8 \times 10^{-15} \, \text{m} \\
+\text{Compton-Wellenlänge des Neutrinos} & \lambda_\nu & 2 \times 10^{-9} \, \text{m} \\
+\text{Compton-Wellenlänge des Protons} & \lambda_p & 1,32 \times 10^{-15} \, \text{m} \\
+\text{Korrelationslänge des Q-Feldes} & L_{Q,0} & 10^{26} \, \text{m}
+\end{array} \tag{K.4}
+\]
+
+Die Hierarchie \( l_0 \sim \lambda_p \ll \lambda_\nu \ll L_{Q,0} \) ist 
+eine natürliche Konsequenz der fraktalen Geometrie und der nichtlokalen 
+Natur des Q-Feldes.
 
 \section{Paarbildung und Bose-Einstein-Kondensation}
 \label{app:bec_paarbildung}
@@ -60,7 +94,7 @@ Bei hinreichend hohen Dichten bilden Fermionen Cooper-Paare und werden
 zu effektiven Bosonen. Die Paarbindungsenergie ist:
 
 \[
-E_{\text{pair}} = \frac{\hbar^2}{2m^* \xi^2} \tag{K.3}
+E_{\text{pair}} = \frac{\hbar^2}{2m^* \xi^2} \tag{K.5}
 \]
 
 mit \( m^* \) der effektiven Masse und \( \xi \) der Kohärenzlänge.
@@ -71,7 +105,7 @@ mit \( m^* \) der effektiven Masse und \( \xi \) der Kohärenzlänge.
 Die kritische Temperatur für die Kondensation ist:
 
 \[
-T_c = \frac{2\pi \hbar^2}{k_B m^*} \left( \frac{n}{\zeta(3/2)} \right)^{2/3} \tag{K.4}
+T_c = \frac{2\pi \hbar^2}{k_B m^*} \left( \frac{n}{\zeta(3/2)} \right)^{2/3} \tag{K.6}
 \]
 
 Für typische Kernmaterie-Dichten (\( n \sim 10^{44} \, \text{m}^{-3} \)) 
@@ -86,14 +120,14 @@ liegt \( T_c \) im Bereich von \( 10^{12} \, \text{K} \).
 Die Gesamtenergie eines BEC-Objekts ist:
 
 \[
-E = E_{\text{kin}} + E_{\text{int}} + E_{\text{grav}} \tag{K.5}
+E = E_{\text{kin}} + E_{\text{int}} + E_{\text{grav}} \tag{K.7}
 \]
 
 Im Thomas-Fermi-Limes dominiert die Wechselwirkungsenergie. 
 Für ein BEC mit Kontaktwechselwirkung gilt:
 
 \[
-P(\rho) = \frac{g}{2} \rho^2 \tag{K.6}
+P(\rho) = \frac{g}{2} \rho^2 \tag{K.8}
 \]
 
 mit \( g = 4\pi\hbar^2 a_s / m_B \), \( a_s \) der Streulänge und 
@@ -106,7 +140,7 @@ Im fraktalen Raum mit Dimension \( D \) folgt aus der Gleichgewichtsbedingung
 zwischen Gravitation und Quantenpotential:
 
 \[
-P(\rho) = K \cdot \rho^{\gamma} \tag{K.7}
+P(\rho) = K \cdot \rho^{\gamma} \tag{K.9}
 \]
 
 mit
@@ -114,7 +148,7 @@ mit
 \[
 \gamma = 1 + \frac{2}{D}, \quad 
 K = \frac{\hbar^2}{2m_B} \left( \frac{3\pi^2}{g} \right)^{2/3} \cdot 
-\frac{1}{m_B^{2/3}} \cdot f(D) \tag{K.8}
+\frac{1}{m_B^{2/3}} \cdot f(D) \tag{K.10}
 \]
 
 Dabei ist \( f(D) \approx 1,2 \) für \( D \approx 2,704 \).
@@ -129,7 +163,7 @@ Für eine homogene Kugel vom Radius \( R \) und Gesamtmasse \( M \)
 skaliert die gravitative Selbstenergie wie:
 
 \[
-E_{\text{grav}} = -C_D \frac{GM^2}{R^{D-2}} \tag{K.9}
+E_{\text{grav}} = -C_D \frac{GM^2}{R^{D-2}} \tag{K.11}
 \]
 
 Für \( D = 3 \) gilt \( C_3 = 3/5 \). Für \( D \approx 2,704 \) ist 
@@ -141,7 +175,7 @@ Für \( D = 3 \) gilt \( C_3 = 3/5 \). Für \( D \approx 2,704 \) ist
 Die Energie des Quantenpotentials skaliert wie:
 
 \[
-E_Q = A \frac{\hbar^2 M}{m_B^2 R^{2D/3}} \tag{K.10}
+E_Q = A \frac{\hbar^2 M}{m_B^2 R^{2D/3}} \tag{K.12}
 \]
 
 mit \( A \approx 1 \).
@@ -152,13 +186,13 @@ mit \( A \approx 1 \).
 Die Gesamtenergie ist:
 
 \[
-E(R) = -C_D \frac{GM^2}{R^{D-2}} + A \frac{\hbar^2 M}{m_B^2 R^{2D/3}} \tag{K.11}
+E(R) = -C_D \frac{GM^2}{R^{D-2}} + A \frac{\hbar^2 M}{m_B^2 R^{2D/3}} \tag{K.13}
 \]
 
 Ableitung nach \( R \) und Nullsetzen (\( dE/dR = 0 \)) liefert:
 
 \[
-C_D (D-2) \frac{GM^2}{R^{D-1}} = A \cdot \frac{2D}{3} \frac{\hbar^2 M}{m_B^2 R^{2D/3 + 1}} \tag{K.12}
+C_D (D-2) \frac{GM^2}{R^{D-1}} = A \cdot \frac{2D}{3} \frac{\hbar^2 M}{m_B^2 R^{2D/3 + 1}} \tag{K.14}
 \]
 
 \subsection{Radius als Funktion der Masse}
@@ -167,7 +201,7 @@ C_D (D-2) \frac{GM^2}{R^{D-1}} = A \cdot \frac{2D}{3} \frac{\hbar^2 M}{m_B^2 R^{
 Auflösen nach \( R \) ergibt:
 
 \[
-R^{2 - D/3} = \frac{2D A \hbar^2}{3(D-2) C_D G m_B^2} \cdot \frac{1}{M} \tag{K.13}
+R^{2 - D/3} = \frac{2D A \hbar^2}{3(D-2) C_D G m_B^2} \cdot \frac{1}{M} \tag{K.15}
 \]
 
 Für \( D \approx 2,704 \) berechnet man:
@@ -188,7 +222,7 @@ R^{1,09867} = \frac{2D A \hbar^2}{3(D-2) C_D G m_B^2} \cdot \frac{1}{M}
 Daraus folgt:
 
 \[
-R(M) = K_R \cdot M^{-1/1,09867} = K_R \cdot M^{-0,91} \tag{K.14}
+R(M) = K_R \cdot M^{-1/1,09867} = K_R \cdot M^{-0,91} \tag{K.16}
 \]
 
 \subsection{Numerische Bestimmung von \( K_R \)}
@@ -197,13 +231,13 @@ R(M) = K_R \cdot M^{-1/1,09867} = K_R \cdot M^{-0,91} \tag{K.14}
 Die Konstante \( K_R \) folgt aus den Naturkonstanten:
 
 \[
-K_R = \left( \frac{2D A \hbar^2}{3(D-2) C_D G m_B^2} \right)^{1/1,09867} \tag{K.15}
+K_R = \left( \frac{2D A \hbar^2}{3(D-2) C_D G m_B^2} \right)^{1/1,09867} \tag{K.17}
 \]
 
 Einsetzen der Werte ergibt:
 
 \[
-K_R \approx 5,7 \times 10^{13} \, \text{m} \cdot \text{kg}^{0,91} \tag{K.16}
+K_R \approx 5,7 \times 10^{13} \, \text{m} \cdot \text{kg}^{0,91} \tag{K.18}
 \]
 
 \section{Maximale Masse eines BEC-Objekts}
@@ -213,10 +247,10 @@ K_R \approx 5,7 \times 10^{13} \, \text{m} \cdot \text{kg}^{0,91} \tag{K.16}
 \label{sub:bec_min_radius}
 
 Die minimale physikalisch mögliche Größe ist \( l_0 \). 
-Setzt man \( R = l_0 \) in (K.14) ein:
+Setzt man \( R = l_0 \) in (K.16) ein:
 
 \[
-M_{\text{BEC}} = \left( \frac{K_R}{l_0} \right)^{1/0,91} \tag{K.17}
+M_{\text{BEC}} = \left( \frac{K_R}{l_0} \right)^{1/0,91} \tag{K.19}
 \]
 
 Mit \( K_R \approx 5,7 \times 10^{13} \, \text{m} \cdot \text{kg}^{0,91} \) 
@@ -230,7 +264,7 @@ Die Umrechnung in Sonnenmassen (\( 1 M_{\odot} \approx 2 \times 10^{30} \, \text
 und die Potenz \( 1/0,91 \approx 1,099 \) liefert:
 
 \[
-M_{\text{BEC}} \approx 3 \times 10^6 M_{\odot} \tag{K.18}
+M_{\text{BEC}} \approx 3 \times 10^6 M_{\odot} \tag{K.20}
 \]
 
 \subsection{Physikalische Bedeutung}
@@ -238,6 +272,13 @@ M_{\text{BEC}} \approx 3 \times 10^6 M_{\odot} \tag{K.18}
 
 Dies ist die maximale Masse eines einzelnen BEC-Objekts. 
 Oberhalb dieser Grenze wäre \( R < l_0 \), was physikalisch unmöglich ist. 
+
+\textbf{Wichtige Klarstellung:} Die maximale Masse \( M_{\text{BEC}} \) 
+hängt \emph{nicht} von der Neutrinomasse ab. Sie wird allein durch 
+die fundamentale Längenskala \( l_0 \) und die Masse der Cooper-Paare 
+\( m_B \approx 2m_p \) bestimmt. Die Korrektur der Neutrinomasse hat 
+daher \emph{keine} Auswirkungen auf \( M_{\text{BEC}} \).
+
 Beobachtete supermassereiche Objekte mit Massen oberhalb dieser Grenze 
 (z. B. in sehr großen Galaxien bis \( 10^{10} M_{\odot} \)) sind daher 
 keine einzelnen kompakten Objekte, sondern Systeme aus einem 
@@ -279,7 +320,7 @@ Für eine kreisförmige Bahn liefert die Weber-Kraft mit \( \beta = 0,5 \)
 (siehe Kapitel~\ref{ch:dstt_weber_kraefte}):
 
 \[
-\frac{mv^2}{r} = \frac{GMm}{r^2} \left( 1 + \frac{v^2}{2c^2} \right) \tag{K.19}
+\frac{mv^2}{r} = \frac{GMm}{r^2} \left( 1 + \frac{v^2}{2c^2} \right) \tag{K.21}
 \]
 
 \subsection{ISCO-Bedingung}
@@ -288,13 +329,13 @@ Für eine kreisförmige Bahn liefert die Weber-Kraft mit \( \beta = 0,5 \)
 Auflösen nach \( v^2 \):
 
 \[
-v^2 = \frac{GM}{r} \left( 1 + \frac{GM}{2c^2 r} \right) \tag{K.20}
+v^2 = \frac{GM}{r} \left( 1 + \frac{GM}{2c^2 r} \right) \tag{K.22}
 \]
 
 Die Bedingung \( dv/dr = 0 \) ergibt:
 
 \[
-r_{\text{ISCO}} = \frac{12GM}{c^2} \tag{K.21}
+r_{\text{ISCO}} = \frac{12GM}{c^2} \tag{K.23}
 \]
 
 Für \( M = M_{\text{BEC}} \approx 3 \times 10^6 M_{\odot} \):
@@ -321,7 +362,7 @@ Aus der fraktalen Skalierung und der DSTT-Drift folgt (siehe Kapitel~\ref{ch:kos
 sowie Anhang~\ref{app:identitaetsbeziehung} für die Herleitung von \( \alpha_{\text{in}} \)):
 
 \[
-\frac{M_{\text{Gal}}}{M_{\text{Kern}}} \approx 1000 \tag{K.22}
+\frac{M_{\text{Gal}}}{M_{\text{Kern}}} \approx 1000 \tag{K.24}
 \]
 
 Mit \( M_{\text{Kern}} = M_{\text{BEC}} \approx 3 \times 10^6 M_{\odot} \) 
@@ -350,16 +391,56 @@ Gravitationswellen von BEC-Kollisionen unterscheiden sich geringfügig
 von denen Schwarzer Löcher: Sie haben keinen Ereignishorizont, eine 
 Oberfläche und möglicherweise ein Nachglühen (siehe Kapitel~\ref{ch:bec_objekte}).
 
+\section{Verbindung zur Neutrinomasse}
+\label{app:bec_neutrino_verbindung}
+
+Die fundamentale Längenskala \( l_0 \) bestimmt nicht nur die minimale 
+Größe von BEC-Objekten, sondern auch – über die Korrelationslänge 
+\( L_{Q,0} = 10^{26} \, \text{m} \) – die Masse des Neutrinos 
+(siehe Anhang~\ref{app:neutrino_oszillation}):
+
+\[
+m_\nu = \frac{\hbar}{l_0 c} \left( \frac{l_0}{L_{Q,0}} \right)^{(3-D)/2} \approx 0,1 \, \text{eV}/c^2
+\]
+
+Die Konsistenz beider Ableitungen – der BEC-Maximalmasse und der 
+Neutrinomasse – aus derselben fundamentalen Längenskala \( l_0 \) 
+und derselben fraktalen Dimension \( D \) ist ein starkes Indiz 
+für die Richtigkeit der Theorie.
+
+Die folgende Tabelle fasst die Hierarchie der Skalen zusammen:
+
+\[
+\begin{array}{l|c|c}
+\text{Phänomen} & \text{Relevante Skala} & \text{Größenordnung} \\
+\hline
+\text{BEC-Objekt (minimale Größe)} & l_0 & 10^{-15} \, \text{m} \\
+\text{Neutrino (Compton-Wellenlänge)} & \lambda_\nu & 10^{-9} \, \text{m} \\
+\text{Q-Feld (Korrelationslänge)} & L_{Q,0} & 10^{26} \, \text{m} \\
+\end{array}
+\]
+
+Die unterschiedlichen Skalen sind physikalisch konsistent: 
+Das Neutrino ist nichtlokal und vermittelt das Quantenpotential 
+über große Distanzen, während BEC-Objekte lokale materielle 
+Kondensate aus Cooper-Paaren sind.
+
 \section{Zusammenfassung}
 \label{app:bec_zusammenfassung}
 
 \begin{itemize}
-    \item Minimale Größe: \( l_0 \approx 1,8 \times 10^{-15} \, \text{m} \)
+    \item Minimale Größe: \( l_0 \approx 1,8 \times 10^{-15} \, \text{m} \) 
+          (fundamentale Gitterkonstante des fraktalen Raumes)
     \item Radius-Masse-Beziehung: \( R \propto M^{-0,91} \)
     \item Maximale Masse: \( M_{\text{BEC}} \approx 3 \times 10^6 M_{\odot} \)
+          (unabhängig von der Neutrinomasse)
     \item Beobachtete supermassereiche Objekte sind Systeme aus Kern und Umgebung
     \item Massenverhältnis Galaxie zu Kern: etwa 1000
     \item BEC-Objekte verhalten sich bei Kollisionen wie normale Objekte
+    \item Die Compton-Wellenlänge des Neutrinos ist \( \lambda_\nu \approx 2 \times 10^{-9} \, \text{m} \) 
+          – viel größer als \( l_0 \)
+    \item Die gleiche fundamentale Längenskala \( l_0 \) bestimmt sowohl 
+          die minimale BEC-Größe als auch – über \( L_{Q,0} \) – die Neutrinomasse
 \end{itemize}
 
 \section{Ausblick}
@@ -378,3 +459,9 @@ ermöglichen:
           zeitliche Variabilität (Flares) unterscheiden sich von 
           ART-Vorhersagen (siehe Kapitel~\ref{ch:kosmologie}).
 \end{itemize}
+
+Die konsistente Erklärung der BEC-Maximalmasse, der Neutrinomasse und 
+der Hubble-Spannung aus derselben fraktalen Geometrie (\( D \approx 2,704 \)) 
+und derselben Korrelationslänge (\( L_{Q,0} = 10^{26} \, \text{m} \)) 
+macht die WDBT+ zu einer geschlossenen, parameterfreien Theorie 
+der fundamentalen Physik.

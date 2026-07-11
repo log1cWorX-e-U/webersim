@@ -99,8 +99,8 @@
 \contentsline {subsection}{\numberline {7.4.5}Boltzmann-Konstante}{48}{}%
 \contentsline {subsection}{\numberline {7.4.6}Neutrinomasse}{49}{}%
 \contentsline {section}{\numberline {7.5}Umkehrung: IWT-Parameter aus gemessenen Konstanten}{49}{}%
-\contentsline {section}{\numberline {7.6}Äquivalenz der beiden Beschreibungen}{49}{}%
-\contentsline {section}{\numberline {7.7}Zusammenfassung}{49}{}%
+\contentsline {section}{\numberline {7.6}Äquivalenz der beiden Beschreibungen}{50}{}%
+\contentsline {section}{\numberline {7.7}Zusammenfassung}{50}{}%
 \contentsline {section}{\numberline {7.8}Ausblick}{50}{}%
 \contentsline {part}{II\hspace {1em}Weber-de-Broglie-Bohm-Theorie mit fraktalem Raum (WDBT+)}{51}{}%
 \contentsline {chapter}{\numberline {8}Dynamische Schwere-Trägheits-Theorie (DSTT) und Weber-Kräfte}{53}{}%
@@ -195,397 +195,410 @@
 \contentsline {chapter}{\numberline {12}Das Neutrino als Q-Teilchen}{79}{}%
 \contentsline {section}{\numberline {12.1}Einleitung}{79}{}%
 \contentsline {section}{\numberline {12.2}Definition: Das Neutrino als Q-Teilchen}{79}{}%
-\contentsline {section}{\numberline {12.3}Die Neutrinomasse aus der fundamentalen Länge}{79}{}%
-\contentsline {section}{\numberline {12.4}Das Neutrino als Vermittler der Nichtlokalität}{80}{}%
-\contentsline {section}{\numberline {12.5}Drei Neutrino-Generationen}{80}{}%
-\contentsline {section}{\numberline {12.6}Neutrino-Oszillationen aus fraktaler Dispersion}{81}{}%
-\contentsline {section}{\numberline {12.7}Konsequenzen für die Dunkle Materie}{81}{}%
-\contentsline {section}{\numberline {12.8}Zusammenfassung}{81}{}%
-\contentsline {chapter}{\numberline {13}Theorie der fraktalen Entropie}{83}{}%
-\contentsline {section}{\numberline {13.1}Einleitung}{83}{}%
-\contentsline {section}{\numberline {13.2}Axiome der Theorie}{83}{}%
-\contentsline {subsection}{\numberline {13.2.1}Axiom 1: Fraktale Raumstruktur}{83}{}%
-\contentsline {subsection}{\numberline {13.2.2}Axiom 2: Fraktale Entropie}{83}{}%
-\contentsline {subsection}{\numberline {13.2.3}Axiom 3: Globaler Entropieerhaltungssatz}{83}{}%
-\contentsline {subsection}{\numberline {13.2.4}Axiom 4: Lokale Entropieproduktion}{84}{}%
-\contentsline {subsection}{\numberline {13.2.5}Axiom 5: Gravitation als Quelle der Irreversibilität}{84}{}%
-\contentsline {subsection}{\numberline {13.2.6}Axiom 6: Elektrodynamik als Stabilisator}{84}{}%
-\contentsline {subsection}{\numberline {13.2.7}Axiom 7: Beschränktheit aller physikalischen Größen}{84}{}%
-\contentsline {section}{\numberline {13.3}Die drei Phasen}{84}{}%
-\contentsline {section}{\numberline {13.4}Die Entropieflüsse}{84}{}%
-\contentsline {section}{\numberline {13.5}Der geschlossene Kreislauf}{85}{}%
-\contentsline {subsection}{\numberline {13.5.1}Stationärer Zustand}{85}{}%
-\contentsline {section}{\numberline {13.6}Warum kein Wärmetod eintritt}{85}{}%
-\contentsline {subsection}{\numberline {13.6.1}Bedingungen für einen Wärmetod}{85}{}%
-\contentsline {subsection}{\numberline {13.6.2}Die Verhinderung des Wärmetods}{86}{}%
-\contentsline {subsection}{\numberline {13.6.3}Hauptsatz der fraktalen Thermodynamik}{86}{}%
-\contentsline {section}{\numberline {13.7}Kosmologische Konsequenzen}{86}{}%
-\contentsline {section}{\numberline {13.8}Zusammenfassung}{86}{}%
-\contentsline {chapter}{\numberline {14}Stationäre Kosmologie}{89}{}%
-\contentsline {section}{\numberline {14.1}Einleitung}{89}{}%
-\contentsline {section}{\numberline {14.2}Grundlagen der Rotverschiebung in der WDBT}{89}{}%
-\contentsline {subsection}{\numberline {14.2.1}Allgemeine Form}{89}{}%
-\contentsline {subsection}{\numberline {14.2.2}Rotverschiebung ohne Expansion}{89}{}%
-\contentsline {subsection}{\numberline {14.2.3}Fraktale Dichteverteilung als Spezialfall}{89}{}%
-\contentsline {subsection}{\numberline {14.2.4}Die effektive Hubble-Konstante}{90}{}%
-\contentsline {section}{\numberline {14.3}Galaxienrotation ohne Dunkle Materie}{91}{}%
-\contentsline {subsection}{\numberline {14.3.1}Dichteverteilung}{91}{}%
-\contentsline {subsection}{\numberline {14.3.2}Rotationskurve}{91}{}%
-\contentsline {section}{\numberline {14.4}Kontinuierliche Materieentstehung}{91}{}%
-\contentsline {subsection}{\numberline {14.4.1}Drift und Einfang}{91}{}%
-\contentsline {section}{\numberline {14.5}Galaxienwachstum}{92}{}%
-\contentsline {subsection}{\numberline {14.5.1}Massenverhältnis Galaxie zu Kern}{92}{}%
-\contentsline {subsection}{\numberline {14.5.2}Die Sonne als Mikrokosmos}{92}{}%
-\contentsline {subsubsection}{Interpretation des Sonnenwinds}{92}{}%
-\contentsline {subsubsection}{Skalierbarkeit des Modells}{93}{}%
-\contentsline {section}{\numberline {14.6}Beobachtbare Signaturen: Der EHT-Schatten}{93}{}%
-\contentsline {section}{\numberline {14.7}Vergleich mit dem Standardmodell}{93}{}%
-\contentsline {section}{\numberline {14.8}Zusammenfassung}{93}{}%
-\contentsline {chapter}{\numberline {15}Testbare Vorhersagen}{95}{}%
-\contentsline {section}{\numberline {15.1}Einleitung}{95}{}%
-\contentsline {section}{\numberline {15.2}Kosmologie und Galaxien}{95}{}%
-\contentsline {subsection}{\numberline {15.2.1}Fraktale Skalengesetze}{95}{}%
-\contentsline {subsection}{\numberline {15.2.2}Maximale Masse kompakter Objekte}{95}{}%
-\contentsline {subsection}{\numberline {15.2.3}Doppelkern-Systeme}{95}{}%
-\contentsline {subsection}{\numberline {15.2.4}Hubble-Gesetz}{96}{}%
-\contentsline {subsection}{\numberline {15.2.5}Übersicht der testbaren Vorhersagen}{96}{}%
-\contentsline {section}{\numberline {15.3}Gravitationsphysik}{96}{}%
-\contentsline {subsection}{\numberline {15.3.1}Frequenzabhängige Lichtablenkung}{96}{}%
-\contentsline {subsection}{\numberline {15.3.2}Gravitationswellen-Dispersion}{96}{}%
-\contentsline {subsection}{\numberline {15.3.3}Shapiro-Laufzeitverzögerung}{97}{}%
-\contentsline {subsection}{\numberline {15.3.4}Spiralbahnen statt Ellipsen}{97}{}%
-\contentsline {section}{\numberline {15.4}Quanten- und Teilchenphysik}{97}{}%
-\contentsline {subsection}{\numberline {15.4.1}Neutrinomasse}{97}{}%
-\contentsline {subsection}{\numberline {15.4.2}Neutrino-Oszillationen}{97}{}%
-\contentsline {subsection}{\numberline {15.4.3}Drei Neutrino-Generationen}{97}{}%
-\contentsline {subsection}{\numberline {15.4.4}Modifizierter Lamb-Shift}{97}{}%
-\contentsline {section}{\numberline {15.5}Plasmaphysik}{98}{}%
-\contentsline {subsection}{\numberline {15.5.1}Konstanz der Sonnenmasse}{98}{}%
-\contentsline {subsection}{\numberline {15.5.2}Fraktale Skalierung im Sonnenwind}{98}{}%
-\contentsline {subsection}{\numberline {15.5.3}Gravitationswellen-Nachglühen}{98}{}%
-\contentsline {subsection}{\numberline {15.5.4}Stromdichten in Plasmen}{98}{}%
-\contentsline {section}{\numberline {15.6}Zusammenfassung der wichtigsten Vorhersagen}{98}{}%
-\contentsline {section}{\numberline {15.7}Fazit}{99}{}%
-\contentsline {chapter}{\numberline {16}Zusammenfassung}{101}{}%
-\contentsline {section}{\numberline {16.1}Die zwei Ebenen der Theorie}{101}{}%
-\contentsline {section}{\numberline {16.2}Die drei Säulen der WDBT+}{101}{}%
-\contentsline {section}{\numberline {16.3}Die Dynamische Schwere-Trägheits-Theorie (DSTT)}{101}{}%
-\contentsline {section}{\numberline {16.4}Die Maxwell-Gravitation und die \( \Omega \)-Theorie}{102}{}%
-\contentsline {section}{\numberline {16.5}BEC-Objekte}{102}{}%
-\contentsline {section}{\numberline {16.6}Fraktale Maxwell-Gleichungen}{102}{}%
-\contentsline {section}{\numberline {16.7}Neutrino als Q-Teilchen}{103}{}%
-\contentsline {section}{\numberline {16.8}Fraktale Entropie}{103}{}%
-\contentsline {section}{\numberline {16.9}Stationäre Kosmologie}{103}{}%
-\contentsline {section}{\numberline {16.10}Testbare Vorhersagen}{103}{}%
-\contentsline {section}{\numberline {16.11}Fazit}{104}{}%
-\contentsline {chapter}{\numberline {A}Mathematische Grundlagen}{105}{}%
-\contentsline {section}{\numberline {A.1}Einleitung}{105}{}%
-\contentsline {section}{\numberline {A.2}Diskrete Variationsrechnung}{105}{}%
-\contentsline {subsection}{\numberline {A.2.1}Diskretes Funktional}{105}{}%
-\contentsline {subsection}{\numberline {A.2.2}Variation diskreter Funktionale}{106}{}%
-\contentsline {subsection}{\numberline {A.2.3}Diskrete Euler-Lagrange-Gleichungen}{106}{}%
-\contentsline {subsection}{\numberline {A.2.4}Beispiel: Diskrete Wellengleichung}{106}{}%
-\contentsline {section}{\numberline {A.3}Diskrete Noether-Theoreme}{106}{}%
-\contentsline {subsection}{\numberline {A.3.1}Symmetrien in diskreten Systemen}{106}{}%
-\contentsline {subsection}{\numberline {A.3.2}Erhaltungsgrößen}{106}{}%
-\contentsline {subsection}{\numberline {A.3.3}Wichtige Symmetrien und Erhaltungssätze}{107}{}%
-\contentsline {section}{\numberline {A.4}Diskrete Informationsmetrik}{107}{}%
-\contentsline {subsection}{\numberline {A.4.1}Definition aus dem Funktional}{107}{}%
-\contentsline {subsection}{\numberline {A.4.2}Alternative Definition über Kopplungsmatrix}{107}{}%
-\contentsline {subsection}{\numberline {A.4.3}Eigenschaften}{107}{}%
-\contentsline {section}{\numberline {A.5}Fraktale Analysis diskreter Netzwerke}{107}{}%
-\contentsline {subsection}{\numberline {A.5.1}Fraktale Dimension eines diskreten Netzwerks}{107}{}%
-\contentsline {subsection}{\numberline {A.5.2}Praktische Berechnung}{107}{}%
-\contentsline {subsection}{\numberline {A.5.3}Beispiel: Fraktales Netz}{108}{}%
-\contentsline {section}{\numberline {A.6}Diskrete Differenzengleichungen höherer Ordnung}{108}{}%
-\contentsline {subsection}{\numberline {A.6.1}Rekursive Update-Regeln}{108}{}%
-\contentsline {subsection}{\numberline {A.6.2}Stabilitätsanalyse}{108}{}%
-\contentsline {subsection}{\numberline {A.6.3}Numerische Stabilität der diskreten Weber-Kraft}{108}{}%
-\contentsline {section}{\numberline {A.7}Diskrete Fourier-Analyse}{108}{}%
-\contentsline {subsection}{\numberline {A.7.1}Diskrete Fourier-Transformation}{108}{}%
-\contentsline {subsection}{\numberline {A.7.2}Dispersionsrelationen}{108}{}%
-\contentsline {section}{\numberline {A.8}Matrixdarstellungen diskreter Operatoren}{109}{}%
-\contentsline {subsection}{\numberline {A.8.1}Laplace-Matrix}{109}{}%
-\contentsline {subsection}{\numberline {A.8.2}Eigenwertanalyse}{109}{}%
-\contentsline {section}{\numberline {A.9}Zusammenfassung der mathematischen Struktur}{109}{}%
-\contentsline {section}{\numberline {A.10}Hinweise zur praktischen Anwendung}{109}{}%
-\contentsline {chapter}{\numberline {B}Numerische Simulationen}{111}{}%
-\contentsline {section}{\numberline {B.1}Einleitung}{111}{}%
-\contentsline {section}{\numberline {B.2}Das diskrete Simulationsnetzwerk}{111}{}%
-\contentsline {subsection}{\numberline {B.2.1}Grundstruktur}{111}{}%
-\contentsline {subsection}{\numberline {B.2.2}Initialisierungsprotokolle}{111}{}%
-\contentsline {section}{\numberline {B.3}Implementierung der diskreten Dynamik}{112}{}%
-\contentsline {subsection}{\numberline {B.3.1}Hauptalgorithmus}{112}{}%
-\contentsline {subsection}{\numberline {B.3.2}Diskrete Weber-Dynamik}{112}{}%
-\contentsline {subsection}{\numberline {B.3.3}Diskretes Bohm-Potential}{112}{}%
-\contentsline {section}{\numberline {B.4}Rekonstruktion emergenter Physik}{113}{}%
-\contentsline {subsection}{\numberline {B.4.1}Raumemergenz}{113}{}%
-\contentsline {subsection}{\numberline {B.4.2}Zeitemergenz}{113}{}%
-\contentsline {section}{\numberline {B.5}Validierung und Konsistenzchecks}{113}{}%
-\contentsline {subsection}{\numberline {B.5.1}Erhaltungsgrö{\ss }en}{113}{}%
-\contentsline {subsection}{\numberline {B.5.2}Grenzfalltests}{114}{}%
-\contentsline {section}{\numberline {B.6}Anwendungsbeispiele}{114}{}%
-\contentsline {subsection}{\numberline {B.6.1}Doppelspaltexperiment}{114}{}%
-\contentsline {subsection}{\numberline {B.6.2}Gravitationspotential}{114}{}%
-\contentsline {subsection}{\numberline {B.6.3}Kosmologische Simulation}{114}{}%
-\contentsline {section}{\numberline {B.7}Technische Implementierung}{114}{}%
-\contentsline {subsection}{\numberline {B.7.1}Performance-Optimierungen}{114}{}%
-\contentsline {subsection}{\numberline {B.7.2}Visualisierung}{115}{}%
-\contentsline {section}{\numberline {B.8}Zusammenfassung}{115}{}%
-\contentsline {subsection}{\numberline {B.8.1}Zukünftige Entwicklung}{115}{}%
-\contentsline {chapter}{\numberline {C}Vergleich mit etablierten Theorien}{117}{}%
-\contentsline {section}{\numberline {C.1}Einleitung}{117}{}%
-\contentsline {section}{\numberline {C.2}Vergleich mit der klassischen Mechanik}{117}{}%
-\contentsline {subsection}{\numberline {C.2.1}Fundamentale Konzepte}{117}{}%
-\contentsline {subsection}{\numberline {C.2.2}Emergenz aus der IWT}{117}{}%
-\contentsline {subsection}{\numberline {C.2.3}Emergente Gleichungen}{118}{}%
-\contentsline {subsection}{\numberline {C.2.4}Fundamentaler vs. emergenter Status}{118}{}%
-\contentsline {section}{\numberline {C.3}Vergleich mit der Elektrodynamik}{118}{}%
-\contentsline {subsection}{\numberline {C.3.1}Drei Formen der Elektrodynamik}{118}{}%
-\contentsline {subsection}{\numberline {C.3.2}Maxwell-Theorie als effektive Feldbeschreibung}{118}{}%
-\contentsline {subsection}{\numberline {C.3.3}Lorentz-Kraft als phänomenologische Näherung}{118}{}%
-\contentsline {subsection}{\numberline {C.3.4}Weber-Kraft als lokaler Grenzfall der IWT}{119}{}%
-\contentsline {section}{\numberline {C.4}Vergleich mit der Quantenmechanik}{119}{}%
-\contentsline {subsection}{\numberline {C.4.1}Fundamentale Konzepte}{119}{}%
-\contentsline {subsection}{\numberline {C.4.2}Emergenz aus der IWT}{119}{}%
-\contentsline {subsection}{\numberline {C.4.3}Emergente Schrödinger-Gleichung}{119}{}%
-\contentsline {section}{\numberline {C.5}Vergleich mit der Relativitätstheorie}{119}{}%
-\contentsline {subsection}{\numberline {C.5.1}Spezielle Relativitätstheorie (SRT)}{119}{}%
-\contentsline {subsection}{\numberline {C.5.2}Allgemeine Relativitätstheorie (ART)}{120}{}%
-\contentsline {subsection}{\numberline {C.5.3}Emergente Einstein-Gleichungen}{120}{}%
-\contentsline {section}{\numberline {C.6}Grenzfälle und Übergänge}{120}{}%
-\contentsline {section}{\numberline {C.7}Vergleich mit der Quantenelektrodynamik (QED)}{120}{}%
-\contentsline {subsection}{\numberline {C.7.1}Korrespondenz zwischen QED und WDBT}{120}{}%
-\contentsline {subsection}{\numberline {C.7.2}Regularisierung durch das Quantenpotential}{121}{}%
-\contentsline {subsection}{\numberline {C.7.3}Lamb-Shift}{121}{}%
-\contentsline {section}{\numberline {C.8}Vergleich mit der Allgemeinen Relativitätstheorie (ART)}{121}{}%
-\contentsline {subsection}{\numberline {C.8.1}Die unvollständige ART}{121}{}%
-\contentsline {subsection}{\numberline {C.8.2}ART+ als Vervollständigung durch die DBT}{121}{}%
-\contentsline {subsection}{\numberline {C.8.3}Konvergente Theorien: ART+ vs. WDBT}{121}{}%
-\contentsline {subsection}{\numberline {C.8.4}Der experimentelle Entscheid}{122}{}%
-\contentsline {section}{\numberline {C.9}Zusammenfassung der Vergleiche}{122}{}%
-\contentsline {chapter}{\numberline {D}Ausgewählte Herleitungen aus der ursprünglichen WDBT}{123}{}%
-\contentsline {section}{\numberline {D.1}Einleitung}{123}{}%
-\contentsline {section}{\numberline {D.2}Rotverschiebung im stationären Universum}{123}{}%
-\contentsline {subsection}{\numberline {D.2.1}Grundgleichung}{123}{}%
-\contentsline {subsection}{\numberline {D.2.2}Fraktale Dichteverteilung}{123}{}%
-\contentsline {subsection}{\numberline {D.2.3}Eingeschlossene Masse}{123}{}%
-\contentsline {subsection}{\numberline {D.2.4}Integration}{124}{}%
-\contentsline {subsection}{\numberline {D.2.5}Effektive Hubble-Konstante}{124}{}%
-\contentsline {section}{\numberline {D.3}Galaxienrotationskurven ohne dunkle Materie}{124}{}%
-\contentsline {subsection}{\numberline {D.3.1}Bewegungsgleichung}{124}{}%
-\contentsline {subsection}{\numberline {D.3.2}Quantenpotential für exponentielle Dichte}{124}{}%
-\contentsline {subsection}{\numberline {D.3.3}Rotationskurve}{124}{}%
-\contentsline {subsection}{\numberline {D.3.4}Asymptotisches Verhalten}{125}{}%
-\contentsline {section}{\numberline {D.4}Frequenzabhängige Lichtablenkung}{125}{}%
-\contentsline {subsection}{\numberline {D.4.1}Weber-Gravitation für Photonen}{125}{}%
-\contentsline {subsection}{\numberline {D.4.2}Reduktion auf die Bahnebene}{125}{}%
-\contentsline {subsection}{\numberline {D.4.3}Substitution \(u = 1/r\)}{125}{}%
-\contentsline {subsection}{\numberline {D.4.4}Beschleunigung in Polarkoordinaten}{125}{}%
-\contentsline {subsection}{\numberline {D.4.5}Transformation auf \(u(\phi )\)}{125}{}%
-\contentsline {subsection}{\numberline {D.4.6}Vereinfachung}{126}{}%
-\contentsline {subsection}{\numberline {D.4.7}Störungsrechnung}{126}{}%
-\contentsline {subsection}{\numberline {D.4.8}Physikalische Konsequenz}{126}{}%
-\contentsline {chapter}{\numberline {E}Spektrale Dimension des Dodekaeder-Ikosaeder-Netzwerks}{127}{}%
-\contentsline {section}{\numberline {E.1}Einleitung}{127}{}%
-\contentsline {section}{\numberline {E.2}Das duale Netzwerk}{127}{}%
-\contentsline {section}{\numberline {E.3}Die Skalierungsfaktoren}{127}{}%
-\contentsline {section}{\numberline {E.4}Hausdorff-Dimension}{128}{}%
-\contentsline {section}{\numberline {E.5}Spektrale Dimension und ihre Herleitung}{128}{}%
-\contentsline {section}{\numberline {E.6}Numerischer Wert}{128}{}%
-\contentsline {section}{\numberline {E.7}Dispersionsrelation}{129}{}%
-\contentsline {section}{\numberline {E.8}Vergleich mit der etablierten Physik}{129}{}%
-\contentsline {section}{\numberline {E.9}Zusammenfassung}{129}{}%
-\contentsline {chapter}{\numberline {F}Kontinuumslimes: Von der diskreten IWT zur kontinuierlichen WDBT+}{131}{}%
-\contentsline {section}{\numberline {F.1}Einleitung}{131}{}%
-\contentsline {section}{\numberline {F.2}Mathematische Rahmenbedingungen}{131}{}%
-\contentsline {subsection}{\numberline {F.2.1}Annahmen an das diskrete Netzwerk}{131}{}%
-\contentsline {subsection}{\numberline {F.2.2}Das Problem des perfekten Dodekaeder-Netzwerks}{132}{}%
-\contentsline {subsection}{\numberline {F.2.3}Definition des kontinuierlichen Grenzfeldes}{132}{}%
-\contentsline {subsection}{\numberline {F.2.4}Konvergenzbegriff}{132}{}%
-\contentsline {section}{\numberline {F.3}Konvergenz des diskreten Funktionals}{132}{}%
-\contentsline {subsection}{\numberline {F.3.1}Diskretes Funktional in kontinuierlicher Notation}{132}{}%
-\contentsline {subsection}{\numberline {F.3.2}Entwicklung der diskreten Operatoren}{133}{}%
-\contentsline {subsection}{\numberline {F.3.3}Konvergenz des Funktionals}{133}{}%
-\contentsline {section}{\numberline {F.4}Konvergenz der Euler-Lagrange-Gleichungen}{133}{}%
-\contentsline {subsection}{\numberline {F.4.1}Diskrete Euler-Lagrange-Gleichung}{133}{}%
-\contentsline {subsection}{\numberline {F.4.2}Kontinuierlicher Grenzwert}{133}{}%
-\contentsline {subsection}{\numberline {F.4.3}Konvergenzgeschwindigkeit}{134}{}%
-\contentsline {section}{\numberline {F.5}Emergenz der Metrik}{134}{}%
-\contentsline {subsection}{\numberline {F.5.1}Diskrete Metrik als Approximation der euklidischen Metrik}{134}{}%
-\contentsline {subsection}{\numberline {F.5.2}Eigenschaften der emergenten Metrik}{134}{}%
-\contentsline {subsection}{\numberline {F.5.3}Grenzfall \( D \to 3 \)}{134}{}%
-\contentsline {section}{\numberline {F.6}Kontinuumslimes des fraktalen Dodekaeder-Netzwerks}{134}{}%
-\contentsline {subsection}{\numberline {F.6.1}Definition des diskreten Netzwerks}{134}{}%
-\contentsline {subsection}{\numberline {F.6.2}Problem der Einbettung}{134}{}%
-\contentsline {subsection}{\numberline {F.6.3}Konvergenz der diskreten Operatoren}{135}{}%
-\contentsline {subsection}{\numberline {F.6.4}Die Rolle der fraktalen Dimension im Limes}{135}{}%
-\contentsline {subsection}{\numberline {F.6.5}Existenz des Kontinuumslimes}{135}{}%
-\contentsline {section}{\numberline {F.7}Beispiel: Diskrete Wellengleichung}{135}{}%
-\contentsline {subsection}{\numberline {F.7.1}Diskrete Form}{135}{}%
-\contentsline {subsection}{\numberline {F.7.2}Kontinuierlicher Limes}{136}{}%
-\contentsline {section}{\numberline {F.8}Fazit zum Kontinuumslimes}{136}{}%
-\contentsline {section}{\numberline {F.9}Zusammenfassung}{136}{}%
-\contentsline {section}{\numberline {F.10}Ausblick: Offene mathematische Probleme}{137}{}%
-\contentsline {chapter}{\numberline {G}Identitätsbeziehung zwischen DSTT und Weber-Kräften}{139}{}%
-\contentsline {section}{\numberline {G.1}Einleitung}{139}{}%
-\contentsline {section}{\numberline {G.2}Das Problem der reinen Weber-Gravitation}{139}{}%
-\contentsline {subsection}{\numberline {G.2.1}Bahngleichung der reinen WG in zweiter Ordnung}{139}{}%
-\contentsline {subsection}{\numberline {G.2.2}Der problematische Term \(\alpha \phi ^2\)}{139}{}%
-\contentsline {section}{\numberline {G.3}Die Kompensation durch das Quantenpotential der DBT}{140}{}%
-\contentsline {subsection}{\numberline {G.3.1}Das Quantenpotential in der De-Broglie-Bohm-Theorie}{140}{}%
-\contentsline {subsection}{\numberline {G.3.2}Entwicklung des Quantenpotentials in Winkelkoordinaten}{140}{}%
-\contentsline {subsection}{\numberline {G.3.3}Die exakte Kompensation}{140}{}%
-\contentsline {section}{\numberline {G.4}Beweis der Identitätsbeziehung}{140}{}%
-\contentsline {subsection}{\numberline {G.4.1}Die vollständige Kraft der WDBT}{140}{}%
-\contentsline {subsection}{\numberline {G.4.2}Die entscheidende Eigenschaft von \(F_Q\)}{141}{}%
-\contentsline {subsection}{\numberline {G.4.3}Die radiale Komponente mit Kompensation}{141}{}%
-\contentsline {subsection}{\numberline {G.4.4}Warum das Gegenbeispiel der Kreisbahn nicht greift}{141}{}%
-\contentsline {section}{\numberline {G.5}Zusammenfassung der Ergebnisse}{141}{}%
-\contentsline {section}{\numberline {G.6}Ausblick}{142}{}%
-\contentsline {chapter}{\numberline {H}Vollständige Herleitung der Periheldrehung in der Weber-Gravitation}{143}{}%
-\contentsline {section}{\numberline {H.1}Einleitung}{143}{}%
-\contentsline {section}{\numberline {H.2}Grundgleichungen der Weber-Gravitation}{143}{}%
-\contentsline {subsection}{\numberline {H.2.1}Weber-Kraft für massive Körper}{143}{}%
-\contentsline {subsection}{\numberline {H.2.2}Vereinfachung: Bahnebene}{143}{}%
-\contentsline {section}{\numberline {H.3}Drehimpuls in der Weber-Gravitation}{143}{}%
-\contentsline {subsection}{\numberline {H.3.1}Exakte Drehimpulsbilanz}{143}{}%
-\contentsline {subsection}{\numberline {H.3.2}Drehimpuls in erster Ordnung}{144}{}%
-\contentsline {section}{\numberline {H.4}Bewegungsgleichung in der Radialrichtung}{144}{}%
-\contentsline {subsection}{\numberline {H.4.1}Radiale Beschleunigung}{144}{}%
-\contentsline {subsection}{\numberline {H.4.2}Radiale Bewegungsgleichung}{145}{}%
-\contentsline {section}{\numberline {H.5}Bahngleichung in der Binet-Form mit variablem Drehimpuls}{145}{}%
-\contentsline {subsection}{\numberline {H.5.1}Substitution \( u = 1/r \)}{145}{}%
-\contentsline {subsection}{\numberline {H.5.2}Einsetzen in (H.3)}{145}{}%
-\contentsline {subsection}{\numberline {H.5.3}Term \( r\ddot {r} \) in \( u \)-Variablen}{145}{}%
-\contentsline {subsection}{\numberline {H.5.4}Bahngleichung}{145}{}%
-\contentsline {section}{\numberline {H.6}Post-Newtonsche Entwicklung}{146}{}%
-\contentsline {subsection}{\numberline {H.6.1}Entwicklung in \( 1/c^2 \)}{146}{}%
-\contentsline {subsection}{\numberline {H.6.2}Die drei Beiträge zum \( 3u^2 \)-Term}{146}{}%
-\contentsline {section}{\numberline {H.7}Lösung der Bahngleichung}{146}{}%
-\contentsline {subsection}{\numberline {H.7.1}Störungsansatz}{146}{}%
-\contentsline {subsection}{\numberline {H.7.2}Erste Ordnung}{146}{}%
-\contentsline {subsection}{\numberline {H.7.3}Entwicklung des Störterms}{147}{}%
-\contentsline {subsection}{\numberline {H.7.4}Partikuläre Lösungen}{147}{}%
-\contentsline {subsection}{\numberline {H.7.5}Gesamtlösung in erster Ordnung}{147}{}%
-\contentsline {section}{\numberline {H.8}Periheldrehung}{147}{}%
-\contentsline {subsection}{\numberline {H.8.1}Resonanter Term}{147}{}%
-\contentsline {subsection}{\numberline {H.8.2}Additionstheorem}{147}{}%
-\contentsline {subsection}{\numberline {H.8.3}Korrekturfaktor \( \kappa \)}{147}{}%
-\contentsline {subsection}{\numberline {H.8.4}Perihel nach einem Umlauf}{148}{}%
-\contentsline {subsection}{\numberline {H.8.5}Periheldrehung pro Umlauf}{148}{}%
-\contentsline {section}{\numberline {H.9}Resultat der vollständigen Rechnung}{148}{}%
-\contentsline {section}{\numberline {H.10}Zahlenwert für Merkur}{148}{}%
-\contentsline {section}{\numberline {H.11}Zusammenfassung}{148}{}%
-\contentsline {section}{\numberline {H.12}Ausblick}{149}{}%
-\contentsline {chapter}{\numberline {I}Energiebilanz der Materieentstehung im stationären Universum}{151}{}%
-\contentsline {section}{\numberline {I.1}Einleitung}{151}{}%
-\contentsline {section}{\numberline {I.2}Die negative Vakuumenergiedichte aus der fraktalen Zustandsdichte}{151}{}%
-\contentsline {subsection}{\numberline {I.2.1}Zustandsdichte im fraktalen Raum}{151}{}%
-\contentsline {subsection}{\numberline {I.2.2}Die Nullpunktsenergie des fraktalen Vakuums}{151}{}%
-\contentsline {subsection}{\numberline {I.2.3}Die effektive negative Energiedichte}{152}{}%
-\contentsline {section}{\numberline {I.3}Materieentstehung durch das Quantenpotential}{152}{}%
-\contentsline {subsection}{\numberline {I.3.1}Das Quantenpotential als räumliche Fluktuation}{152}{}%
-\contentsline {subsection}{\numberline {I.3.2}Die Entstehungsrate neuer Materie}{152}{}%
-\contentsline {section}{\numberline {I.4}Der geschlossene Energiekreislauf}{153}{}%
-\contentsline {subsection}{\numberline {I.4.1}Energieabgabe von Photonen durch Rotverschiebung}{153}{}%
-\contentsline {subsection}{\numberline {I.4.2}Energieaufnahme durch Materieentstehung}{153}{}%
-\contentsline {subsection}{\numberline {I.4.3}Instantane globale Energieverteilung}{153}{}%
-\contentsline {subsection}{\numberline {I.4.4}Die vollständige Energiebilanz}{153}{}%
-\contentsline {section}{\numberline {I.5}Zusammenfassung der Grundgleichungen}{154}{}%
-\contentsline {subsection}{\numberline {I.5.1}Vakuumenergiedichte}{154}{}%
-\contentsline {subsection}{\numberline {I.5.2}Kontinuitätsgleichung mit Quellterm}{154}{}%
-\contentsline {subsection}{\numberline {I.5.3}Quellterm}{154}{}%
-\contentsline {subsection}{\numberline {I.5.4}Energieerhaltung}{154}{}%
-\contentsline {section}{\numberline {I.6}Kopplung an die DSTT-Drift}{154}{}%
-\contentsline {subsection}{\numberline {I.6.1}Auswärtstreibung neu entstehender Materie}{154}{}%
-\contentsline {subsection}{\numberline {I.6.2}Kontinuität im stationären Zustand}{154}{}%
-\contentsline {section}{\numberline {I.7}Testbare Vorhersage}{155}{}%
-\contentsline {subsection}{\numberline {I.7.1}Dichteprofil von Galaxienhalos}{155}{}%
-\contentsline {section}{\numberline {I.8}Zusammenfassung}{155}{}%
-\contentsline {section}{\numberline {I.9}Ausblick}{155}{}%
-\contentsline {chapter}{\numberline {J}Das Neutrino als Q-Teilchen – Masse, Oszillationen und Dunkle Materie}{157}{}%
-\contentsline {section}{\numberline {J.1}Einleitung}{157}{}%
-\contentsline {section}{\numberline {J.2}Definition: Das Neutrino als Q-Teilchen}{157}{}%
-\contentsline {subsection}{\numberline {J.2.1}Das Quantenpotential in der DBT}{157}{}%
-\contentsline {subsection}{\numberline {J.2.2}Identifikation Neutrino = Q-Teilchen}{157}{}%
-\contentsline {section}{\numberline {J.3}Die Neutrinomasse aus der fundamentalen Länge}{158}{}%
-\contentsline {subsection}{\numberline {J.3.1}Fundamentale Längenskala $l_0$}{158}{}%
-\contentsline {subsection}{\numberline {J.3.2}Compton-Wellenlänge des Neutrinos}{158}{}%
-\contentsline {subsection}{\numberline {J.3.3}Der entscheidende Ansatz}{158}{}%
-\contentsline {subsection}{\numberline {J.3.4}Masse des Neutrinos}{158}{}%
-\contentsline {section}{\numberline {J.4}Das Neutrino als Vermittler der Nichtlokalität}{158}{}%
-\contentsline {section}{\numberline {J.5}Drei Neutrino-Generationen}{159}{}%
-\contentsline {subsection}{\numberline {J.5.1}Moden des fraktalen Q-Feldes}{159}{}%
-\contentsline {subsection}{\numberline {J.5.2}Massenunterschiede}{159}{}%
-\contentsline {section}{\numberline {J.6}Neutrino-Oszillationen aus fraktaler Dispersion}{159}{}%
-\contentsline {subsection}{\numberline {J.6.1}Dispersionsrelation für das Q-Feld}{159}{}%
-\contentsline {subsection}{\numberline {J.6.2}Phasengeschwindigkeit der Masseneigenzustände}{160}{}%
-\contentsline {subsection}{\numberline {J.6.3}Bestimmung der mesoskopischen Skala}{160}{}%
-\contentsline {subsection}{\numberline {J.6.4}Testbare Vorhersage}{160}{}%
-\contentsline {section}{\numberline {J.7}Neutrinos als Dunkle Materie}{160}{}%
-\contentsline {subsection}{\numberline {J.7.1}Kosmologische Neutrinodichte}{160}{}%
-\contentsline {subsection}{\numberline {J.7.2}Dunkle Materie ist Neutrino-Gesamtheit}{161}{}%
-\contentsline {section}{\numberline {J.8}Zusammenfassung}{161}{}%
-\contentsline {chapter}{\numberline {K}BEC-Objekte – Die kompaktesten Strukturen im Universum}{163}{}%
-\contentsline {section}{\numberline {K.1}Einleitung}{163}{}%
-\contentsline {section}{\numberline {K.2}Die fundamentale Längenskala \( l_0 \)}{163}{}%
-\contentsline {subsection}{\numberline {K.2.1}Geometrischer Ursprung}{163}{}%
-\contentsline {subsection}{\numberline {K.2.2}Numerischer Wert}{163}{}%
-\contentsline {subsection}{\numberline {K.2.3}Physikalische Bedeutung}{163}{}%
-\contentsline {section}{\numberline {K.3}Paarbildung und Bose-Einstein-Kondensation}{164}{}%
-\contentsline {subsection}{\numberline {K.3.1}Cooper-Paarbildung}{164}{}%
-\contentsline {subsection}{\numberline {K.3.2}Bose-Einstein-Kondensation}{164}{}%
-\contentsline {section}{\numberline {K.4}Zustandsgleichung eines BEC-Objekts im fraktalen Raum}{164}{}%
-\contentsline {subsection}{\numberline {K.4.1}Energiedichte}{164}{}%
-\contentsline {subsection}{\numberline {K.4.2}Fraktale Modifikation}{164}{}%
-\contentsline {section}{\numberline {K.5}Radius-Masse-Beziehung}{165}{}%
-\contentsline {subsection}{\numberline {K.5.1}Gravitationsenergie im fraktalen Raum}{165}{}%
-\contentsline {subsection}{\numberline {K.5.2}Quantenpotential-Energie}{165}{}%
-\contentsline {subsection}{\numberline {K.5.3}Minimierung der Gesamtenergie}{165}{}%
-\contentsline {subsection}{\numberline {K.5.4}Radius als Funktion der Masse}{165}{}%
-\contentsline {subsection}{\numberline {K.5.5}Numerische Bestimmung von \( K_R \)}{166}{}%
-\contentsline {section}{\numberline {K.6}Maximale Masse eines BEC-Objekts}{166}{}%
-\contentsline {subsection}{\numberline {K.6.1}Untere Grenze: \( R_{\min } = l_0 \)}{166}{}%
-\contentsline {subsection}{\numberline {K.6.2}Physikalische Bedeutung}{166}{}%
-\contentsline {section}{\numberline {K.7}Strukturelle Analogie zum Atom}{166}{}%
-\contentsline {subsection}{\numberline {K.7.1}Atomare Skalierung}{166}{}%
-\contentsline {subsection}{\numberline {K.7.2}Fraktale Verbindung}{166}{}%
-\contentsline {section}{\numberline {K.8}Relativistische Korrekturen aus der Weber-Gravitation}{167}{}%
-\contentsline {subsection}{\numberline {K.8.1}Modifizierte Kreisbahngeschwindigkeit}{167}{}%
-\contentsline {subsection}{\numberline {K.8.2}ISCO-Bedingung}{167}{}%
-\contentsline {section}{\numberline {K.9}Beobachtete supermassereiche Objekte}{167}{}%
-\contentsline {subsection}{\numberline {K.9.1}Systeme aus Kern und Umgebung}{167}{}%
-\contentsline {subsection}{\numberline {K.9.2}Massenverhältnis}{167}{}%
-\contentsline {section}{\numberline {K.10}Kollisionen von BEC-Objekten}{167}{}%
-\contentsline {section}{\numberline {K.11}Zusammenfassung}{168}{}%
-\contentsline {section}{\numberline {K.12}Ausblick}{168}{}%
-\contentsline {chapter}{\numberline {L}Fraktale Entropie – Der verhinderte Wärmetod}{169}{}%
-\contentsline {section}{\numberline {L.1}Einleitung}{169}{}%
-\contentsline {section}{\numberline {L.2}Axiome der Theorie}{169}{}%
-\contentsline {subsection}{\numberline {L.2.1}Axiom 1: Fraktale Raumstruktur}{169}{}%
-\contentsline {subsection}{\numberline {L.2.2}Axiom 2: Fraktale Entropie}{169}{}%
-\contentsline {subsection}{\numberline {L.2.3}Axiom 3: Globaler Entropieerhaltungssatz}{169}{}%
-\contentsline {subsection}{\numberline {L.2.4}Axiom 4: Lokale Entropieproduktion}{170}{}%
-\contentsline {subsection}{\numberline {L.2.5}Axiom 5: Gravitation als Quelle der Irreversibilität}{170}{}%
-\contentsline {subsection}{\numberline {L.2.6}Axiom 6: Elektrodynamik als Stabilisator}{170}{}%
-\contentsline {subsection}{\numberline {L.2.7}Axiom 7: Beschränktheit aller physikalischen Größen}{170}{}%
-\contentsline {section}{\numberline {L.3}Die drei Phasen}{170}{}%
-\contentsline {section}{\numberline {L.4}Herleitung der Entropieflüsse}{170}{}%
-\contentsline {subsection}{\numberline {L.4.1}Kontinuitätsgleichung der fraktalen Entropie}{170}{}%
-\contentsline {subsection}{\numberline {L.4.2}Identifikation der Flussraten aus der WDBT+}{171}{}%
-\contentsline {subsection}{\numberline {L.4.3}Positivität der Flussraten}{171}{}%
-\contentsline {subsection}{\numberline {L.4.4}Entropiebilanz der einzelnen Phasen}{171}{}%
-\contentsline {section}{\numberline {L.5}Der geschlossene Kreislauf}{171}{}%
-\contentsline {subsection}{\numberline {L.5.1}Darstellung des Kreislaufs}{171}{}%
-\contentsline {subsection}{\numberline {L.5.2}Stationärer Zustand}{172}{}%
-\contentsline {section}{\numberline {L.6}Warum kein Wärmetod eintritt}{172}{}%
-\contentsline {subsection}{\numberline {L.6.1}Bedingungen für einen Wärmetod}{172}{}%
-\contentsline {subsection}{\numberline {L.6.2}Verhinderung des Wärmetods durch fraktale Geometrie}{172}{}%
-\contentsline {subsection}{\numberline {L.6.3}Beweis: Kein endliches Entropiemaximum}{172}{}%
-\contentsline {subsection}{\numberline {L.6.4}Permanente Gradienten}{172}{}%
-\contentsline {subsection}{\numberline {L.6.5}Hauptsatz der fraktalen Thermodynamik}{173}{}%
-\contentsline {section}{\numberline {L.7}Kosmologische Konsequenzen}{173}{}%
-\contentsline {subsection}{\numberline {L.7.1}Temperatur im stationären Zustand}{173}{}%
-\contentsline {subsection}{\numberline {L.7.2}Zeitpfeil und kosmologische Entropie}{173}{}%
-\contentsline {section}{\numberline {L.8}Zusammenfassung}{174}{}%
+\contentsline {section}{\numberline {12.3}Die Neutrinomasse aus der fraktalen Q-Feld-Dynamik}{79}{}%
+\contentsline {subsection}{\numberline {12.3.1}Das Q-Feld im fraktalen Raum}{80}{}%
+\contentsline {subsection}{\numberline {12.3.2}Die Energie des Q-Feldes}{80}{}%
+\contentsline {subsection}{\numberline {12.3.3}Quantisierung des Q-Feldes}{80}{}%
+\contentsline {subsection}{\numberline {12.3.4}Die Neutrinomasse}{80}{}%
+\contentsline {subsection}{\numberline {12.3.5}Numerischer Wert}{81}{}%
+\contentsline {section}{\numberline {12.4}Das Neutrino als Vermittler der Nichtlokalität}{81}{}%
+\contentsline {section}{\numberline {12.5}Drei Neutrino-Generationen}{81}{}%
+\contentsline {section}{\numberline {12.6}Neutrino-Oszillationen aus fraktaler Dispersion}{82}{}%
+\contentsline {section}{\numberline {12.7}Konsequenzen für die Dunkle Materie}{83}{}%
+\contentsline {section}{\numberline {12.8}Zusammenfassung}{83}{}%
+\contentsline {chapter}{\numberline {13}Theorie der fraktalen Entropie}{85}{}%
+\contentsline {section}{\numberline {13.1}Einleitung}{85}{}%
+\contentsline {section}{\numberline {13.2}Axiome der Theorie}{85}{}%
+\contentsline {subsection}{\numberline {13.2.1}Axiom 1: Fraktale Raumstruktur}{85}{}%
+\contentsline {subsection}{\numberline {13.2.2}Axiom 2: Fraktale Entropie}{85}{}%
+\contentsline {subsection}{\numberline {13.2.3}Axiom 3: Globaler Entropieerhaltungssatz}{85}{}%
+\contentsline {subsection}{\numberline {13.2.4}Axiom 4: Lokale Entropieproduktion}{86}{}%
+\contentsline {subsection}{\numberline {13.2.5}Axiom 5: Gravitation als Quelle der Irreversibilität}{86}{}%
+\contentsline {subsection}{\numberline {13.2.6}Axiom 6: Elektrodynamik als Stabilisator}{86}{}%
+\contentsline {subsection}{\numberline {13.2.7}Axiom 7: Beschränktheit aller physikalischen Größen}{86}{}%
+\contentsline {section}{\numberline {13.3}Die drei Phasen}{86}{}%
+\contentsline {section}{\numberline {13.4}Die Entropieflüsse}{86}{}%
+\contentsline {section}{\numberline {13.5}Der geschlossene Kreislauf}{87}{}%
+\contentsline {subsection}{\numberline {13.5.1}Stationärer Zustand}{87}{}%
+\contentsline {section}{\numberline {13.6}Warum kein Wärmetod eintritt}{87}{}%
+\contentsline {subsection}{\numberline {13.6.1}Bedingungen für einen Wärmetod}{87}{}%
+\contentsline {subsection}{\numberline {13.6.2}Die Verhinderung des Wärmetods}{88}{}%
+\contentsline {subsection}{\numberline {13.6.3}Hauptsatz der fraktalen Thermodynamik}{88}{}%
+\contentsline {section}{\numberline {13.7}Kosmologische Konsequenzen}{88}{}%
+\contentsline {section}{\numberline {13.8}Zusammenfassung}{88}{}%
+\contentsline {chapter}{\numberline {14}Stationäre Kosmologie}{91}{}%
+\contentsline {section}{\numberline {14.1}Einleitung}{91}{}%
+\contentsline {section}{\numberline {14.2}Grundlagen der Rotverschiebung in der WDBT}{91}{}%
+\contentsline {subsection}{\numberline {14.2.1}Allgemeine Form}{91}{}%
+\contentsline {subsection}{\numberline {14.2.2}Rotverschiebung ohne Expansion}{91}{}%
+\contentsline {subsection}{\numberline {14.2.3}Fraktale Dichteverteilung als Spezialfall}{91}{}%
+\contentsline {subsection}{\numberline {14.2.4}Die effektive Hubble-Konstante}{92}{}%
+\contentsline {section}{\numberline {14.3}Galaxienrotation ohne Dunkle Materie}{93}{}%
+\contentsline {subsection}{\numberline {14.3.1}Dichteverteilung}{93}{}%
+\contentsline {subsection}{\numberline {14.3.2}Rotationskurve}{93}{}%
+\contentsline {section}{\numberline {14.4}Kontinuierliche Materieentstehung}{93}{}%
+\contentsline {subsection}{\numberline {14.4.1}Drift und Einfang}{94}{}%
+\contentsline {section}{\numberline {14.5}Galaxienwachstum}{94}{}%
+\contentsline {subsection}{\numberline {14.5.1}Massenverhältnis Galaxie zu Kern}{94}{}%
+\contentsline {subsection}{\numberline {14.5.2}Die Sonne als Mikrokosmos}{94}{}%
+\contentsline {subsubsection}{Interpretation des Sonnenwinds}{95}{}%
+\contentsline {subsubsection}{Skalierbarkeit des Modells}{95}{}%
+\contentsline {section}{\numberline {14.6}Beobachtbare Signaturen: Der EHT-Schatten}{95}{}%
+\contentsline {section}{\numberline {14.7}Vergleich mit dem Standardmodell}{95}{}%
+\contentsline {section}{\numberline {14.8}Zusammenfassung}{96}{}%
+\contentsline {chapter}{\numberline {15}Testbare Vorhersagen}{97}{}%
+\contentsline {section}{\numberline {15.1}Einleitung}{97}{}%
+\contentsline {section}{\numberline {15.2}Kosmologie und Galaxien}{97}{}%
+\contentsline {subsection}{\numberline {15.2.1}Fraktale Skalengesetze}{97}{}%
+\contentsline {subsection}{\numberline {15.2.2}Maximale Masse kompakter Objekte}{97}{}%
+\contentsline {subsection}{\numberline {15.2.3}Doppelkern-Systeme}{97}{}%
+\contentsline {subsection}{\numberline {15.2.4}Hubble-Gesetz und Hubble-Spannung}{98}{}%
+\contentsline {subsection}{\numberline {15.2.5}Übersicht der testbaren Vorhersagen}{98}{}%
+\contentsline {section}{\numberline {15.3}Gravitationsphysik}{98}{}%
+\contentsline {subsection}{\numberline {15.3.1}Frequenzabhängige Lichtablenkung}{98}{}%
+\contentsline {subsection}{\numberline {15.3.2}Gravitationswellen-Dispersion}{98}{}%
+\contentsline {subsection}{\numberline {15.3.3}Shapiro-Laufzeitverzögerung}{99}{}%
+\contentsline {subsection}{\numberline {15.3.4}Spiralbahnen statt Ellipsen}{99}{}%
+\contentsline {section}{\numberline {15.4}Quanten- und Teilchenphysik}{99}{}%
+\contentsline {subsection}{\numberline {15.4.1}Neutrinomasse}{99}{}%
+\contentsline {subsection}{\numberline {15.4.2}Neutrino-Oszillationen}{100}{}%
+\contentsline {subsection}{\numberline {15.4.3}Drei Neutrino-Generationen}{100}{}%
+\contentsline {subsection}{\numberline {15.4.4}Modifizierter Lamb-Shift}{100}{}%
+\contentsline {subsection}{\numberline {15.4.5}Verbindung zur Hubble-Spannung}{100}{}%
+\contentsline {section}{\numberline {15.5}Plasmaphysik}{101}{}%
+\contentsline {subsection}{\numberline {15.5.1}Konstanz der Sonnenmasse}{101}{}%
+\contentsline {subsection}{\numberline {15.5.2}Fraktale Skalierung im Sonnenwind}{101}{}%
+\contentsline {subsection}{\numberline {15.5.3}Gravitationswellen-Nachglühen}{101}{}%
+\contentsline {subsection}{\numberline {15.5.4}Stromdichten in Plasmen}{101}{}%
+\contentsline {section}{\numberline {15.6}Zusammenfassung der wichtigsten Vorhersagen}{101}{}%
+\contentsline {section}{\numberline {15.7}Fazit}{102}{}%
+\contentsline {chapter}{\numberline {16}Zusammenfassung}{103}{}%
+\contentsline {section}{\numberline {16.1}Die zwei Ebenen der Theorie}{103}{}%
+\contentsline {section}{\numberline {16.2}Die drei Säulen der WDBT+}{103}{}%
+\contentsline {section}{\numberline {16.3}Die Dynamische Schwere-Trägheits-Theorie (DSTT)}{103}{}%
+\contentsline {section}{\numberline {16.4}Die Maxwell-Gravitation und die \( \Omega \)-Theorie}{104}{}%
+\contentsline {section}{\numberline {16.5}BEC-Objekte}{104}{}%
+\contentsline {section}{\numberline {16.6}Fraktale Maxwell-Gleichungen}{104}{}%
+\contentsline {section}{\numberline {16.7}Neutrino als Q-Teilchen}{105}{}%
+\contentsline {section}{\numberline {16.8}Fraktale Entropie}{105}{}%
+\contentsline {section}{\numberline {16.9}Stationäre Kosmologie}{105}{}%
+\contentsline {section}{\numberline {16.10}Testbare Vorhersagen}{106}{}%
+\contentsline {section}{\numberline {16.11}Fazit}{106}{}%
+\contentsline {chapter}{\numberline {A}Mathematische Grundlagen}{107}{}%
+\contentsline {section}{\numberline {A.1}Einleitung}{107}{}%
+\contentsline {section}{\numberline {A.2}Diskrete Variationsrechnung}{107}{}%
+\contentsline {subsection}{\numberline {A.2.1}Diskretes Funktional}{107}{}%
+\contentsline {subsection}{\numberline {A.2.2}Variation diskreter Funktionale}{108}{}%
+\contentsline {subsection}{\numberline {A.2.3}Diskrete Euler-Lagrange-Gleichungen}{108}{}%
+\contentsline {subsection}{\numberline {A.2.4}Beispiel: Diskrete Wellengleichung}{108}{}%
+\contentsline {section}{\numberline {A.3}Diskrete Noether-Theoreme}{108}{}%
+\contentsline {subsection}{\numberline {A.3.1}Symmetrien in diskreten Systemen}{108}{}%
+\contentsline {subsection}{\numberline {A.3.2}Erhaltungsgrößen}{108}{}%
+\contentsline {subsection}{\numberline {A.3.3}Wichtige Symmetrien und Erhaltungssätze}{109}{}%
+\contentsline {section}{\numberline {A.4}Diskrete Informationsmetrik}{109}{}%
+\contentsline {subsection}{\numberline {A.4.1}Definition aus dem Funktional}{109}{}%
+\contentsline {subsection}{\numberline {A.4.2}Alternative Definition über Kopplungsmatrix}{109}{}%
+\contentsline {subsection}{\numberline {A.4.3}Eigenschaften}{109}{}%
+\contentsline {section}{\numberline {A.5}Fraktale Analysis diskreter Netzwerke}{109}{}%
+\contentsline {subsection}{\numberline {A.5.1}Fraktale Dimension eines diskreten Netzwerks}{109}{}%
+\contentsline {subsection}{\numberline {A.5.2}Praktische Berechnung}{109}{}%
+\contentsline {subsection}{\numberline {A.5.3}Beispiel: Fraktales Netz}{110}{}%
+\contentsline {section}{\numberline {A.6}Diskrete Differenzengleichungen höherer Ordnung}{110}{}%
+\contentsline {subsection}{\numberline {A.6.1}Rekursive Update-Regeln}{110}{}%
+\contentsline {subsection}{\numberline {A.6.2}Stabilitätsanalyse}{110}{}%
+\contentsline {subsection}{\numberline {A.6.3}Numerische Stabilität der diskreten Weber-Kraft}{110}{}%
+\contentsline {section}{\numberline {A.7}Diskrete Fourier-Analyse}{110}{}%
+\contentsline {subsection}{\numberline {A.7.1}Diskrete Fourier-Transformation}{110}{}%
+\contentsline {subsection}{\numberline {A.7.2}Dispersionsrelationen}{110}{}%
+\contentsline {section}{\numberline {A.8}Matrixdarstellungen diskreter Operatoren}{111}{}%
+\contentsline {subsection}{\numberline {A.8.1}Laplace-Matrix}{111}{}%
+\contentsline {subsection}{\numberline {A.8.2}Eigenwertanalyse}{111}{}%
+\contentsline {section}{\numberline {A.9}Zusammenfassung der mathematischen Struktur}{111}{}%
+\contentsline {section}{\numberline {A.10}Hinweise zur praktischen Anwendung}{111}{}%
+\contentsline {chapter}{\numberline {B}Numerische Simulationen}{113}{}%
+\contentsline {section}{\numberline {B.1}Einleitung}{113}{}%
+\contentsline {section}{\numberline {B.2}Das diskrete Simulationsnetzwerk}{113}{}%
+\contentsline {subsection}{\numberline {B.2.1}Grundstruktur}{113}{}%
+\contentsline {subsection}{\numberline {B.2.2}Initialisierungsprotokolle}{113}{}%
+\contentsline {section}{\numberline {B.3}Implementierung der diskreten Dynamik}{114}{}%
+\contentsline {subsection}{\numberline {B.3.1}Hauptalgorithmus}{114}{}%
+\contentsline {subsection}{\numberline {B.3.2}Diskrete Weber-Dynamik}{114}{}%
+\contentsline {subsection}{\numberline {B.3.3}Diskretes Bohm-Potential}{114}{}%
+\contentsline {section}{\numberline {B.4}Rekonstruktion emergenter Physik}{115}{}%
+\contentsline {subsection}{\numberline {B.4.1}Raumemergenz}{115}{}%
+\contentsline {subsection}{\numberline {B.4.2}Zeitemergenz}{115}{}%
+\contentsline {section}{\numberline {B.5}Validierung und Konsistenzchecks}{115}{}%
+\contentsline {subsection}{\numberline {B.5.1}Erhaltungsgrö{\ss }en}{115}{}%
+\contentsline {subsection}{\numberline {B.5.2}Grenzfalltests}{116}{}%
+\contentsline {section}{\numberline {B.6}Anwendungsbeispiele}{116}{}%
+\contentsline {subsection}{\numberline {B.6.1}Doppelspaltexperiment}{116}{}%
+\contentsline {subsection}{\numberline {B.6.2}Gravitationspotential}{116}{}%
+\contentsline {subsection}{\numberline {B.6.3}Kosmologische Simulation}{116}{}%
+\contentsline {section}{\numberline {B.7}Technische Implementierung}{116}{}%
+\contentsline {subsection}{\numberline {B.7.1}Performance-Optimierungen}{116}{}%
+\contentsline {subsection}{\numberline {B.7.2}Visualisierung}{117}{}%
+\contentsline {section}{\numberline {B.8}Zusammenfassung}{117}{}%
+\contentsline {subsection}{\numberline {B.8.1}Zukünftige Entwicklung}{117}{}%
+\contentsline {chapter}{\numberline {C}Vergleich mit etablierten Theorien}{119}{}%
+\contentsline {section}{\numberline {C.1}Einleitung}{119}{}%
+\contentsline {section}{\numberline {C.2}Vergleich mit der klassischen Mechanik}{119}{}%
+\contentsline {subsection}{\numberline {C.2.1}Fundamentale Konzepte}{119}{}%
+\contentsline {subsection}{\numberline {C.2.2}Emergenz aus der IWT}{119}{}%
+\contentsline {subsection}{\numberline {C.2.3}Emergente Gleichungen}{120}{}%
+\contentsline {subsection}{\numberline {C.2.4}Fundamentaler vs. emergenter Status}{120}{}%
+\contentsline {section}{\numberline {C.3}Vergleich mit der Elektrodynamik}{120}{}%
+\contentsline {subsection}{\numberline {C.3.1}Drei Formen der Elektrodynamik}{120}{}%
+\contentsline {subsection}{\numberline {C.3.2}Maxwell-Theorie als effektive Feldbeschreibung}{120}{}%
+\contentsline {subsection}{\numberline {C.3.3}Lorentz-Kraft als phänomenologische Näherung}{120}{}%
+\contentsline {subsection}{\numberline {C.3.4}Weber-Kraft als lokaler Grenzfall der IWT}{121}{}%
+\contentsline {section}{\numberline {C.4}Vergleich mit der Quantenmechanik}{121}{}%
+\contentsline {subsection}{\numberline {C.4.1}Fundamentale Konzepte}{121}{}%
+\contentsline {subsection}{\numberline {C.4.2}Emergenz aus der IWT}{121}{}%
+\contentsline {subsection}{\numberline {C.4.3}Emergente Schrödinger-Gleichung}{121}{}%
+\contentsline {section}{\numberline {C.5}Vergleich mit der Relativitätstheorie}{121}{}%
+\contentsline {subsection}{\numberline {C.5.1}Spezielle Relativitätstheorie (SRT)}{121}{}%
+\contentsline {subsection}{\numberline {C.5.2}Allgemeine Relativitätstheorie (ART)}{122}{}%
+\contentsline {subsection}{\numberline {C.5.3}Emergente Einstein-Gleichungen}{122}{}%
+\contentsline {section}{\numberline {C.6}Grenzfälle und Übergänge}{122}{}%
+\contentsline {section}{\numberline {C.7}Vergleich mit der Quantenelektrodynamik (QED)}{122}{}%
+\contentsline {subsection}{\numberline {C.7.1}Korrespondenz zwischen QED und WDBT}{122}{}%
+\contentsline {subsection}{\numberline {C.7.2}Regularisierung durch das Quantenpotential}{123}{}%
+\contentsline {subsection}{\numberline {C.7.3}Lamb-Shift}{123}{}%
+\contentsline {section}{\numberline {C.8}Vergleich mit der Allgemeinen Relativitätstheorie (ART)}{123}{}%
+\contentsline {subsection}{\numberline {C.8.1}Die unvollständige ART}{123}{}%
+\contentsline {subsection}{\numberline {C.8.2}ART+ als Vervollständigung durch die DBT}{123}{}%
+\contentsline {subsection}{\numberline {C.8.3}Konvergente Theorien: ART+ vs. WDBT}{123}{}%
+\contentsline {subsection}{\numberline {C.8.4}Der experimentelle Entscheid}{124}{}%
+\contentsline {section}{\numberline {C.9}Zusammenfassung der Vergleiche}{124}{}%
+\contentsline {chapter}{\numberline {D}Ausgewählte Herleitungen aus der ursprünglichen WDBT}{125}{}%
+\contentsline {section}{\numberline {D.1}Einleitung}{125}{}%
+\contentsline {section}{\numberline {D.2}Rotverschiebung im stationären Universum}{125}{}%
+\contentsline {subsection}{\numberline {D.2.1}Grundgleichung}{125}{}%
+\contentsline {subsection}{\numberline {D.2.2}Fraktale Dichteverteilung}{125}{}%
+\contentsline {subsection}{\numberline {D.2.3}Eingeschlossene Masse}{125}{}%
+\contentsline {subsection}{\numberline {D.2.4}Integration}{126}{}%
+\contentsline {subsection}{\numberline {D.2.5}Effektive Hubble-Konstante}{126}{}%
+\contentsline {section}{\numberline {D.3}Galaxienrotationskurven ohne dunkle Materie}{126}{}%
+\contentsline {subsection}{\numberline {D.3.1}Bewegungsgleichung}{126}{}%
+\contentsline {subsection}{\numberline {D.3.2}Quantenpotential für exponentielle Dichte}{126}{}%
+\contentsline {subsection}{\numberline {D.3.3}Rotationskurve}{126}{}%
+\contentsline {subsection}{\numberline {D.3.4}Asymptotisches Verhalten}{127}{}%
+\contentsline {section}{\numberline {D.4}Frequenzabhängige Lichtablenkung}{127}{}%
+\contentsline {subsection}{\numberline {D.4.1}Weber-Gravitation für Photonen}{127}{}%
+\contentsline {subsection}{\numberline {D.4.2}Reduktion auf die Bahnebene}{127}{}%
+\contentsline {subsection}{\numberline {D.4.3}Substitution \(u = 1/r\)}{127}{}%
+\contentsline {subsection}{\numberline {D.4.4}Beschleunigung in Polarkoordinaten}{127}{}%
+\contentsline {subsection}{\numberline {D.4.5}Transformation auf \(u(\phi )\)}{127}{}%
+\contentsline {subsection}{\numberline {D.4.6}Vereinfachung}{128}{}%
+\contentsline {subsection}{\numberline {D.4.7}Störungsrechnung}{128}{}%
+\contentsline {subsection}{\numberline {D.4.8}Physikalische Konsequenz}{128}{}%
+\contentsline {chapter}{\numberline {E}Spektrale Dimension des Dodekaeder-Ikosaeder-Netzwerks}{129}{}%
+\contentsline {section}{\numberline {E.1}Einleitung}{129}{}%
+\contentsline {section}{\numberline {E.2}Das duale Netzwerk}{129}{}%
+\contentsline {section}{\numberline {E.3}Die Skalierungsfaktoren}{129}{}%
+\contentsline {section}{\numberline {E.4}Hausdorff-Dimension}{130}{}%
+\contentsline {section}{\numberline {E.5}Spektrale Dimension und ihre Herleitung}{130}{}%
+\contentsline {section}{\numberline {E.6}Numerischer Wert}{130}{}%
+\contentsline {section}{\numberline {E.7}Dispersionsrelation}{131}{}%
+\contentsline {section}{\numberline {E.8}Vergleich mit der etablierten Physik}{131}{}%
+\contentsline {section}{\numberline {E.9}Zusammenfassung}{131}{}%
+\contentsline {chapter}{\numberline {F}Kontinuumslimes: Von der diskreten IWT zur kontinuierlichen WDBT+}{133}{}%
+\contentsline {section}{\numberline {F.1}Einleitung}{133}{}%
+\contentsline {section}{\numberline {F.2}Mathematische Rahmenbedingungen}{133}{}%
+\contentsline {subsection}{\numberline {F.2.1}Annahmen an das diskrete Netzwerk}{133}{}%
+\contentsline {subsection}{\numberline {F.2.2}Das Problem des perfekten Dodekaeder-Netzwerks}{134}{}%
+\contentsline {subsection}{\numberline {F.2.3}Definition des kontinuierlichen Grenzfeldes}{134}{}%
+\contentsline {subsection}{\numberline {F.2.4}Konvergenzbegriff}{134}{}%
+\contentsline {section}{\numberline {F.3}Konvergenz des diskreten Funktionals}{134}{}%
+\contentsline {subsection}{\numberline {F.3.1}Diskretes Funktional in kontinuierlicher Notation}{134}{}%
+\contentsline {subsection}{\numberline {F.3.2}Entwicklung der diskreten Operatoren}{135}{}%
+\contentsline {subsection}{\numberline {F.3.3}Konvergenz des Funktionals}{135}{}%
+\contentsline {section}{\numberline {F.4}Konvergenz der Euler-Lagrange-Gleichungen}{135}{}%
+\contentsline {subsection}{\numberline {F.4.1}Diskrete Euler-Lagrange-Gleichung}{135}{}%
+\contentsline {subsection}{\numberline {F.4.2}Kontinuierlicher Grenzwert}{135}{}%
+\contentsline {subsection}{\numberline {F.4.3}Konvergenzgeschwindigkeit}{136}{}%
+\contentsline {section}{\numberline {F.5}Emergenz der Metrik}{136}{}%
+\contentsline {subsection}{\numberline {F.5.1}Diskrete Metrik als Approximation der euklidischen Metrik}{136}{}%
+\contentsline {subsection}{\numberline {F.5.2}Eigenschaften der emergenten Metrik}{136}{}%
+\contentsline {subsection}{\numberline {F.5.3}Grenzfall \( D \to 3 \)}{136}{}%
+\contentsline {section}{\numberline {F.6}Kontinuumslimes des fraktalen Dodekaeder-Netzwerks}{136}{}%
+\contentsline {subsection}{\numberline {F.6.1}Definition des diskreten Netzwerks}{136}{}%
+\contentsline {subsection}{\numberline {F.6.2}Problem der Einbettung}{136}{}%
+\contentsline {subsection}{\numberline {F.6.3}Konvergenz der diskreten Operatoren}{137}{}%
+\contentsline {subsection}{\numberline {F.6.4}Die Rolle der fraktalen Dimension im Limes}{137}{}%
+\contentsline {subsection}{\numberline {F.6.5}Existenz des Kontinuumslimes}{137}{}%
+\contentsline {section}{\numberline {F.7}Beispiel: Diskrete Wellengleichung}{137}{}%
+\contentsline {subsection}{\numberline {F.7.1}Diskrete Form}{137}{}%
+\contentsline {subsection}{\numberline {F.7.2}Kontinuierlicher Limes}{138}{}%
+\contentsline {section}{\numberline {F.8}Fazit zum Kontinuumslimes}{138}{}%
+\contentsline {section}{\numberline {F.9}Zusammenfassung}{138}{}%
+\contentsline {section}{\numberline {F.10}Ausblick: Offene mathematische Probleme}{139}{}%
+\contentsline {chapter}{\numberline {G}Identitätsbeziehung zwischen DSTT und Weber-Kräften}{141}{}%
+\contentsline {section}{\numberline {G.1}Einleitung}{141}{}%
+\contentsline {section}{\numberline {G.2}Das Problem der reinen Weber-Gravitation}{141}{}%
+\contentsline {subsection}{\numberline {G.2.1}Bahngleichung der reinen WG in zweiter Ordnung}{141}{}%
+\contentsline {subsection}{\numberline {G.2.2}Der problematische Term \(\alpha \phi ^2\)}{141}{}%
+\contentsline {section}{\numberline {G.3}Die Kompensation durch das Quantenpotential der DBT}{142}{}%
+\contentsline {subsection}{\numberline {G.3.1}Das Quantenpotential in der De-Broglie-Bohm-Theorie}{142}{}%
+\contentsline {subsection}{\numberline {G.3.2}Entwicklung des Quantenpotentials in Winkelkoordinaten}{142}{}%
+\contentsline {subsection}{\numberline {G.3.3}Die exakte Kompensation}{142}{}%
+\contentsline {section}{\numberline {G.4}Beweis der Identitätsbeziehung}{142}{}%
+\contentsline {subsection}{\numberline {G.4.1}Die vollständige Kraft der WDBT}{142}{}%
+\contentsline {subsection}{\numberline {G.4.2}Die entscheidende Eigenschaft von \(F_Q\)}{143}{}%
+\contentsline {subsection}{\numberline {G.4.3}Die radiale Komponente mit Kompensation}{143}{}%
+\contentsline {subsection}{\numberline {G.4.4}Warum das Gegenbeispiel der Kreisbahn nicht greift}{143}{}%
+\contentsline {section}{\numberline {G.5}Zusammenfassung der Ergebnisse}{143}{}%
+\contentsline {section}{\numberline {G.6}Ausblick}{144}{}%
+\contentsline {chapter}{\numberline {H}Vollständige Herleitung der Periheldrehung in der Weber-Gravitation}{145}{}%
+\contentsline {section}{\numberline {H.1}Einleitung}{145}{}%
+\contentsline {section}{\numberline {H.2}Grundgleichungen der Weber-Gravitation}{145}{}%
+\contentsline {subsection}{\numberline {H.2.1}Weber-Kraft für massive Körper}{145}{}%
+\contentsline {subsection}{\numberline {H.2.2}Vereinfachung: Bahnebene}{145}{}%
+\contentsline {section}{\numberline {H.3}Drehimpuls in der Weber-Gravitation}{145}{}%
+\contentsline {subsection}{\numberline {H.3.1}Exakte Drehimpulsbilanz}{145}{}%
+\contentsline {subsection}{\numberline {H.3.2}Drehimpuls in erster Ordnung}{146}{}%
+\contentsline {section}{\numberline {H.4}Bewegungsgleichung in der Radialrichtung}{146}{}%
+\contentsline {subsection}{\numberline {H.4.1}Radiale Beschleunigung}{146}{}%
+\contentsline {subsection}{\numberline {H.4.2}Radiale Bewegungsgleichung}{147}{}%
+\contentsline {section}{\numberline {H.5}Bahngleichung in der Binet-Form mit variablem Drehimpuls}{147}{}%
+\contentsline {subsection}{\numberline {H.5.1}Substitution \( u = 1/r \)}{147}{}%
+\contentsline {subsection}{\numberline {H.5.2}Einsetzen in (H.3)}{147}{}%
+\contentsline {subsection}{\numberline {H.5.3}Term \( r\ddot {r} \) in \( u \)-Variablen}{147}{}%
+\contentsline {subsection}{\numberline {H.5.4}Bahngleichung}{147}{}%
+\contentsline {section}{\numberline {H.6}Post-Newtonsche Entwicklung}{148}{}%
+\contentsline {subsection}{\numberline {H.6.1}Entwicklung in \( 1/c^2 \)}{148}{}%
+\contentsline {subsection}{\numberline {H.6.2}Die drei Beiträge zum \( 3u^2 \)-Term}{148}{}%
+\contentsline {section}{\numberline {H.7}Lösung der Bahngleichung}{148}{}%
+\contentsline {subsection}{\numberline {H.7.1}Störungsansatz}{148}{}%
+\contentsline {subsection}{\numberline {H.7.2}Erste Ordnung}{148}{}%
+\contentsline {subsection}{\numberline {H.7.3}Entwicklung des Störterms}{149}{}%
+\contentsline {subsection}{\numberline {H.7.4}Partikuläre Lösungen}{149}{}%
+\contentsline {subsection}{\numberline {H.7.5}Gesamtlösung in erster Ordnung}{149}{}%
+\contentsline {section}{\numberline {H.8}Periheldrehung}{149}{}%
+\contentsline {subsection}{\numberline {H.8.1}Resonanter Term}{149}{}%
+\contentsline {subsection}{\numberline {H.8.2}Additionstheorem}{149}{}%
+\contentsline {subsection}{\numberline {H.8.3}Korrekturfaktor \( \kappa \)}{149}{}%
+\contentsline {subsection}{\numberline {H.8.4}Perihel nach einem Umlauf}{150}{}%
+\contentsline {subsection}{\numberline {H.8.5}Periheldrehung pro Umlauf}{150}{}%
+\contentsline {section}{\numberline {H.9}Resultat der vollständigen Rechnung}{150}{}%
+\contentsline {section}{\numberline {H.10}Zahlenwert für Merkur}{150}{}%
+\contentsline {section}{\numberline {H.11}Zusammenfassung}{150}{}%
+\contentsline {section}{\numberline {H.12}Ausblick}{151}{}%
+\contentsline {chapter}{\numberline {I}Energiebilanz der Materieentstehung im stationären Universum}{153}{}%
+\contentsline {section}{\numberline {I.1}Einleitung}{153}{}%
+\contentsline {section}{\numberline {I.2}Die negative Vakuumenergiedichte aus der fraktalen Zustandsdichte}{153}{}%
+\contentsline {subsection}{\numberline {I.2.1}Zustandsdichte im fraktalen Raum}{153}{}%
+\contentsline {subsection}{\numberline {I.2.2}Die Nullpunktsenergie des fraktalen Vakuums}{153}{}%
+\contentsline {subsection}{\numberline {I.2.3}Die effektive negative Energiedichte}{154}{}%
+\contentsline {section}{\numberline {I.3}Materieentstehung durch das Quantenpotential}{154}{}%
+\contentsline {subsection}{\numberline {I.3.1}Das Quantenpotential als räumliche Fluktuation}{154}{}%
+\contentsline {subsection}{\numberline {I.3.2}Die Entstehungsrate neuer Materie}{154}{}%
+\contentsline {section}{\numberline {I.4}Der geschlossene Energiekreislauf}{155}{}%
+\contentsline {subsection}{\numberline {I.4.1}Energieabgabe von Photonen durch Rotverschiebung}{155}{}%
+\contentsline {subsection}{\numberline {I.4.2}Energieaufnahme durch Materieentstehung}{155}{}%
+\contentsline {subsection}{\numberline {I.4.3}Instantane globale Energieverteilung}{155}{}%
+\contentsline {subsection}{\numberline {I.4.4}Die vollständige Energiebilanz}{155}{}%
+\contentsline {section}{\numberline {I.5}Zusammenfassung der Grundgleichungen}{156}{}%
+\contentsline {subsection}{\numberline {I.5.1}Vakuumenergiedichte}{156}{}%
+\contentsline {subsection}{\numberline {I.5.2}Kontinuitätsgleichung mit Quellterm}{156}{}%
+\contentsline {subsection}{\numberline {I.5.3}Quellterm}{156}{}%
+\contentsline {subsection}{\numberline {I.5.4}Energieerhaltung}{156}{}%
+\contentsline {section}{\numberline {I.6}Kopplung an die DSTT-Drift}{156}{}%
+\contentsline {subsection}{\numberline {I.6.1}Auswärtstreibung neu entstehender Materie}{156}{}%
+\contentsline {subsection}{\numberline {I.6.2}Kontinuität im stationären Zustand}{156}{}%
+\contentsline {section}{\numberline {I.7}Testbare Vorhersage}{157}{}%
+\contentsline {subsection}{\numberline {I.7.1}Dichteprofil von Galaxienhalos}{157}{}%
+\contentsline {section}{\numberline {I.8}Zusammenfassung}{157}{}%
+\contentsline {section}{\numberline {I.9}Ausblick}{157}{}%
+\contentsline {chapter}{\numberline {J}Das Neutrino als Q-Teilchen – Masse, Oszillationen und Dunkle Materie}{159}{}%
+\contentsline {section}{\numberline {J.1}Einleitung}{159}{}%
+\contentsline {section}{\numberline {J.2}Definition: Das Neutrino als Q-Teilchen}{159}{}%
+\contentsline {subsection}{\numberline {J.2.1}Das Quantenpotential in der DBT}{159}{}%
+\contentsline {subsection}{\numberline {J.2.2}Identifikation Neutrino = Q-Teilchen}{159}{}%
+\contentsline {section}{\numberline {J.3}Die Neutrinomasse aus der fraktalen Q-Feld-Dynamik}{160}{}%
+\contentsline {subsection}{\numberline {J.3.1}Fundamentale Längenskala $l_0$}{160}{}%
+\contentsline {subsection}{\numberline {J.3.2}Das Q-Feld im fraktalen Raum}{160}{}%
+\contentsline {subsection}{\numberline {J.3.3}Die Energie des Q-Feldes}{160}{}%
+\contentsline {subsection}{\numberline {J.3.4}Quantisierung des Q-Feldes}{161}{}%
+\contentsline {subsection}{\numberline {J.3.5}Die Neutrinomasse}{161}{}%
+\contentsline {subsection}{\numberline {J.3.6}Numerischer Wert}{161}{}%
+\contentsline {subsection}{\numberline {J.3.7}Die Compton-Wellenlänge des Neutrinos}{162}{}%
+\contentsline {section}{\numberline {J.4}Das Neutrino als Vermittler der Nichtlokalität}{162}{}%
+\contentsline {section}{\numberline {J.5}Drei Neutrino-Generationen}{162}{}%
+\contentsline {subsection}{\numberline {J.5.1}Moden des fraktalen Q-Feldes}{162}{}%
+\contentsline {subsection}{\numberline {J.5.2}Numerische Werte der drei Generationen}{162}{}%
+\contentsline {section}{\numberline {J.6}Neutrino-Oszillationen aus fraktaler Dispersion}{163}{}%
+\contentsline {subsection}{\numberline {J.6.1}Dispersionsrelation für das Q-Feld}{163}{}%
+\contentsline {subsection}{\numberline {J.6.2}Phasengeschwindigkeit der Masseneigenzustände}{163}{}%
+\contentsline {subsection}{\numberline {J.6.3}Oszillationslänge}{163}{}%
+\contentsline {subsection}{\numberline {J.6.4}Testbare Vorhersage}{164}{}%
+\contentsline {section}{\numberline {J.7}Neutrinos als Dunkle Materie}{164}{}%
+\contentsline {subsection}{\numberline {J.7.1}Kosmologische Neutrinodichte}{164}{}%
+\contentsline {subsection}{\numberline {J.7.2}Dunkle Materie ist Neutrino-Gesamtheit}{164}{}%
+\contentsline {section}{\numberline {J.8}Die Verbindung zur Hubble-Spannung}{164}{}%
+\contentsline {subsection}{\numberline {J.8.1}Das konsistente Bild}{165}{}%
+\contentsline {section}{\numberline {J.9}Zusammenfassung}{165}{}%
+\contentsline {chapter}{\numberline {K}BEC-Objekte – Die kompaktesten Strukturen im Universum}{167}{}%
+\contentsline {section}{\numberline {K.1}Einleitung}{167}{}%
+\contentsline {section}{\numberline {K.2}Die fundamentale Längenskala \( l_0 \)}{167}{}%
+\contentsline {subsection}{\numberline {K.2.1}Geometrischer Ursprung}{167}{}%
+\contentsline {subsection}{\numberline {K.2.2}Numerischer Wert}{167}{}%
+\contentsline {subsection}{\numberline {K.2.3}Physikalische Bedeutung}{167}{}%
+\contentsline {subsection}{\numberline {K.2.4}Die Neutrino-Compton-Wellenlänge im Vergleich}{168}{}%
+\contentsline {section}{\numberline {K.3}Paarbildung und Bose-Einstein-Kondensation}{168}{}%
+\contentsline {subsection}{\numberline {K.3.1}Cooper-Paarbildung}{168}{}%
+\contentsline {subsection}{\numberline {K.3.2}Bose-Einstein-Kondensation}{168}{}%
+\contentsline {section}{\numberline {K.4}Zustandsgleichung eines BEC-Objekts im fraktalen Raum}{168}{}%
+\contentsline {subsection}{\numberline {K.4.1}Energiedichte}{168}{}%
+\contentsline {subsection}{\numberline {K.4.2}Fraktale Modifikation}{169}{}%
+\contentsline {section}{\numberline {K.5}Radius-Masse-Beziehung}{169}{}%
+\contentsline {subsection}{\numberline {K.5.1}Gravitationsenergie im fraktalen Raum}{169}{}%
+\contentsline {subsection}{\numberline {K.5.2}Quantenpotential-Energie}{169}{}%
+\contentsline {subsection}{\numberline {K.5.3}Minimierung der Gesamtenergie}{169}{}%
+\contentsline {subsection}{\numberline {K.5.4}Radius als Funktion der Masse}{169}{}%
+\contentsline {subsection}{\numberline {K.5.5}Numerische Bestimmung von \( K_R \)}{170}{}%
+\contentsline {section}{\numberline {K.6}Maximale Masse eines BEC-Objekts}{170}{}%
+\contentsline {subsection}{\numberline {K.6.1}Untere Grenze: \( R_{\min } = l_0 \)}{170}{}%
+\contentsline {subsection}{\numberline {K.6.2}Physikalische Bedeutung}{170}{}%
+\contentsline {section}{\numberline {K.7}Strukturelle Analogie zum Atom}{171}{}%
+\contentsline {subsection}{\numberline {K.7.1}Atomare Skalierung}{171}{}%
+\contentsline {subsection}{\numberline {K.7.2}Fraktale Verbindung}{171}{}%
+\contentsline {section}{\numberline {K.8}Relativistische Korrekturen aus der Weber-Gravitation}{171}{}%
+\contentsline {subsection}{\numberline {K.8.1}Modifizierte Kreisbahngeschwindigkeit}{171}{}%
+\contentsline {subsection}{\numberline {K.8.2}ISCO-Bedingung}{171}{}%
+\contentsline {section}{\numberline {K.9}Beobachtete supermassereiche Objekte}{171}{}%
+\contentsline {subsection}{\numberline {K.9.1}Systeme aus Kern und Umgebung}{171}{}%
+\contentsline {subsection}{\numberline {K.9.2}Massenverhältnis}{171}{}%
+\contentsline {section}{\numberline {K.10}Kollisionen von BEC-Objekten}{172}{}%
+\contentsline {section}{\numberline {K.11}Verbindung zur Neutrinomasse}{172}{}%
+\contentsline {section}{\numberline {K.12}Zusammenfassung}{172}{}%
+\contentsline {section}{\numberline {K.13}Ausblick}{173}{}%
+\contentsline {chapter}{\numberline {L}Fraktale Entropie – Der verhinderte Wärmetod}{175}{}%
+\contentsline {section}{\numberline {L.1}Einleitung}{175}{}%
+\contentsline {section}{\numberline {L.2}Axiome der Theorie}{175}{}%
+\contentsline {subsection}{\numberline {L.2.1}Axiom 1: Fraktale Raumstruktur}{175}{}%
+\contentsline {subsection}{\numberline {L.2.2}Axiom 2: Fraktale Entropie}{175}{}%
+\contentsline {subsection}{\numberline {L.2.3}Axiom 3: Globaler Entropieerhaltungssatz}{175}{}%
+\contentsline {subsection}{\numberline {L.2.4}Axiom 4: Lokale Entropieproduktion}{176}{}%
+\contentsline {subsection}{\numberline {L.2.5}Axiom 5: Gravitation als Quelle der Irreversibilität}{176}{}%
+\contentsline {subsection}{\numberline {L.2.6}Axiom 6: Elektrodynamik als Stabilisator}{176}{}%
+\contentsline {subsection}{\numberline {L.2.7}Axiom 7: Beschränktheit aller physikalischen Größen}{176}{}%
+\contentsline {section}{\numberline {L.3}Die drei Phasen}{176}{}%
+\contentsline {section}{\numberline {L.4}Herleitung der Entropieflüsse}{176}{}%
+\contentsline {subsection}{\numberline {L.4.1}Kontinuitätsgleichung der fraktalen Entropie}{176}{}%
+\contentsline {subsection}{\numberline {L.4.2}Identifikation der Flussraten aus der WDBT+}{177}{}%
+\contentsline {subsection}{\numberline {L.4.3}Positivität der Flussraten}{177}{}%
+\contentsline {subsection}{\numberline {L.4.4}Entropiebilanz der einzelnen Phasen}{177}{}%
+\contentsline {section}{\numberline {L.5}Der geschlossene Kreislauf}{177}{}%
+\contentsline {subsection}{\numberline {L.5.1}Darstellung des Kreislaufs}{177}{}%
+\contentsline {subsection}{\numberline {L.5.2}Stationärer Zustand}{178}{}%
+\contentsline {section}{\numberline {L.6}Warum kein Wärmetod eintritt}{178}{}%
+\contentsline {subsection}{\numberline {L.6.1}Bedingungen für einen Wärmetod}{178}{}%
+\contentsline {subsection}{\numberline {L.6.2}Verhinderung des Wärmetods durch fraktale Geometrie}{178}{}%
+\contentsline {subsection}{\numberline {L.6.3}Beweis: Kein endliches Entropiemaximum}{178}{}%
+\contentsline {subsection}{\numberline {L.6.4}Permanente Gradienten}{178}{}%
+\contentsline {subsection}{\numberline {L.6.5}Hauptsatz der fraktalen Thermodynamik}{179}{}%
+\contentsline {section}{\numberline {L.7}Kosmologische Konsequenzen}{179}{}%
+\contentsline {subsection}{\numberline {L.7.1}Temperatur im stationären Zustand}{179}{}%
+\contentsline {subsection}{\numberline {L.7.2}Zeitpfeil und kosmologische Entropie}{179}{}%
+\contentsline {section}{\numberline {L.8}Zusammenfassung}{180}{}%
