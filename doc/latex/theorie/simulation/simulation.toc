@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}Einleitung}{3}{}%
+\contentsline {section}{\numberline {2}Das Simulationsmodell}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Netzwerkstruktur}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Diskrete Dynamik}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Weber-Elektrodynamik (WED)}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Weber-Gravitation (WG)}{3}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Bohm-Potential (Q)}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Bohm-Potential}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Informationserhaltung}{4}{}%
+\contentsline {section}{\numberline {3}Numerische Implementierung}{4}{}%
+\contentsline {section}{\numberline {4}Ergebnisse}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Informationserhaltung}{4}{}%
+\contentsline {subsection}{\numberline {4.2}DSTT-Drift}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Kraftspektrum}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Kalibrierung der IWT-Parameter}{6}{}%
+\contentsline {subsection}{\numberline {4.5}Emergenz der Naturkonstanten}{7}{}%
+\contentsline {subsection}{\numberline {4.6}Neutrinomasse}{7}{}%
+\contentsline {subsection}{\numberline {4.7}Hubble-Spannung}{7}{}%
+\contentsline {subsection}{\numberline {4.8}SI-Umrechnung}{8}{}%
+\contentsline {section}{\numberline {5}Physikalische Interpretation}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Informationserhaltung}{8}{}%
+\contentsline {subsection}{\numberline {5.2}DSTT-Drift als Zeitpfeil}{8}{}%
+\contentsline {subsection}{\numberline {5.3}Singularitätenfreiheit}{8}{}%
+\contentsline {subsection}{\numberline {5.4}Emergenz der Physik}{8}{}%
+\contentsline {subsection}{\numberline {5.5}Hubble-Spannung}{9}{}%
+\contentsline {subsection}{\numberline {5.6}Neutrinomasse}{9}{}%
+\contentsline {section}{\numberline {6}Fazit}{9}{}%
+\contentsline {section}{\numberline {A}Host-Code (main.c)}{10}{}%
+\contentsline {section}{\numberline {B}OpenCL-Kernel (iwt\_update.cl)}{18}{}%
+\contentsline {section}{\numberline {C}Simulations-Log}{19}{}%
