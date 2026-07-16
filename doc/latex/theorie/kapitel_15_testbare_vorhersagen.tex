@@ -55,16 +55,16 @@ H_{\text{eff}}(d) = H_0 \left( \frac{d}{d_0} \right)^{D-2} = H_0 \left( \frac{d}
 Die Hubble-Spannung – die Diskrepanz zwischen CMB- und lokalen Messungen – ist keine Inkonsistenz, sondern eine direkte Konsequenz der fraktalen Geometrie:
 
 \[
-\frac{H_{\text{CMB}}}{H_{\text{local}}} = \left( \frac{d_{\text{CMB}}}{d_{\text{local}}} \right)^{0,704}
+\frac{H_{\text{local}}}{H_{\text{CMB}}} = \left( \frac{d_{\text{local}}}{d_{\text{CMB}}} \right)^{0,704}
 \]
 
-Mit \( H_{\text{CMB}} \approx 67,4 \) und \( H_{\text{local}} \approx 73,5 \) ergibt sich:
+Mit den gemessenen Werten \( H_{\text{CMB}} \approx 67,4 \, \text{km/s/Mpc} \) und \( H_{\text{local}} \approx 73,5 \, \text{km/s/Mpc} \) ergibt sich:
 
 \[
-\frac{d_{\text{CMB}}}{d_{\text{local}}} = \left( \frac{67,4}{73,5} \right)^{1/0,704} \approx 0,884
+\frac{d_{\text{local}}}{d_{\text{CMB}}} = \left( \frac{73,5}{67,4} \right)^{1/0,704} \approx 1,129
 \]
 
-Die CMB-Messung entspricht also einer um etwa 11,6 \% kleineren effektiven Skala – ein physikalisch plausibler Unterschied in der fraktalen Kosmologie.
+Die lokalen Messungen operieren also auf einer um etwa 12,9 \% \textbf{größeren} effektiven Skala als die CMB-Messungen. Da \( H_{\text{eff}}(d) \) mit der Skala \( d \) wächst (Exponent \( D-2 = 0,704 > 0 \)), ist der aus lokalen Messungen abgeleitete Wert \( H_{\text{local}} \) \textit{größer} als der CMB-Wert \( H_{\text{CMB}} \), was qualitativ mit den Beobachtungen übereinstimmt.
 
 \subsection{Übersicht der testbaren Vorhersagen}
 \label{sub:vorh_uebersicht}
@@ -149,10 +149,10 @@ Für den Mond ergibt sich eine Exzentrizitätsabnahme von \( \dot{e} \approx -2,
 Die Theorie sagt eine Neutrinomasse von (siehe Kapitel~\ref{ch:neutrino})
 
 \[
-m_{\nu,i} = \frac{\hbar}{l_0 c} \left( \frac{l_0}{L_{Q,0}} \cdot \left(\frac{2}{3-i}\right)^{\frac{2}{3-D}} \right)^{\frac{3-D}{2}}
+m_{\nu,i} = \frac{\hbar}{l_0 c} \left( \frac{l_0}{L_{Q,0}} \cdot \left(\frac{2}{3-i}\right)^{\frac{3-D}{2}} \right)^{\frac{3-D}{2}}
 \]
 
-mit \( L_{Q,0} = 10^{26} \, \text{m} \) (Hubble-Länge) und \( i = 1,2,3 \) für die drei Generationen.
+mit \( L_{Q,0} \approx 2{,}0 \times 10^{46} \, \text{m} \) und \( i = 1,2,3 \) für die drei Generationen.
 
 Die numerischen Werte sind:
 
@@ -177,7 +177,7 @@ Dies ist mit Experimenten wie KATRIN (\cite{KATRIN2022}) oder dem neutrinolosen 
 \subsection{Neutrino-Oszillationen}
 \label{sub:vorh_neutrino_osz}
 
-Die fraktale Dispersionsrelation mit der fundamentalen Skala \( L_{Q,0} = 10^{26} \, \text{m} \) führt zu einer charakteristischen Skalierung der Oszillationslänge:
+Die fraktale Dispersionsrelation mit der fundamentalen Skala \( L_{Q,0} \approx 2{,}0 \times 10^{46} \, \text{m} \) führt zu einer charakteristischen Skalierung der Oszillationslänge:
 
 \[
 L_{\text{osc}} \propto E^{1/(4-D)} = E^{0,775}
@@ -231,7 +231,7 @@ Dabei ist \( \langle r \rangle \) der Erwartungswert des Ortes des Elektrons im 
 Eine der bemerkenswertesten Vorhersagen der WDBT+ ist die Verbindung zwischen der Neutrinomasse und der Hubble-Spannung. Beide Phänomene folgen aus derselben fraktalen Geometrie:
 
 \begin{itemize}
-    \item Die Neutrinomasse wird durch die Korrelationslänge \( L_{Q,0} = 10^{26} \, \text{m} \) bestimmt.
+    \item Die Neutrinomasse wird durch die Korrelationslänge \( L_{Q,0} \approx 2{,}0 \times 10^{46} \, \text{m} \) bestimmt.
     \item Dieselbe Skala \( L_{Q,0} \) bestimmt die effektive Hubble-Konstante.
     \item Die Hubble-Spannung ist daher kein Rätsel, sondern eine experimentelle Bestätigung der fraktalen Struktur des Raumes.
 \end{itemize}
@@ -272,7 +272,10 @@ In Laborplasmen und astrophysikalischen Plasmen sollten Stromdichten mit \( j(r)
 
 Die folgende Tabelle fasst die wichtigsten testbaren Vorhersagen zusammen:
 
-\begin{tabular}{|l|l|l|}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|l|X|X|}
 \hline
 \textbf{Vorhersage} & \textbf{Wert / Skalierung} & \textbf{Testmethode} \\
 \hline
@@ -292,7 +295,10 @@ Maximale Kernmasse & \(M_{\text{BEC}} \approx 3 \times 10^6 M_\odot\) & Beobacht
 EHT-Schatten & \(r_{\text{ph}} = 3GM/c^2\), andere Feinstruktur & EHT, nächste Generation \\
 Hubble-Spannung & \(H_{\text{eff}}(d) \propto d^{0,704}\) & Supernovae, Quasare, GW \\
 \hline
-\end{tabular}
+\end{tabularx}
+\caption{Zusammenfassung der wichtigsten testbaren Vorhersagen der WDBT+.}
+\label{tab:vorhersagen}
+\end{table}
 
 \section{Fazit}
 \label{sec:vorh_fazit}
@@ -304,6 +310,6 @@ Die WDBT+ macht spezifische, testbare Vorhersagen, die sie von der Allgemeinen R
     \item Die Hubble-Spannung \( H_{\text{eff}}(d) \propto d^{0,704} \)
 \end{itemize}
 
-Beide folgen aus derselben fraktalen Raumdimension \( D \approx 2,704 \) und derselben Korrelationslänge \( L_{Q,0} = 10^{26} \, \text{m} \). Dies ist ein starkes Indiz für die Konsistenz der Theorie.
+Beide folgen aus derselben fraktalen Raumdimension \( D \approx 2,704 \) und derselben Korrelationslänge \( L_{Q,0} \approx 2{,}0 \times 10^{46} \, \text{m} \). Dies ist ein starkes Indiz für die Konsistenz der Theorie.
 
 Sollten diese Vorhersagen bestätigt werden, wäre dies ein starkes Indiz für die Richtigkeit der Theorie. Sollten sie widerlegt werden, wäre die Theorie falsifiziert – ein Zeichen ihrer wissenschaftlichen Qualität.

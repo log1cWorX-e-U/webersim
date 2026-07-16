@@ -12,11 +12,14 @@ Die IWT und die WDBT+ erheben den Anspruch, fundamentale Ur-Theorien zu sein, au
 
 Der Vergleich erfolgt entlang fünf fundamentaler Fragen:
 
+\begin{table}[htbp]
+\centering
+\small
 \begin{tabularx}{\textwidth}{|X|X|X|}
 \hline
 \textbf{Frage} & \textbf{Etablierte Theorien} & \textbf{IWT (Ur-Theorie)} \\
 \hline
-Physikalischer Zustand? & Teilchen, Felder, Wellenfunktionen & Diskrete Information \( I_k^{(n)} \) (siehe Kapitel~\ref{ch:diskrete_informationsdynamik}) \\
+Physikalischer Zustand? & Teilchen, Felder, Wellenfunktionen & Diskrete, komplexe Information \( I_k^{(n)} \) (siehe Kapitel~\ref{ch:diskrete_informationsdynamik}) \\
 \hline
 Dynamik? & Kräfte, Feldgleichungen, Schrödinger-Gleichung & Rekursive Update-Regeln (siehe Kapitel~\ref{ch:lagrange_funktional}) \\
 \hline
@@ -27,6 +30,9 @@ Kausalität? & Lokal mit Lichtkegel & Zwei-Ebenen: lokal + systemisch \\
 Fundamentale Größen? & Energie, Ladung, Masse & Information \( I_k^{(n)} \), Kopplungen \( K_{kl}^{(n)} \) \\
 \hline
 \end{tabularx}
+\caption{Fundamentale Fragen im Vergleich zwischen etablierten Theorien und der IWT.}
+\label{tab:vergleich_fragen}
+\end{table}
 
 \section{Vergleich mit der klassischen Mechanik}
 \label{app:vergleich_klassisch}
@@ -50,8 +56,8 @@ Die klassische Mechanik basiert auf:
 In der IWT entsteht die klassische Mechanik als Grenzfall:
 
 \begin{enumerate}
-    \item Schwache Informationsgradienten: \( |\Delta I_k^{(n)}| \ll I_k^{(n)} \)
-    \item Dominante lokale Dynamik: \( F_k^{\text{lokal}} \gg F_k^{\text{global}} \)
+    \item Schwache Informationsgradienten: \( |\Delta I_k^{(n)}| \ll |I_k^{(n)}| \)
+    \item Dominante lokale Dynamik: \( \mathcal{F}_k^{\text{lokal}} \gg \mathcal{F}_k^{\text{global}} \)
     \item Kontinuumsnäherung: \( T \to 0, N \to \infty \) (siehe Anhang~\ref{app:kontinuumslimes})
 \end{enumerate}
 
@@ -73,8 +79,8 @@ was im Grenzfall \( T \to 0 \) zur Newtonschen Gleichung \( m_i \ddot{\vec{r}}_i
 \hline
 \textbf{In klassischer Mechanik (fundamental)} & \textbf{In IWT (emergent)} \\
 \hline
-Masse \( m \) ist primitiv & \( m_{\text{eff},k} = \alpha \sum_l (I_k - I_l)^2 \) (siehe Kapitel~\ref{ch:diskrete_informationsdynamik}) \\
-Kraft \( \vec{F} \) ist primitiv & \( \vec{F}_{kl} \propto \Delta I_{kl} \) \\
+Masse \( m \) ist primitiv & \( m_{\text{eff},k} = \alpha \sum_l |I_k - I_l|^2 \) (siehe Kapitel~\ref{ch:diskrete_informationsdynamik}) \\
+Kraft \( \vec{F} \) ist primitiv & \( \vec{F}_{kl} \propto \Delta |I_{kl}| \) \\
 Zeit \( t \) ist absolut & \( t \approx nT \) (Update-Index) \\
 Raum \( \mathbb{R}^3 \) ist gegeben & \( g_{kl} \) emergiert aus \( K_{kl} \) (siehe Kapitel~\ref{ch:emergenz_raum_zeit}) \\
 \hline
@@ -150,8 +156,8 @@ Die Quantenmechanik (QM) basiert auf:
 In der IWT entstehen diese Phänomene aus:
 
 \begin{enumerate}
-    \item Globale Informationsorganisation: Dominanz von \( \mathcal{F}_k^{\text{global}} \)
-    \item Phasenkohärenz: Wohldefinierte \( \phi^{(n)} \)
+    \item Globaler Informationsorganisation: Dominanz von \( \mathcal{F}_k^{\text{global}} \)
+    \item Phasenkohärenz: Wohldefinierte \( \phi^{(n)} = \arg(I_k^{(n)}) \)
     \item Systemische Kausalität: Instantanes Bohm-Potential (siehe Kapitel~\ref{ch:neutrino})
 \end{enumerate}
 
@@ -164,7 +170,7 @@ Aus der diskreten Euler-Lagrange-Gleichung für \( \mathcal{F}_k^{\text{global}}
 i\hbar \frac{\psi_k^{(n+1)} - \psi_k^{(n)}}{T} = -\frac{\hbar^2}{2m} \Delta_d^2 \psi_k^{(n)} + V_k \psi_k^{(n)}
 \]
 
-mit \( \psi_k^{(n)} = \sqrt{I_k^{(n)}} e^{i\phi_k^{(n)}} \). Im Kontinuumslimes \( T \to 0 \):
+mit \( \psi_k^{(n)} = \sqrt{|I_k^{(n)}|} e^{i\phi_k^{(n)}} \). Im Kontinuumslimes \( T \to 0 \):
 
 \[
 i\hbar \partial_t \psi = -\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi
@@ -217,7 +223,7 @@ In der IWT emergiert die ART aus:
 Aus der Update-Regel für die diskrete Metrik ergibt sich im Kontinuumslimes:
 
 \[
-\frac{d}{dt} g_{ij} = \partial_i I \partial_j I - \lambda \frac{\partial_i \partial_j I}{I} + \mu g_{ij} \ln(1 + \gamma G \rho L^2)
+\frac{d}{dt} g_{ij} = \partial_i I \partial_j I - \lambda \frac{\partial_i \partial_j I}{I} + \mu g_{ij} \ln\!\bigl(1 + \gamma G \rho L^2\bigr)
 \]
 
 Für schwache Felder und geeignete Parametrisierung kann dies in die Form der Einstein-Gleichungen gebracht werden.
@@ -227,7 +233,10 @@ Für schwache Felder und geeignete Parametrisierung kann dies in die Form der Ei
 
 Die IWT reproduziert die etablierten Theorien in folgenden Grenzfällen:
 
-\begin{tabular}{|l|l|l|}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|X|X|X|}
 \hline
 \textbf{Theorie} & \textbf{IWT-Grenzfall} & \textbf{Emergenzbedingungen} \\
 \hline
@@ -238,7 +247,10 @@ Quantenmechanik & \( \lambda \to \infty \) & Starke globale Kopplung \\
 SRT & Symmetrie des Flusses & Invarianz unter Netz-Transformationen \\
 ART & Großes Netz, Kontinuum & \( N \gg 1 \), feine Diskretisierung \\
 \hline
-\end{tabular}
+\end{tabularx}
+\caption{Grenzfälle und Übergänge von der IWT zu etablierten Theorien.}
+\label{tab:grenzfaelle}
+\end{table}
 
 \section{Vergleich mit der Quantenelektrodynamik (QED)}
 \label{app:vergleich_qed}
@@ -310,6 +322,7 @@ Determinismus & Ja (durch \( Q \)) & Ja (fundamental) \\
 Urknall & Nein & Nein \\
 Lichtablenkung & Frequenzunabhängig & Frequenzabhängig (\( \Delta\phi(f) \), siehe Kapitel~\ref{ch:testbare_vorhersagen}) \\
 Grundlage & Geometrische Beschreibung & Dynamische Wechselwirkung \\
+Raumstruktur & Glattes Kontinuum & Fraktale Struktur mit \( D \approx 2,704 \) \\
 \hline
 \end{tabular}
 

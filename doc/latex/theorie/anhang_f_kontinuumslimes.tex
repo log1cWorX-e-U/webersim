@@ -8,25 +8,16 @@
 \section{Einleitung}
 \label{app:kontinuumslimes_einleitung}
 
-Die Informations-Weber-Theorie (IWT) ist fundamental diskret formuliert: Information existiert
-nur auf Knoten eines Netzwerks zu diskreten Zeitschritten. Die beobachtbare Physik (WDBT+)
-hingegen ist kontinuierlich in Raum und Zeit.
+Die Informations-Weber-Theorie (IWT) ist fundamental diskret formuliert: Information existiert nur auf Knoten eines Netzwerks zu diskreten Zeitschriften. Die beobachtbare Physik (WDBT+) hingegen ist kontinuierlich in Raum und Zeit.
 
-Dieser Anhang zeigt, unter welchen Bedingungen und in welchem Sinne der Kontinuumslimes
-\( N \to \infty \), \( T \to 0 \), \( \Delta V_k \to 0 \) die kontinuierlichen Gleichungen der
-WDBT+ reproduziert.
+Dieser Anhang zeigt, unter welchen Bedingungen und in welchem Sinne der Kontinuumslimes \( N \to \infty \), \( T \to 0 \), \( \Delta V_k \to 0 \) die kontinuierlichen Gleichungen der WDBT+ reproduziert.
 
 Drei zentrale Resultate werden dargestellt:
 
 \begin{enumerate}
-    \item Die diskreten Euler-Lagrange-Gleichungen konvergieren (im Sinne der Verteilungen)
-          gegen die kontinuierlichen Euler-Lagrange-Gleichungen mit \emph{gewöhnlichen}
-          Ableitungen.
-    \item Die diskrete Metrik \( g_{kl}^{(n)} \) konvergiert gegen die euklidische Metrik
-          des \( \mathbb{R}^3 \) (Gromov-Hausdorff-Konvergenz).
-    \item Die fraktale Dimension \( D \) manifestiert sich im Limes \emph{nicht} in der
-          metrischen Struktur, sondern allein in der Zustandsdichte und den
-          Skalierungsgesetzen (siehe Anhang~\ref{app:spektrale_dimension}).
+    \item Die diskreten Euler-Lagrange-Gleichungen konvergieren (im Sinne der Verteilungen) gegen die kontinuierlichen Euler-Lagrange-Gleichungen mit \emph{gewöhnlichen} Ableitungen.
+    \item Die diskrete Metrik \( g_{kl}^{(n)} \) konvergiert gegen die euklidische Metrik des \( \mathbb{R}^3 \) (Gromov-Hausdorff-Konvergenz).
+    \item Die fraktale Dimension \( D \) manifestiert sich im Limes \emph{nicht} in der metrischen Struktur, sondern allein in der Zustandsdichte und den Skalierungsgesetzen (siehe Anhang~\ref{app:spektrale_dimension}).
 \end{enumerate}
 
 \section{Mathematische Rahmenbedingungen}
@@ -45,26 +36,28 @@ Wir betrachten eine Folge von diskreten Netzwerken \( \Lambda_N \) mit:
           w_{kl} = \frac{1}{|\mathcal{N}(k)|} \quad \text{für} \quad |\vec{x}_k - \vec{x}_l| < \varepsilon_N
           \]
           mit \( \varepsilon_N \to 0 \) für \( N \to \infty \)
-    \item Fundamentaler Zeitschrift: \( T = T_N \to 0 \) für \( N \to \infty \)
+    \item Fundamentaler Zeitschritt: \( T = T_N \to 0 \) für \( N \to \infty \)
 \end{itemize}
+
+Die Kopplungsmatrix des Netzwerks ist definiert als:
+
+\[
+K_{kl} = \frac{1}{d_{kl}^{3-D}}
+\]
+
+wobei \( d_{kl} \) die fraktale Distanz im Indexraum ist.
 
 \subsection{Das Problem des perfekten Dodekaeder-Netzwerks}
 \label{sub:kontinuumslimes_dodekaeder_problem}
 
-Ein reguläres Dodekaeder-Netzwerk, das den gesamten \( \mathbb{R}^3 \) lückenlos und
-skaleninvariant mit Skalierungsfaktor \( s = 2+\phi \) ausfüllt, existiert \emph{nicht}
-im euklidischen Sinne. Dies ist kein Fehler der Theorie, sondern eine physikalische
-Aussage: Der fundamentale Raum (die IWT-Ebene) ist diskret und besitzt eine fraktale
-Struktur. Der emergente Raum (die WDBT+-Ebene) ist dagegen glatt.
+Ein reguläres Dodekaeder-Netzwerk, das den gesamten \( \mathbb{R}^3 \) lückenlos und skaleninvariant mit Skalierungsfaktor \( s = 2+\phi \) ausfüllt, existiert \emph{nicht} im euklidischen Sinne. Dies ist kein Fehler der Theorie, sondern eine physikalische Aussage: Der fundamentale Raum (die IWT-Ebene) ist diskret und besitzt eine fraktale Struktur. Der emergente Raum (die WDBT+-Ebene) ist dagegen glatt.
 
 Daher formulieren wir den Kontinuumslimes wie folgt:
 \begin{itemize}
     \item Die Knotenmenge \( \mathcal{K}_N \) ist ein diskretes Fraktal.
     \item Der Limes ist der glatte Raum \( \mathbb{R}^3 \).
-    \item Die fraktale Struktur bleibt in der \emph{Zustandsdichte} und den
-          \emph{Skalierungsgesetzen} erhalten (siehe Anhang~\ref{app:spektrale_dimension}).
-    \item Die Konvergenz wird im Sinne von Gromov-Hausdorff und schwacher Konvergenz
-          von Maßen verstanden.
+    \item Die fraktale Struktur bleibt in der \emph{Zustandsdichte} und den \emph{Skalierungsgesetzen} erhalten (siehe Anhang~\ref{app:spektrale_dimension}).
+    \item Die Konvergenz wird im Sinne von Gromov-Hausdorff und schwacher Konvergenz von Maßen verstanden.
 \end{itemize}
 
 \subsection{Definition des kontinuierlichen Grenzfeldes}
@@ -73,12 +66,10 @@ Daher formulieren wir den Kontinuumslimes wie folgt:
 Das diskrete Informationsfeld \( I_k^{(n)} \) wird in ein kontinuierliches Feld überführt durch:
 
 \[
-\rho_N(\vec{x}, t) = \sum_{k=1}^N I_k^{(n)} \cdot \delta_\Delta(\vec{x} - \vec{x}_k) \cdot
-\chi_{[nT, (n+1)T)}(t)
+\rho_N(\vec{x}, t) = \sum_{k=1}^N I_k^{(n)} \cdot \delta_\Delta(\vec{x} - \vec{x}_k) \cdot \chi_{[nT, (n+1)T)}(t)
 \]
 
-Dabei ist \( \delta_\Delta \) eine Regularisierung der Delta-Distribution (z. B. eine Glockenfunktion
-der Breite \( \Delta x \)).
+Dabei ist \( \delta_\Delta \) eine Regularisierung der Delta-Distribution (z. B. eine Glockenfunktion der Breite \( \Delta x \)).
 
 \subsection{Konvergenzbegriff}
 \label{sub:kontinuumslimes_konvergenz}
@@ -95,13 +86,10 @@ Wir verwenden zwei Konvergenzarten:
           \lim_{N \to \infty} \int \rho_N(\vec{x}, t) \phi(\vec{x}, t) \, d^3x \, dt =
           \int \rho(\vec{x}, t) \phi(\vec{x}, t) \, d^3x \, dt
           \]
-          \emph{Hinweis:} Das Maß auf der rechten Seite ist das gewöhnliche Lebesgue-Maß.
-          Die fraktale Struktur steckt nicht im Maß, sondern in den Skalierungsgesetzen
-          der Dichte \( \rho \) selbst.
+          \emph{Hinweis:} Das Maß auf der rechten Seite ist das gewöhnliche Lebesgue-Maß. Die fraktale Struktur steckt nicht im Maß, sondern in den Skalierungsgesetzen der Dichte \( \rho \) selbst.
 
     \item \textbf{Gromov-Hausdorff-Konvergenz der Metrik}:
-          Die Folge der diskreten Metriken \( g_{kl}^{(N)} \) konvergiert gegen die
-          euklidische Metrik auf \( \mathbb{R}^3 \).
+          Die Folge der diskreten Metriken \( g_{kl}^{(N)} \) konvergiert gegen die euklidische Metrik auf \( \mathbb{R}^3 \).
 \end{enumerate}
 
 \section{Konvergenz des diskreten Funktionals}
@@ -113,19 +101,16 @@ Wir verwenden zwei Konvergenzarten:
 Das diskrete Funktional aus Anhang~\ref{app:mathematik},
 
 \[
-S_d[I_k^{(n)}] = \sum_{n=0}^{M-1} \sum_{k=1}^N \mathcal{F}_d(I_k^{(n)}, \Delta_t I_k^{(n)},
-\Delta_s I_k^{(n)}) \cdot T \cdot V_k
+S_d[I_k^{(n)}] = \sum_{n=0}^{M-1} \sum_{k=1}^N \mathcal{F}_d(I_k^{(n)}, \Delta_t I_k^{(n)}, \Delta_s I_k^{(n)}) \cdot T \cdot V_k
 \]
 
 kann mit den obigen Definitionen umgeschrieben werden zu:
 
 \[
-S_d[\rho_N] = \int dt \int d^3x \, \mathcal{F}_d^{\text{eff}}(\rho_N, \partial_t \rho_N,
-\nabla \rho_N) + \mathcal{O}(\Delta x, T)
+S_d[\rho_N] = \int dt \int d^3x \, \mathcal{F}_d^{\text{eff}}(\rho_N, \partial_t \rho_N, \nabla \rho_N) + \mathcal{O}(\Delta x, T)
 \]
 
-wobei \( \mathcal{F}_d^{\text{eff}} \) aus der Entwicklung von \( \mathcal{F}_d \) um kleine
-Diskretisierungsparameter folgt.
+wobei \( \mathcal{F}_d^{\text{eff}} \) aus der Entwicklung von \( \mathcal{F}_d \) um kleine Diskretisierungsparameter folgt.
 
 \subsection{Entwicklung der diskreten Operatoren}
 \label{sub:kontinuumslimes_operatoren_entwicklung}
@@ -143,9 +128,7 @@ Für hinreichend glatte Felder \( \rho(\vec{x}, t) \) gilt:
           \Delta_s I_k^{(n)} = \sum_{l \in \mathcal{N}(k)} w_{kl}(I_l^{(n)} - I_k^{(n)})
           = (\Delta x)^2 \cdot \nabla^2 \rho(\vec{x}_k, t_n) + \mathcal{O}((\Delta x)^4)
           \]
-          Hier ist \( \nabla \) der gewöhnliche Gradient. Die fraktale Struktur
-          des Netzwerks beeinflusst die \emph{Konvergenzgeschwindigkeit}, nicht
-          die Form der Ableitungen.
+          Hier ist \( \nabla \) der gewöhnliche Gradient. Die fraktale Struktur des Netzwerks beeinflusst die \emph{Konvergenzgeschwindigkeit}, nicht die Form der Ableitungen.
 \end{itemize}
 
 \subsection{Konvergenz des Funktionals}
@@ -154,15 +137,13 @@ Für hinreichend glatte Felder \( \rho(\vec{x}, t) \) gilt:
 Einsetzen dieser Entwicklungen in \( S_d \) ergibt:
 
 \[
-S_d[\rho_N] = \int dt \int d^3x \, \mathcal{F}_c(\rho, \partial_t \rho, \nabla \rho) +
-\mathcal{O}(T, (\Delta x)^2)
+S_d[\rho_N] = \int dt \int d^3x \, \mathcal{F}_c(\rho, \partial_t \rho, \nabla \rho) + \mathcal{O}(T, (\Delta x)^2)
 \]
 
 wobei \( \mathcal{F}_c \) das kontinuierliche Lagrange-Funktional ist:
 
 \[
-\mathcal{F}_c(\rho, \dot{\rho}, \nabla \rho) = \alpha(\dot{\rho})^2 + \beta(\nabla \rho)^2 +
-\gamma \rho \ln \rho
+\mathcal{F}_c(\rho, \dot{\rho}, \nabla \rho) = \alpha|\dot{\rho}|^2 + \beta|\nabla \rho|^2 + \gamma |\rho|^2 \ln |\rho|
 \]
 
 \section{Konvergenz der Euler-Lagrange-Gleichungen}
@@ -174,9 +155,7 @@ wobei \( \mathcal{F}_c \) das kontinuierliche Lagrange-Funktional ist:
 Aus Anhang~\ref{app:mathematik}:
 
 \[
-\frac{\partial \mathcal{F}_d}{\partial I_k^{(n)}} - \Delta_t^+ \left(
-\frac{\partial \mathcal{F}_d}{\partial (\Delta_t I_k^{(n)})} \right) -
-\Delta_s \left( \frac{\partial \mathcal{F}_d}{\partial (\Delta_s I_k^{(n)})} \right) = 0
+\frac{\partial \mathcal{F}_d}{\partial I_k^{(n)}} - \Delta_t^+ \left( \frac{\partial \mathcal{F}_d}{\partial (\Delta_t I_k^{(n)})} \right) - \Delta_s \left( \frac{\partial \mathcal{F}_d}{\partial (\Delta_s I_k^{(n)})} \right) = 0
 \]
 
 \subsection{Kontinuierlicher Grenzwert}
@@ -185,13 +164,10 @@ Aus Anhang~\ref{app:mathematik}:
 Für \( N \to \infty \), \( T \to 0 \) geht diese Gleichung über in:
 
 \[
-\frac{\partial \mathcal{F}_c}{\partial \rho} - \frac{\partial}{\partial t} \left(
-\frac{\partial \mathcal{F}_c}{\partial (\partial_t \rho)} \right) -
-\nabla \cdot \left( \frac{\partial \mathcal{F}_c}{\partial (\nabla \rho)} \right) = 0
+\frac{\partial \mathcal{F}_c}{\partial \rho} - \frac{\partial}{\partial t} \left( \frac{\partial \mathcal{F}_c}{\partial (\partial_t \rho)} \right) - \nabla \cdot \left( \frac{\partial \mathcal{F}_c}{\partial (\nabla \rho)} \right) = 0
 \]
 
-Dies ist die kontinuierliche Euler-Lagrange-Gleichung der WDBT+ mit \emph{gewöhnlichen}
-Ableitungen.
+Dies ist die kontinuierliche Euler-Lagrange-Gleichung der WDBT+ mit \emph{gewöhnlichen} Ableitungen.
 
 \subsection{Konvergenzgeschwindigkeit}
 \label{sub:kontinuumslimes_geschwindigkeit}
@@ -231,15 +207,14 @@ g_{\mu\nu}(x, t) = \lim_{\text{feine Diskretisierung}} \langle g_{kl}^{(n)} \ran
     \item Euklidische Struktur: \( g_{\mu\nu} = \delta_{\mu\nu} \)
     \item Dynamik der Dichte:
           \[
-          \partial_t \rho = \nabla^2 \rho + \text{Quellterme}
+          \partial_t |\rho|^2 = \nabla^2 |\rho|^2 + \text{Quellterme}
           \]
 \end{itemize}
 
 \subsection{Grenzfall \( D \to 3 \)}
 \label{sub:kontinuumslimes_grenzfall_d}
 
-Für \( D \to 3 \) geht die fraktale Skalierung der Quellen in die konstante Dichte über.
-Die euklidische Metrik bleibt erhalten.
+Für \( D \to 3 \) geht die fraktale Skalierung der Quellen in die konstante Dichte über. Die euklidische Metrik bleibt erhalten.
 
 \section{Kontinuumslimes des fraktalen Dodekaeder-Netzwerks}
 \label{app:kontinuumslimes_dodekaeder_netzwerk}
@@ -247,9 +222,7 @@ Die euklidische Metrik bleibt erhalten.
 \subsection{Definition des diskreten Netzwerks}
 \label{sub:kontinuumslimes_netz_def}
 
-Sei \( \Lambda_N \) ein diskretes Netzwerk, das durch \( N \) Iterationen einer
-Dodekaeder-Packung mit Skalierungsfaktor \( s = 2 + \phi \approx 3,618 \)
-entsteht (siehe Kapitel~\ref{ch:fraktale_dimension}). Die Knotenanzahl nach \( N \) Iterationen ist:
+Sei \( \Lambda_N \) ein diskretes Netzwerk, das durch \( N \) Iterationen einer Dodekaeder-Packung mit Skalierungsfaktor \( s = 2 + \phi \approx 3,618 \) entsteht (siehe Kapitel~\ref{ch:fraktale_dimension}). Die Knotenanzahl nach \( N \) Iterationen ist:
 
 \[
 N_N = N_0 \cdot s^{ND/3}
@@ -260,10 +233,7 @@ Der mittlere Knotenabstand skaliert mit \( \Delta x \sim s^{-N/3} \).
 \subsection{Problem der Einbettung}
 \label{sub:kontinuumslimes_einbettung}
 
-Ein perfektes Dodekaeder-Netzwerk existiert nicht im \( \mathbb{R}^3 \). Daher betrachten wir
-\emph{näherungsweise} Einbettungen: Für jedes endliche \( N \) existiert eine Einbettung
-\( E_N: \mathcal{K}_N \to \mathbb{R}^3 \), die die Dodekaeder-Symmetrien lokal approximiert.
-Der Fehler dieser Approximation geht gegen null für \( N \to \infty \).
+Ein perfektes Dodekaeder-Netzwerk existiert nicht im \( \mathbb{R}^3 \). Daher betrachten wir \emph{näherungsweise} Einbettungen: Für jedes endliche \( N \) existiert eine Einbettung \( E_N: \mathcal{K}_N \to \mathbb{R}^3 \), die die Dodekaeder-Symmetrien lokal approximiert. Der Fehler dieser Approximation geht gegen null für \( N \to \infty \).
 
 \subsection{Konvergenz der diskreten Operatoren}
 \label{sub:kontinuumslimes_operatoren_konvergenz}
@@ -284,8 +254,7 @@ Begründung:
 \subsection{Die Rolle der fraktalen Dimension im Limes}
 \label{sub:kontinuumslimes_fraktale_rolle}
 
-Die fraktale Dimension \( D \) manifestiert sich im Kontinuumslimes \textbf{nicht} in der
-metrischen Struktur oder in den Differentialoperatoren. Sie steckt ausschließlich in:
+Die fraktale Dimension \( D \) manifestiert sich im Kontinuumslimes \textbf{nicht} in der metrischen Struktur oder in den Differentialoperatoren. Sie steckt ausschließlich in:
 
 \begin{itemize}
     \item Der effektiven Zustandsdichte \( \rho(\omega) \propto \omega^{D-1} \)
@@ -293,14 +262,11 @@ metrischen Struktur oder in den Differentialoperatoren. Sie steckt ausschließli
     \item Der Dispersionsrelation \( \omega \propto k^{D/3} \) (siehe Anhang~\ref{app:spektrale_dimension})
 \end{itemize}
 
-\emph{Begründung:} Aus der Skalierung der Knotenzahl \( N_N \propto s^{ND/3} \) und dem
-mittleren Knotenabstand \( \Delta x \propto s^{-N/3} \) folgt für die Anzahl der
-Zustände in einer Kugel vom Radius \( R \):
+\emph{Begründung:} Aus der Skalierung der Knotenzahl \( N_N \propto s^{ND/3} \) und dem mittleren Knotenabstand \( \Delta x \propto s^{-N/3} \) folgt für die Anzahl der Zustände in einer Kugel vom Radius \( R \):
 \[
 \mathcal{N}(R) \propto R^D
 \]
-Dies ist die Hausdorff-Dimension des diskreten Netzwerks. Im Kontinuumslimes
-geht diese Information in die \emph{Zustandsdichte} ein, nicht in die Metrik.
+Dies ist die Hausdorff-Dimension des diskreten Netzwerks. Im Kontinuumslimes geht diese Information in die \emph{Zustandsdichte} ein, nicht in die Metrik.
 
 \subsection{Existenz des Kontinuumslimes}
 \label{sub:kontinuumslimes_existenz}
@@ -309,10 +275,8 @@ Für das fraktale Dodekaeder-Netzwerk existiert der Kontinuumslimes, weil:
 
 \begin{enumerate}
     \item Die approximativen Einbettungen \( E_N \) existieren für jedes endliche \( N \).
-    \item Die Folge der diskreten Metriken \( g_{kl}^{(N)} \) ist Cauchy in der
-          Gromov-Hausdorff-Metrik (Grenzwert: euklidische Metrik auf \( \mathbb{R}^3 \)).
-    \item Die Folge der diskreten Maße \( \mu_N = \sum_k V_k \delta_{\vec{x}_k} \) konvergiert
-          schwach gegen das Lebesgue-Maß \( d^3x \).
+    \item Die Folge der diskreten Metriken \( g_{kl}^{(N)} \) ist Cauchy in der Gromov-Hausdorff-Metrik (Grenzwert: euklidische Metrik auf \( \mathbb{R}^3 \)).
+    \item Die Folge der diskreten Maße \( \mu_N = \sum_k V_k \delta_{\vec{x}_k} \) konvergiert schwach gegen das Lebesgue-Maß \( d^3x \).
 \end{enumerate}
 
 \section{Beispiel: Diskrete Wellengleichung}
@@ -321,7 +285,7 @@ Für das fraktale Dodekaeder-Netzwerk existiert der Kontinuumslimes, weil:
 \subsection{Diskrete Form}
 \label{sub:kontinuumslimes_welle_diskret}
 
-Für \( \mathcal{F}_d = \alpha(\Delta_t I)^2 + \beta(\Delta_s I)^2 \):
+Für \( \mathcal{F}_d = \alpha|\Delta_t I|^2 + \beta|\Delta_s I|^2 \):
 
 \[
 \alpha \frac{I_k^{(n+1)} - 2I_k^{(n)} + I_k^{(n-1)}}{T^2} +
@@ -331,16 +295,13 @@ Für \( \mathcal{F}_d = \alpha(\Delta_t I)^2 + \beta(\Delta_s I)^2 \):
 \subsection{Kontinuierlicher Limes}
 \label{sub:kontinuumslimes_welle_kont}
 
-Mit \( T \to 0 \), \( \beta/\alpha = c^2 \) und der Approximation
-\( \sum_l w_{kl}(I_l - I_k) \approx (\Delta x)^2 \nabla^2 I \) ergibt sich:
+Mit \( T \to 0 \), \( \beta/\alpha = c^2 \) und der Approximation \( \sum_l w_{kl}(I_l - I_k) \approx (\Delta x)^2 \nabla^2 I \) ergibt sich:
 
 \[
 \frac{1}{c^2} \partial_t^2 I - \nabla^2 I = 0
 \]
 
-Dies ist die gewöhnliche Wellengleichung. Die fraktale Struktur beeinflusst
-nicht die Form der Gleichung, sondern die Randbedingungen und die
-Skalierung der Lösungen (siehe Anhang~\ref{app:spektrale_dimension} für die Dispersionsrelation).
+Dies ist die gewöhnliche Wellengleichung. Die fraktale Struktur beeinflusst nicht die Form der Gleichung, sondern die Randbedingungen und die Skalierung der Lösungen (siehe Anhang~\ref{app:spektrale_dimension} für die Dispersionsrelation).
 
 \section{Fazit zum Kontinuumslimes}
 \label{app:kontinuumslimes_fazit}
@@ -351,12 +312,10 @@ Der Kontinuumslimes des fraktalen Dodekaeder-Netzwerks existiert und konvergiert
     \item \textbf{Metrisch:} Gegen den glatten \( \mathbb{R}^3 \) (euklidische Metrik)
     \item \textbf{Maßtheoretisch:} Gegen das Lebesgue-Maß
     \item \textbf{Operatoren:} Gegen gewöhnliche Ableitungen
-    \item \textbf{Fraktale Struktur:} Bleibt in der Zustandsdichte und den Skalierungsgesetzen
-          erhalten (siehe Anhang~\ref{app:spektrale_dimension})
+    \item \textbf{Fraktale Struktur:} Bleibt in der Zustandsdichte und den Skalierungsgesetzen erhalten (siehe Anhang~\ref{app:spektrale_dimension})
 \end{itemize}
 
-Damit ist die Emergenz des kontinuierlichen Raumes aus dem diskreten fraktalen
-Netzwerk mathematisch fundiert.
+Damit ist die Emergenz des kontinuierlichen Raumes aus dem diskreten fraktalen Netzwerk mathematisch fundiert.
 
 \section{Zusammenfassung}
 \label{app:kontinuumslimes_zusammenfassung}
@@ -369,12 +328,9 @@ Unter den Annahmen
     \item \( T, \Delta x \to 0 \) mit \( T/\Delta x \to \text{const} = 1/c \)
 \end{itemize}
 
-konvergiert die diskrete IWT schwach gegen die kontinuierliche WDBT+ mit
-\emph{gewöhnlichen} Ableitungen. Die Konvergenzordnung ist linear in \( T \) und
-quadratisch in \( \Delta x \).
+konvergiert die diskrete IWT schwach gegen die kontinuierliche WDBT+ mit \emph{gewöhnlichen} Ableitungen. Die Konvergenzordnung ist linear in \( T \) und quadratisch in \( \Delta x \).
 
-Die fraktale Dimension \( D \) geht nicht in die Differentialoperatoren ein.
-Sie manifestiert sich ausschließlich in:
+Die fraktale Dimension \( D \) geht nicht in die Differentialoperatoren ein. Sie manifestiert sich ausschließlich in:
 
 \begin{itemize}
     \item Der Zustandsdichte \( \rho(\omega) \propto \omega^{D-1} \)
@@ -382,8 +338,7 @@ Sie manifestiert sich ausschließlich in:
     \item Den Skalierungsgesetzen der Materie: \( \rho(r) \propto r^{D-3} \)
 \end{itemize}
 
-Dieser Anhang liefert die mathematische Rechtfertigung für die im Haupttext
-durchgeführten Kontinuumsnäherungen.
+Dieser Anhang liefert die mathematische Rechtfertigung für die im Haupttext durchgeführten Kontinuumsnäherungen.
 
 \section{Ausblick: Offene mathematische Probleme}
 \label{app:kontinuumslimes_ausblick}
@@ -391,15 +346,9 @@ durchgeführten Kontinuumsnäherungen.
 Trotz des geführten Beweises bleiben folgende Fragen für zukünftige Forschung offen:
 
 \begin{enumerate}
-    \item \textbf{Konstruktion der approximativen Einbettungen:}
-          Für jedes endliche \( N \) muss explizit gezeigt werden, dass eine Einbettung
-          \( E_N \) mit Fehler \( \mathcal{O}(s^{-N/3}) \) existiert.
-    \item \textbf{Rigorose Herleitung der fraktalen Zustandsdichte:}
-          Die Skalierung \( \mathcal{N}(R) \propto R^D \) sollte aus der kombinatorischen
-          Struktur des Dodekaeder-Netzwerks folgen.
-    \item \textbf{Quantisierung des Kontinuumslimes:}
-          Die hier präsentierte klassische Feldtheorie muss quantisiert werden.
+    \item \textbf{Konstruktion der approximativen Einbettungen:} Für jedes endliche \( N \) muss explizit gezeigt werden, dass eine Einbettung \( E_N \) mit Fehler \( \mathcal{O}(s^{-N/3}) \) existiert.
+    \item \textbf{Rigorose Herleitung der fraktalen Zustandsdichte:} Die Skalierung \( \mathcal{N}(R) \propto R^D \) sollte aus der kombinatorischen Struktur des Dodekaeder-Netzwerks folgen.
+    \item \textbf{Quantisierung des Kontinuumslimes:} Die hier präsentierte klassische Feldtheorie muss quantisiert werden.
 \end{enumerate}
 
-Diese Fragen betreffen jedoch nicht die Gültigkeit des Kontinuumslimes als solchen,
-sondern seine feinere Struktur.
+Diese Fragen betreffen jedoch nicht die Gültigkeit des Kontinuumslimes als solchen, sondern seine feinere Struktur.

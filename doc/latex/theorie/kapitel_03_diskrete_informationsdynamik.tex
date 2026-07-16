@@ -20,11 +20,11 @@ Dabei ist:
 
 \begin{itemize}
     \item \( k \in \{1, 2, \dots, N\} \) – Index der diskreten Informationszelle (Knoten),
-    \item \( n \in \mathbb{N}_0 \) – diskreter Zeitindex (Zeitschrift),
-    \item \( I_k^{(n)} \in \mathbb{R}^+ \) – Informationswert (skalar, dimensionslos).
+    \item \( n \in \mathbb{N}_0 \) – diskreter Zeitindex (Zeitschritt),
+    \item \( I_k^{(n)} \in \mathbb{C} \) – komplexer Informationswert.
 \end{itemize}
 
-Im Gegensatz zu klassischen Feldern besitzt \( I_k^{(n)} \) keine materielle Bedeutung. Sie beschreibt weder Masse noch Ladung oder Energie, sondern die Organisation eines physikalischen Systems. Energie, Impuls und andere Größen entstehen erst als abgeleitete Funktionale dieser Informationsstruktur.
+Die Amplitude \( |I_k^{(n)}| \) kodiert die Stärke der Information am Knoten, die Phase \( \arg(I_k^{(n)}) \) kodiert die kohärenten Relationen im Netzwerk. Im Gegensatz zu klassischen Feldern besitzt \( I_k^{(n)} \) keine materielle Bedeutung. Sie beschreibt weder Masse noch Ladung oder Energie, sondern die Organisation eines physikalischen Systems. Energie, Impuls und andere Größen entstehen erst als abgeleitete Funktionale dieser Informationsstruktur.
 
 \section{Diskrete Informationserhaltung}
 \label{sec:diskrete_informationserhaltung}
@@ -32,7 +32,7 @@ Im Gegensatz zu klassischen Feldern besitzt \( I_k^{(n)} \) keine materielle Bed
 Analog zur Kontinuitätsgleichung der klassischen Physik wird der Informationsfluss durch diskrete Differenzengleichungen beschrieben. Die fundamentale Erhaltungsgleichung im diskreten Netz lautet:
 
 \[
-\sum_{k \in \mathcal{N}(l)} \left( I_k^{(n+1)} - I_k^{(n)} \right) + \sum_{m \in \partial \mathcal{N}(l)} J_{lm}^{(n)} = 0,
+\sum_{k \in \mathcal{N}(l)} \left( |I_k^{(n+1)}|^2 - |I_k^{(n)}|^2 \right) + \sum_{m \in \partial \mathcal{N}(l)} J_{lm}^{(n)} = 0,
 \]
 
 wobei:
@@ -56,7 +56,7 @@ In der diskreten IWT entstehen physikalische Größen als Funktionale der Inform
 Die Energie am Knoten \( k \) zum Zeitpunkt \( n \) ist:
 
 \[
-E_k^{(n)} = \alpha \left( I_k^{(n)} - I_k^{(n-1)} \right)^2 + \beta \sum_{l \in \mathcal{N}(k)} \left( I_k^{(n)} - I_l^{(n)} \right)^2,
+E_k^{(n)} = \alpha \left| I_k^{(n)} - I_k^{(n-1)} \right|^2 + \beta \sum_{l \in \mathcal{N}(k)} \left| I_k^{(n)} - I_l^{(n)} \right|^2,
 \]
 
 mit Kopplungskonstanten \( \alpha, \beta \).
@@ -67,7 +67,7 @@ mit Kopplungskonstanten \( \alpha, \beta \).
 Der Impulsfluss zwischen Knoten \( k \) und \( l \) ist:
 
 \[
-p_{kl}^{(n)} = \gamma \left( I_k^{(n)} - I_k^{(n-1)} \right) \left( I_l^{(n)} - I_l^{(n-1)} \right),
+p_{kl}^{(n)} = \gamma \, \Re\left\{ \left( I_k^{(n)} - I_k^{(n-1)} \right) \overline{\left( I_l^{(n)} - I_l^{(n-1)} \right)} \right\},
 \]
 
 mit Kopplungskonstante \( \gamma \).
@@ -78,7 +78,7 @@ mit Kopplungskonstante \( \gamma \).
 Die effektive Masse am Knoten \( k \) ist:
 
 \[
-m_k^{(n)} = \delta \sum_{l \in \mathcal{N}(k)} \left( I_k^{(n)} - I_l^{(n)} \right)^2,
+m_k^{(n)} = \delta \sum_{l \in \mathcal{N}(k)} \left| I_k^{(n)} - I_l^{(n)} \right|^2,
 \]
 
 mit Kopplungskonstante \( \delta \). Sie misst den Widerstand gegen Änderungen der lokalen Informationsstruktur.
@@ -121,7 +121,7 @@ Eigenschaften:
 Das diskrete Bohm-Potential beschreibt die systemische, nicht-lokale Organisation des Informationszustands. Im diskreten Netz lautet es:
 
 \[
-Q_k^{(n)} = -\frac{\hbar^2}{2m} \frac{\Delta_d^2 \sqrt{I_k^{(n)}}}{\sqrt{I_k^{(n)}}},
+Q_k^{(n)} = -\frac{\hbar^2}{2m} \frac{\Delta_d^2 \sqrt{|I_k^{(n)}|}}{\sqrt{|I_k^{(n)}|}},
 \]
 
 mit dem diskreten Laplace-Operator:
@@ -164,8 +164,8 @@ Diese digitale Theorie besitzt kein vorgegebenes Raummodell. Der Raum emergiert 
 Die diskrete Informationsdynamik der IWT basiert auf:
 
 \begin{itemize}
-    \item einem diskreten Informationszustand \( I_k^{(n)} \) als Grundgröße,
-    \item einer diskreten Erhaltungsgleichung für Information,
+    \item einem diskreten, komplexen Informationszustand \( I_k^{(n)} \) als Grundgröße,
+    \item einer diskreten Erhaltungsgleichung für die Information (definiert über die Betragsquadrate),
     \item einer zweistufigen Dynamik: lokal (Weber-Kraft) und global (Bohm-Potential),
     \item der Emergenz von Raum, Zeit, Energie, Impuls und Masse aus der Informationsstruktur.
 \end{itemize}

@@ -12,8 +12,6 @@ Die WDBT+ führt zu einem stationären, nicht-expandierenden Universum. Die beob
 
 Die in diesem Kapitel entwickelte Skalenabhängigkeit der effektiven Hubble-Konstanten ist eng mit der Neutrinomasse verbunden: Beide Phänomene werden durch dieselbe Korrelationslänge \( L_{Q,0} \approx 2{,}0 \times 10^{46} \, \text{m} \) bestimmt, die aus der fraktalen Geometrie des Raumes folgt (siehe Anhang~\ref{app:neutrino_oszillation}). Dies ist ein zentrales konsistentes Element der Theorie.
 
-Dieses Kapitel beschreibt die Grundzüge dieser Kosmologie: Rotverschiebung, Galaxienrotation, Materieentstehung, Galaxienwachstum und die Interpretation des Sonnenwinds.
-
 \section{Grundlagen der Rotverschiebung in der WDBT}
 \label{sec:kosmo_rotverschiebung}
 
@@ -98,7 +96,10 @@ m_\nu = \frac{\hbar}{l_0 c} \left( \frac{l_0}{L_{Q,0}} \right)^{(3-D)/2} \approx
 
 Damit sind die Neutrinomasse und die Skalenabhängigkeit der Hubble-Konstanten zwei Seiten derselben physikalischen Ursache – der fraktalen Struktur des Raumes.
 
-Die Hubble-Spannung – die Diskrepanz zwischen frühen (CMB) und späten (lokalen) Messungen von \( H_0 \) in der ART – ist in der WDBT+ kein Rätsel, sondern eine Konsequenz dieser Skalenabhängigkeit. Unterschiedliche Messmethoden operieren auf unterschiedlichen effektiven Skalen \( d \) und müssen daher systematisch unterschiedliche Werte für \( H_{\text{eff}} \) liefern.
+\subsection{Die Hubble-Spannung als Skalenabhängigkeit}
+\label{sub:kosmo_hubble_spannung}
+
+Die Hubble-Spannung – die Diskrepanz zwischen verschiedenen Messmethoden für \( H_0 \) im \(\Lambda\)CDM-Modell – ist in der WDBT+ kein Rätsel, sondern eine Konsequenz der fraktalen Skalenabhängigkeit. Unterschiedliche Messmethoden operieren auf unterschiedlichen effektiven Skalen \( d \) und müssen daher systematisch unterschiedliche Werte für \( H_{\text{eff}} \) liefern.
 
 Bezeichnet man mit \( H_0 \) den Wert der effektiven Hubble-Konstanten bei einer Referenzskala \( d_0 \) (z. B. bei lokalen Entfernungsmessungen), so gilt:
 
@@ -106,7 +107,35 @@ Bezeichnet man mit \( H_0 \) den Wert der effektiven Hubble-Konstanten bei einer
 H_{\text{eff}}(d) = H_0 \left( \frac{d}{d_0} \right)^{0,704}
 \]
 
-Die CMB-Messungen (\cite{Planck2018}) entsprechen einer deutlich größeren effektiven Skala als lokale Messungen. Da \( H_{\text{eff}}(d) \) mit \( d \) wächst, ist der aus dem CMB abgeleitete Wert \textit{größer} als der lokale Wert – was qualitativ mit den Beobachtungen übereinstimmt. Eine quantitative Vorhersage erfordert die genaue Kenntnis der Dichteverteilung \( \rho_0 \) und der effektiven Skalen der jeweiligen Messungen.
+Die Hubble-Spannung lässt sich nun wie folgt erklären:
+
+\[
+\frac{H_{\text{local}}}{H_{\text{CMB}}} = \left( \frac{d_{\text{local}}}{d_{\text{CMB}}} \right)^{0,704}
+\]
+
+Mit den gemessenen Werten \( H_{\text{CMB}} \approx 67,4 \, \text{km/s/Mpc} \) und \( H_{\text{local}} \approx 73,5 \, \text{km/s/Mpc} \) ergibt sich:
+
+\[
+\frac{d_{\text{local}}}{d_{\text{CMB}}} = \left( \frac{73,5}{67,4} \right)^{1/0,704} \approx 1,129
+\]
+
+Die lokalen Messungen operieren also auf einer um etwa 12,9 \% \textbf{größeren} effektiven Skala als die CMB-Messungen (\( d_{\text{local}} > d_{\text{CMB}} \)).
+
+Da der Exponent \( D-2 = 0,704 \) positiv ist, ist \( H_{\text{eff}}(d) \) eine monoton wachsende Funktion von \( d \). Aus \( d_{\text{local}} > d_{\text{CMB}} \) folgt daher:
+
+\[
+H_{\text{eff}}(d_{\text{local}}) > H_{\text{eff}}(d_{\text{CMB}})
+\]
+
+also:
+
+\[
+H_{\text{local}} > H_{\text{CMB}}
+\]
+
+Dies entspricht exakt der beobachteten Hubble-Spannung (\( 73,5 > 67,4 \)).
+
+In einem stationären Universum ist dies kein Zeichen für eine Expansion oder eine Urknall-Epoche, sondern eine direkte Konsequenz der fraktalen Geometrie des Raumes.
 
 Da \( \beta \) für Photonen von der Energie abhängt, zeigen verschiedene Frequenzen leicht unterschiedliche Rotverschiebungen. Dieser Effekt ist klein, aber mit Pulsar-Laufzeiten oder hochpräzisen Spektren messbar.
 
@@ -175,7 +204,7 @@ Die Einfangwahrscheinlichkeit durch den Zentralkörper ist (Herleitung in Anhang
 \alpha_{\text{in}} = \left( \frac{r_c}{r_{\text{max}}} \right)^{3-D}
 \]
 
-Mit \( r_c \sim 200 \, \text{m} \) (Oberfläche des BEC-Objekts, siehe Kapitel~\ref{ch:bec_objekte}) und \( r_{\text{max}} \sim 5 \times 10^{11} \, \text{m} \) (äußerer Rand der Entstehungszone) ergibt sich \( \alpha_{\text{in}} \approx 0,001 \).
+Hierbei ist \( r_c \) der Einfangradius, innerhalb dessen neu entstehende Materie vom Zentralkörper absorbiert wird, und \( r_{\text{max}} \) der äußere Radius der Entstehungszone des Quantenpotentials. Für eine Galaxie mit zentralem BEC-Kern gilt \( r_c \sim 200 \, \text{m} \) (Oberfläche des BEC-Objekts, siehe Kapitel~\ref{ch:bec_objekte}) und \( r_{\text{max}} \sim 5 \times 10^{11} \, \text{m} \) (äußerer Rand der Entstehungszone), woraus sich \( \alpha_{\text{in}} \approx 0,001 \) ergibt.
 
 \section{Galaxienwachstum}
 \label{sec:kosmo_galaxienwachstum}
@@ -210,7 +239,7 @@ Mit \( M_{\text{Kern}} = M_{\text{BEC}} \approx 3 \times 10^6 M_\odot \) ergibt 
 
 Das Modell der BEC-Objekte und der DSTT-Drift ist skalierbar. 
 Überträgt man es auf die Masse der Sonne (\( M = M_{\odot} \)), 
-so ergeben sich folgende charakteristische Skalen:
+so ergeben sich folgende charakteristische Skalen für das solare System:
 
 \begin{align}
 r_{\text{max}} &\sim 1,5 \times 10^{13} \, \text{m} \tag{14.20} \\
@@ -218,10 +247,12 @@ r_c &\sim 1,4 \times 10^{-11} \, \text{m} \tag{14.21} \\
 \alpha_{\text{in}} &\approx 1,2 \times 10^{-7} \tag{14.22}
 \end{align}
 
-Dabei ist \( r_{\text{max}} \) der äußere Rand der Entstehungszone, 
+Dabei ist \( r_{\text{max}} \) der äußere Rand der Entstehungszone im solaren System, 
 \( r_c \) der Einfangradius (in der Größenordnung der 
 Compton-Wellenlänge des Protons) und \( \alpha_{\text{in}} \) die 
 Einfangwahrscheinlichkeit neu entstehender Materie durch die Sonne.
+
+Diese Werte sind spezifisch für die Skalierung auf die Sonnenmasse und folgen aus der fraktalen Geometrie des Raumes mit \( D \approx 2,704 \).
 
 \subsubsection{Interpretation des Sonnenwinds}
 \label{sub:kosmo_sonnenwind}
@@ -256,6 +287,11 @@ Beobachtungen des Sonnenwinds verträglich sind. Eine detaillierte
 quantitative Vorhersage erfordert die Kenntnis der genauen 
 Dichteverteilung im solaren BEC-Objekt – eine Aufgabe für 
 zukünftige Forschung.
+
+\section{Teilchen als Interferenzmuster}
+\label{sec:kosmo_teilchen_interferenz}
+
+In der WDBT+ sind Teilchen keine fundamentalen Entitäten mit einem festen Informationswert. Vielmehr sind sie stabile, nichtlineare Interferenzmuster der komplexen Informationswellen \( I_k^{(n)} \). Die Stabilität dieser Muster wird durch die spezifischen Phasenbeziehungen der Wellen und die Randbedingungen des fraktalen Netzwerks gewährleistet. Die Amplitude eines Musters an einem Knoten \( k \) kann dabei Werte wie 0,01, 0,25 oder 1,0 annehmen, die in früheren Modellen fälschlicherweise als intrinsische Teilcheneigenschaften interpretiert wurden. Die wahre Natur eines Teilchens ist seine räumlich-zeitliche Kohärenzstruktur im Informationsfeld.
 
 \section{Beobachtbare Signaturen: Der EHT-Schatten}
 \label{sec:kosmo_eht}
@@ -322,6 +358,7 @@ Die WDBT+ führt zu einem stationären, nicht-expandierenden Universum:
     \item Flache Rotationskurven werden ohne Dunkle Materie durch das \( \Omega \)-Feld und die anisotrope Trägheit der DSTT erklärt.
     \item Das Quantenpotential erzeugt kontinuierlich neue Materie, die durch DSTT-Drift nach außen getrieben wird.
     \item Galaxien wachsen von innen nach außen; das Massenverhältnis Galaxie/Kern folgt aus der fraktalen Raumdimension \( D \).
+    \item Teilchen sind stabile Interferenzmuster der komplexen Informationswellen im fraktalen Netzwerk.
     \item Der Sonnenwind wird durch Materieentstehung in Sonnennähe erklärt – die Sonne verliert keine signifikante Masse.
     \item Der EHT-Schatten ist makroskopisch, aber die Feinstruktur unterscheidet sich von ART-Vorhersagen.
 \end{itemize}

@@ -26,34 +26,28 @@ z(d) = \frac{1}{c^2} \int_0^d \frac{GM(r)}{r^2} \, dr \tag{D.1}
 
 Hierbei ist \( d \) die Entfernung der Lichtquelle, \( M(r) \) die innerhalb des Radius \( r \) eingeschlossene Masse.
 
-\subsection{Fraktale Dichteverteilung}
+\subsection{Fraktale Dichteverteilung als Spezialfall}
 \label{sub:herleitungen_rot_dichte}
 
-Aus der fraktalen Raumdimension \( D \approx 2,704 \) (siehe Kapitel~\ref{ch:fraktale_dimension}) folgt die Dichteverteilung:
+Die allgemeine Form (D.1) gilt für jede Massenverteilung. Nimmt man speziell die fraktale Dichteverteilung der WDBT+ an (siehe Kapitel~\ref{ch:fraktale_dimension}),
 
 \[
-\rho(r) = \rho_0 \left( \frac{r}{l_0} \right)^{D-3} \tag{D.2}
+\rho(r) = \rho_0 \left( \frac{r}{l_0} \right)^{D-3}, \tag{D.2}
 \]
 
-Dabei ist \( l_0 \approx 1,8 \times 10^{-15} \, \text{m} \) die fundamentale Längenskala (siehe Kapitel~\ref{ch:bec_objekte}) und \( \rho_0 \) eine Normierungskonstante. Aus der stationären Kosmologie (Anhang~\ref{app:materieentstehung}) folgt \( \rho_0 \sim 10^{-26} \, \text{kg/m}^3 \).
-
-\subsection{Eingeschlossene Masse}
-\label{sub:herleitungen_rot_masse}
-
-Die innerhalb des Radius \( r \) enthaltene Masse ist:
+so ergibt sich für die eingeschlossene Masse:
 
 \[
-M(r) = \int_0^r \rho(r') \cdot 4\pi r'^2 dr' = 4\pi \rho_0 l_0^{3-D} \frac{r^D}{D} \tag{D.3}
+M(r) = \int_0^r \rho(r') \cdot 4\pi r'^2 \, dr' = 4\pi \rho_0 l_0^{3-D} \frac{r^D}{D}. \tag{D.3}
 \]
 
-\subsection{Integration}
-\label{sub:herleitungen_rot_integration}
-
-Einsetzen von (D.3) in (D.1):
+Einsetzen in die allgemeine Form liefert:
 
 \[
-z(d) = \frac{4\pi G \rho_0 l_0^{3-D}}{c^2 D} \int_0^d r^{D-3} dr = \frac{4\pi G \rho_0 l_0^{3-D}}{D(D-1)c^2} \, d^{\,D-1} \tag{D.4}
+z(d) = \frac{4\pi G \rho_0 l_0^{3-D}}{D(D-1)c^2} \, d^{\,D-1}. \tag{D.4}
 \]
+
+Dies ist ein Spezialfall der allgemeinen WDBT-Rotverschiebung für den Fall einer fraktalen Dichteverteilung. Für \( D \to 3 \) geht die fraktale Verteilung in eine konstante Dichte über.
 
 \subsection{Effektive Hubble-Konstante}
 \label{sub:herleitungen_rot_hubble}

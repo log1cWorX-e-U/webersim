@@ -27,8 +27,8 @@ Es bildet die mathematische Grundlage der gesamten Theorie und zeigt, dass konti
 Die diskrete IWT geht von folgenden Prinzipien aus:
 
 \begin{enumerate}
-    \item Der physikalische Zustand ist eine diskrete Informationsverteilung \( I_k^{(n)} \).
-    \item Information ist eine diskret erhaltene Größe.
+    \item Der physikalische Zustand ist eine diskrete, komplexe Informationsverteilung \( I_k^{(n)} \).
+    \item Information (definiert über die Betragsquadrate) ist eine diskret erhaltene Größe.
     \item Dynamik ist rekursive Umlagerung von Information.
     \item Lokale und globale Dynamik sind komplementär.
 \end{enumerate}
@@ -48,7 +48,7 @@ Hierbei ist:
 
 \begin{itemize}
     \item \( k = 1, \dots, N \) – Index der diskreten Informationszelle (Knoten),
-    \item \( I_k^{(n)} \in \mathbb{R}^+ \) – Informationswert am Knoten \( k \) zum Zeitindex \( n \),
+    \item \( I_k^{(n)} \in \mathbb{C} \) – komplexer Informationswert am Knoten \( k \) zum Zeitindex \( n \),
     \item \( \Delta I_k^{(n)} \) – diskreter räumlicher Gradient (Nachbarschaftsdifferenzen),
     \item \( \delta I_k^{(n)} = I_k^{(n)} - I_k^{(n-1)} \) – diskrete zeitliche Änderung,
     \item \( \Delta V_k \) – diskretes Volumenelement (knotenspezifisch),
@@ -70,6 +70,12 @@ mit:
     \item \( \mathcal{N}(k) \) – Nachbarknoten von \( k \),
     \item \( w_{kl} \) – Kopplungsgewichte (normiert: \( \sum_l w_{kl} = 1 \)).
 \end{itemize}
+
+Die Kopplungsgewichte \( w_{kl} \) sind aus der fraktalen Kopplungsmatrix \( K_{kl}^{(n)} \) abgeleitet:
+
+\[
+w_{kl} = \frac{K_{kl}^{(n)}}{\sum_{m \in \mathcal{N}(k)} K_{km}^{(n)}}.
+\]
 
 \subsection{Diskrete zeitliche Änderung}
 \label{sub:diskrete_zeit_aenderung}
@@ -118,7 +124,7 @@ mit \( \Delta_{kl} I^{(n)} = I_l^{(n)} - I_k^{(n)} \).
 Damit wird die diskrete Kontinuitätsgleichung
 
 \[
-\delta_t I_k^{(n)} + \sum_{l \in \mathcal{N}(k)} J_{kl}^{(n)} = 0
+\delta_t |I_k^{(n)}|^2 + \sum_{l \in \mathcal{N}(k)} J_{kl}^{(n)} = 0
 \]
 
 zu einer direkten Konsequenz des diskreten Variationsprinzips.
@@ -138,7 +144,7 @@ Die Struktur von \( \mathcal{F}_k \) erlaubt eine natürliche Zerlegung:
 Der lokale Anteil beschreibt lokale Informationsflüsse:
 
 \[
-\mathcal{F}_k^{\text{local}} = \alpha \bigl( \delta_t I_k^{(n)} \bigr)^2 + \beta \bigl( \Delta I_k^{(n)} \bigr)^2 + \gamma I_k^{(n)} \ln \left( \frac{I_k^{(n)}}{I_0} \right).
+\mathcal{F}_k^{\text{local}} = \alpha \bigl| \delta_t I_k^{(n)} \bigr|^2 + \beta \bigl| \Delta I_k^{(n)} \bigr|^2 + \gamma |I_k^{(n)}|^2 \ln \left( \frac{|I_k^{(n)}|}{I_0} \right).
 \]
 
 Er führt im diskreten Grenzfall zu:
@@ -152,13 +158,13 @@ Er führt im diskreten Grenzfall zu:
 Die Variation des lokalen Anteils ergibt:
 
 \[
-\frac{\partial \mathcal{F}_k^{\text{local}}}{\partial I_k^{(n)}} = \gamma \left( 1 + \ln \left( \frac{I_k^{(n)}}{I_0} \right) \right),
+\frac{\partial \mathcal{F}_k^{\text{local}}}{\partial I_k^{(n)}} = \gamma \overline{I_k^{(n)}} \left( 1 + \ln \left( \frac{|I_k^{(n)}|}{I_0} \right) \right),
 \]
 \[
-\frac{\partial \mathcal{F}_k^{\text{local}}}{\partial (\delta_t I_k^{(n)})} = 2\alpha \delta_t I_k^{(n)},
+\frac{\partial \mathcal{F}_k^{\text{local}}}{\partial (\delta_t I_k^{(n)})} = 2\alpha \overline{\delta_t I_k^{(n)}},
 \]
 \[
-\frac{\partial \mathcal{F}_k^{\text{local}}}{\partial (\Delta I_k^{(n)})} = 2\beta \Delta I_k^{(n)}.
+\frac{\partial \mathcal{F}_k^{\text{local}}}{\partial (\Delta I_k^{(n)})} = 2\beta \overline{\Delta I_k^{(n)}}.
 \]
 
 \subsection{Globaler diskreter Anteil}
@@ -167,19 +173,19 @@ Die Variation des lokalen Anteils ergibt:
 Der globale Anteil beschreibt systemische Informationsorganisation:
 
 \[
-\mathcal{F}_k^{\text{global}} = \lambda \frac{(\Delta I_k^{(n)})^2}{I_k^{(n)}} + \mu \frac{\Delta^2 I_k^{(n)}}{I_k^{(n)}},
+\mathcal{F}_k^{\text{global}} = \lambda \frac{|\Delta I_k^{(n)}|^2}{|I_k^{(n)}|^2} + \mu \frac{\Delta^2 |I_k^{(n)}|}{|I_k^{(n)}|},
 \]
 
 mit dem diskreten Laplace-Operator:
 
 \[
-\Delta^2 I_k^{(n)} = \sum_{l \in \mathcal{N}(k)} w_{kl} \bigl( I_l^{(n)} - I_k^{(n)} \bigr).
+\Delta^2 |I_k^{(n)}| = \sum_{l \in \mathcal{N}(k)} w_{kl} \bigl( |I_l^{(n)}| - |I_k^{(n)}| \bigr).
 \]
 
 Die Variation dieses Terms führt zum diskreten Bohm-Potential:
 
 \[
-Q_k^{(n)} = -\frac{\hbar^2}{2m} \frac{\Delta^2 \sqrt{I_k^{(n)}}}{\sqrt{I_k^{(n)}}}.
+Q_k^{(n)} = -\frac{\hbar^2}{2m} \frac{\Delta^2 \sqrt{|I_k^{(n)}|}}{\sqrt{|I_k^{(n)}|}}.
 \]
 
 \section{Diskrete Weber-Kraft und Bohm-Potential als Grenzfälle}
@@ -240,7 +246,7 @@ mit
 Die konkreten Update-Schritte sind:
 
 \begin{enumerate}
-    \item Berechne räumliche Gradienten: \( \Delta I_k^{(n)} \), \( \Delta^2 I_k^{(n)} \),
+    \item Berechne räumliche Gradienten: \( \Delta I_k^{(n)} \), \( \Delta^2 |I_k^{(n)}| \),
     \item Berechne partielle Ableitungen: \( \frac{\partial \mathcal{F}_k}{\partial I_k^{(n)}} \), \( \frac{\partial \mathcal{F}_k}{\partial (\Delta I_k^{(n)})} \), etc.,
     \item Löse die Euler-Lagrange-Gleichung nach \( I_k^{(n+1)} \) auf,
     \item Update aller Knoten gleichzeitig (globale Synchronisation).
@@ -269,7 +275,7 @@ Die diskrete Euler-Lagrange-Gleichung geht über in:
 Das diskrete Informations-Lagrange-Funktional bildet die mathematische Grundlage der diskreten IWT:
 
 \begin{itemize}
-    \item Es beschreibt die Dynamik der diskreten Informationsverteilung \( I_k^{(n)} \).
+    \item Es beschreibt die Dynamik der diskreten, komplexen Informationsverteilung \( I_k^{(n)} \).
     \item Es erzeugt die diskrete Kontinuitätsgleichung als natürliche Konsequenz.
     \item Es zerlegt sich in lokale und globale diskrete Beiträge.
     \item Es reproduziert die diskrete Weber-Kraft und das diskrete Bohm-Potential.

@@ -26,18 +26,18 @@ das die vollständige physikalische Realität beschreibt. Hierbei ist:
 \begin{itemize}
     \item \( k = 1, \dots, N \) – Index der diskreten Informationsknoten,
     \item \( n \in \mathbb{N}_0 \) – diskreter Zeitindex (Update-Schritt),
-    \item \( I_k^{(n)} \in \mathbb{R}^+ \) – dimensionsloser Informationswert.
+    \item \( I_k^{(n)} \in \mathbb{C} \) – komplexer Informationswert.
 \end{itemize}
 
-Materie, Energie, Wellen, Geometrie und Dynamik sind Manifestationen der Struktur und Veränderung dieses Feldes.
+Die Amplitude \(|I_k^{(n)}|\) kodiert die Stärke der Information am Knoten, die Phase \(\arg(I_k^{(n)})\) kodiert die kohärenten Relationen im Netzwerk. Materie, Energie, Wellen, Geometrie und Dynamik sind Manifestationen der Struktur und Veränderung dieses komplexen Feldes. Diese Erweiterung auf komplexe Werte ist notwendig, um Interferenzphänomene zu beschreiben, die für die Quantenmechanik und die Entstehung stabiler Teilchenstrukturen zentral sind.
 
 \section{Axiom 2: Informationserhaltung}
 \label{sec:axiom2}
 
-Die Gesamtinformation ist erhalten:
+Die Gesamtinformation (definiert als die Summe der Betragsquadrate) ist erhalten:
 
 \[
-\sum_{k=1}^{N} I_k^{(n)} = \text{const} \quad \text{für alle } n.
+\sum_{k=1}^{N} |I_k^{(n)}|^2 = \text{const} \quad \text{für alle } n.
 \]
 
 Information wird nicht erzeugt oder vernichtet – sie wird nur zwischen den Knoten umverteilt.
@@ -52,6 +52,27 @@ g_{kl}^{(n)}
 \]
 
 aus der lokalen und globalen Struktur des Informationsfeldes und seiner Kopplungsmatrix \( K_{kl}^{(n)} \). Die Metrik ist dynamisch und wird nicht vorgegeben.
+
+Die Kopplungsmatrix \( K_{kl}^{(n)} \) beschreibt die Stärke der direkten Wechselwirkung zwischen zwei Knoten. Sie emergiert aus der fraktalen Geometrie des Raumes und ist definiert als:
+
+\[
+K_{kl}^{(n)} = \frac{1}{d_{kl}^{\alpha}},
+\]
+wobei \( d_{kl} \) die fraktale Distanz zwischen den Knoten \( k \) und \( l \) im Indexraum ist. Der Exponent \( \alpha \) ist durch die fraktale Dimension \( D \) gegeben:
+
+\[
+\alpha = 3 - D.
+\]
+
+Diese Definition stellt sicher, dass die Kopplungen der fraktalen Struktur des Raumes folgen und nicht zu einer unphysikalischen, vollständigen Vernetzung führen.
+
+Die diskrete Informationsmetrik \( g_{kl}^{(n)} \) ist als der normalisierte Zusammenhang dieser Kopplungsmatrix definiert:
+
+\[
+g_{kl}^{(n)} = \frac{K_{kl}^{(n)}}{\sqrt{K_{kk}^{(n)} K_{ll}^{(n)}}}.
+\]
+
+Sie ist die Grundlage für die Rekonstruktion des physikalischen Raumes, beispielsweise mittels Multi-Dimensionaler Skalierung (MDS).
 
 \section{Axiom 4: Variationsprinzip der diskreten Informationsdynamik}
 \label{sec:axiom4}
@@ -126,9 +147,9 @@ Die expliziten Zusammenhänge werden in Kapitel~\ref{ch:naturkonstanten} angegeb
 Raum, Zeit und Dynamik sind emergente Eigenschaften der Informationsmetrik:
 
 \begin{itemize}
-    \item \textbf{Raum:} Der physikalische Raum entsteht aus der diskreten Metrik  
+    \item \textbf{Raum:} Der physikalische Raum entsteht aus der diskreten Metrik \( g_{kl}^{(n)} \), die selbst aus der fraktalen Kopplungsmatrix \( K_{kl}^{(n)} \) folgt. Das diskrete Linienelement ist:
     \[
-    d_{kl}^{(n)} = \sqrt{g_{kl}^{(n)}} \cdot \lambda_0,
+    ds_{kl}^{(n)} = \sqrt{g_{kl}^{(n)}} \cdot \lambda_0,
     \]
     mit fundamentaler Länge \( \lambda_0 \).
 
@@ -160,7 +181,10 @@ Die folgende Tabelle stellt die Axiome der Allgemeinen Relativitätstheorie (ART
 denen der IWT/WDBT+ gegenüber. Wer die WDBT+ mit den Axiomen der ART misst, 
 begeht einen Kategorienfehler.
 
-\begin{tabular}{|l|l|}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|X|X|}
 \hline
 \textbf{Standardaxiom (ART)} & \textbf{Axiom der IWT/WDBT+} \\
 \hline
@@ -182,9 +206,11 @@ Keine natürliche Grenze für kompakte Massen & Maximale Masse \(M_{\text{BEC}} 
 \hline
 Neutrinomasse nicht vorhergesagt & \(m_\nu \approx 0,1\,\text{eV}/c^2\) (siehe Kapitel~\ref{ch:neutrino}) \\
 \hline
-\end{tabular}
+\end{tabularx}
+\caption{Vergleich der Axiome: ART vs. IWT/WDBT+.}
+\label{tab:axiom_vergleich}
+\end{table}
 
-\vspace{0.3cm}
 Die Frage ist nicht, ob die WDBT+ mit der ART übereinstimmt – das tut sie nicht, 
 weil sie andere Axiome hat. Die Frage ist, ob sie funktioniert und ob ihre Vorhersagen 
 bestätigt werden.

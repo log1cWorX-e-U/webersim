@@ -32,26 +32,40 @@ Die Simulation arbeitet mit einem diskreten Netzwerk \( \mathcal{N} \), bestehen
 
 \begin{itemize}
     \item \( N \): Anzahl der Informationsknoten (typisch \( 10^3 \) bis \( 10^6 \))
-    \item \( I_k^{(n)} \): Informationswert am Knoten \( k \) zum Zeitschritt \( n \)
-    \item \( K_{kl}^{(n)} \): Kopplungsstärke zwischen Knoten \( k \) und \( l \)
+    \item \( I_k^{(n)} \in \mathbb{C} \): komplexer Informationswert am Knoten \( k \) zum Zeitschritt \( n \)
+    \item \( K_{kl}^{(n)} \): fraktale Kopplungsstärke zwischen Knoten \( k \) und \( l \)
     \item \( g_{kl}^{(n)} \): Emergente Metrik zwischen \( k \) und \( l \)
 \end{itemize}
+
+Die Kopplungsmatrix ist definiert als:
+
+\[
+K_{kl}^{(n)} = \frac{1}{d_{kl}^{3-D}}
+\]
+
+wobei \( d_{kl} \) die fraktale Distanz im Indexraum ist.
 
 \subsection{Initialisierungsprotokolle}
 \label{sub:numerik_initialisierung}
 
 Je nach Simulationsziel werden unterschiedliche Initialisierungen verwendet:
 
-\begin{tabular}{|l|l|l|}
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{|l|X|X|}
 \hline
 \textbf{Simulationstyp} & \textbf{Initialisierung \( I_k^{(0)} \)} & \textbf{Kopplungsmatrix \( K_{kl}^{(0)} \)} \\
 \hline
 Leeres Vakuum & Gleichverteilung \( I_k^{(0)} = I_0 \) & Fraktales Muster mit \( D \approx 2,704 \) (siehe Kapitel~\ref{ch:fraktale_dimension}) \\
-Teilchensystem & Lokalisierte Peaks an Teilchenpositionen & Nachbarschaftskopplung \\
-Kosmologie & Gro{\ss}e Skalenfluktuationen & Skaleninvariantes fraktales Netz \\
+Teilchensystem & Lokalisierte Peaks an Teilchenpositionen & Nachbarschaftskopplung mit \( K_{kl} = 1/d_{kl}^{3-D} \) \\
+Kosmologie & Große Skalenfluktuationen & Skaleninvariantes fraktales Netz \\
 Quantensystem & Kohärente Phasenverteilung & Globale Langreichweitkopplung \\
 \hline
-\end{tabular}
+\end{tabularx}
+\caption{Initialisierungsprotokolle für verschiedene Simulationstypen.}
+\label{tab:initialisierung}
+\end{table}
 
 \section{Implementierung der diskreten Dynamik}
 \label{app:numerik_implementierung}
@@ -68,10 +82,10 @@ Eingabe: Knotenzahl N, Zeitschritte Nsteps, Zeitschrittweite T
 Initialisierung: Setze I_k^(0), K_kl^(0) fuer alle k, l = 1,...,N
 
 Fuer n = 0, 1, 2, ..., Nsteps - 1:
-    (a) Informationsupdate:
+    (a) Informationsupdate (komplex):
         I_k^(n+1) = I_k^(n) + T * Phi_k(I_k^(n), {I_l^(n)}, I_k^(n-1))
     (b) Kopplungsupdate:
-        K_kl^(n+1) = K_kl^(n) + Delta K_kl(I^(n+1), I^(n))
+        K_kl^(n+1) = K_kl^(n) + Delta K_kl(|I^(n+1)|, |I^(n)|)
     (c) Metrikberechnung:
         g_kl^(n+1) = K_kl^(n+1) / sqrt(K_kk^(n+1) * K_ll^(n+1))
     (d) Analyse: Berechne observablen Groessen (Energie, Impuls, Korrelationen)
@@ -107,7 +121,7 @@ Berechnungsschritte für zwei Ladungen:
 Die globale Dynamik berechnet das Bohm-Potential über (siehe Kapitel~\ref{ch:neutrino}):
 
 \[
-Q_k^{(n)} = -\frac{\hbar^2}{2m} \frac{\Delta_d^2 \sqrt{I_k^{(n)}}}{\sqrt{I_k^{(n)}}}
+Q_k^{(n)} = -\frac{\hbar^2}{2m} \frac{\Delta_d^2 \sqrt{|I_k^{(n)}|}}{\sqrt{|I_k^{(n)}|}}
 \]
 
 mit dem diskreten Laplace-Operator:
@@ -117,6 +131,23 @@ mit dem diskreten Laplace-Operator:
 \]
 
 wobei \( \mathcal{N}(k) \) die Nachbarknoten von \( k \) bezeichnet und \( w_{kl} \) normierte Kopplungsgewichte sind.
+
+\subsection{Randbedingungen}
+\label{sub:numerik_randbedingungen}
+
+Das diskrete Netzwerk ist endlich und besitzt Ränder. Die Randbedingungen werden durch die Vakuumenergie des fraktalen Raumes bestimmt:
+
+\[
+I_k^{(n)} \big|_{\text{Rand}} = I_{\text{vac}} \cdot e^{i\phi_{\text{vac}}(\omega)}
+\]
+
+mit einer frequenzabhängigen Phasenverschiebung:
+
+\[
+\phi_{\text{vac}}(\omega) = \phi_0 \cdot \left( \frac{\omega}{\omega_0} \right)^{D-3}
+\]
+
+Diese Randbedingungen verhindern unphysikalische Reflexionen und sorgen für die Stabilität der Teilchenstrukturen.
 
 \section{Rekonstruktion emergenter Physik}
 \label{app:numerik_rekonstruktion}
@@ -156,7 +187,7 @@ Algorithmus 2: Raumrekonstruktion
 \section{Validierung und Konsistenzchecks}
 \label{app:numerik_validierung}
 
-\subsection{Erhaltungsgrö{\ss}en}
+\subsection{Erhaltungsgrößen}
 \label{sub:numerik_erhaltung}
 
 Die Simulation überprüft kontinuierlich:
@@ -165,7 +196,7 @@ Die Simulation überprüft kontinuierlich:
 \textbf{Informationserhaltung:} (siehe Kapitel~\ref{ch:axiome_iwt})
 
 \[
-\left| \sum_{k=1}^{N} I_k^{(n+1)} - \sum_{k=1}^{N} I_k^{(n)} \right| < \epsilon_I
+\left| \sum_{k=1}^{N} |I_k^{(n+1)}|^2 - \sum_{k=1}^{N} |I_k^{(n)}|^2 \right| < \epsilon_I
 \]
 (typisch \( \epsilon_I = 10^{-12} \))
 
@@ -180,7 +211,7 @@ Die Simulation überprüft kontinuierlich:
 mit der diskreten Energie:
 
 \[
-E^{(n)} = \sum_k \left[ \frac{1}{2} \alpha \left( \frac{I_k^{(n)} - I_k^{(n-1)}}{T} \right)^2 + \beta \sum_{l \in \mathcal{N}(k)} \left( I_k^{(n)} - I_l^{(n)} \right)^2 \right]
+E^{(n)} = \sum_k \left[ \frac{1}{2} \alpha \left| \frac{I_k^{(n)} - I_k^{(n-1)}}{T} \right|^2 + \beta \sum_{l \in \mathcal{N}(k)} \left| I_k^{(n)} - I_l^{(n)} \right|^2 \right]
 \]
 
 \subsection{Grenzfalltests}
@@ -192,7 +223,7 @@ E^{(n)} = \sum_k \left[ \frac{1}{2} \alpha \left( \frac{I_k^{(n)} - I_k^{(n-1)}}
 \hline
 \( \lambda \ll \alpha, T \to 0 \) & Newtonsche Mechanik & Bestätigt (Abweichung \( < 10^{-6} \)) \\
 \( \lambda \gg \alpha, \Delta\phi \) kohärent & Schrödinger-Gleichung & Bestätigt (Übereinstimmung \( > 99\% \)) \\
-Gro{\ss}es \( N \), fraktales Netz & ART-Geometrie & Teilweise bestätigt \\
+Großes \( N \), fraktales Netz & ART-Geometrie & Teilweise bestätigt \\
 Starke Kopplung, kleine Skalen & Frequenzabhängige Effekte & Klare Signale \\
 \hline
 \end{tabular}
@@ -205,7 +236,7 @@ Starke Kopplung, kleine Skalen & Frequenzabhängige Effekte & Klare Signale \\
 
 \begin{itemize}
     \item \textbf{Ziel:} Reproduktion von Interferenz ohne Wellenfunktion
-    \item \textbf{Setup:} 1000 Knoten, periodische Randbedingungen
+    \item \textbf{Setup:} 1000 Knoten, Randbedingungen durch Vakuumenergie
     \item \textbf{Ergebnis:} Interferenzmuster mit erwarteter Periodizität
     \item \textbf{Besonderheit:} Fraktale Feinstruktur mit \( D \approx 2,704 \)
 \end{itemize}
@@ -225,9 +256,9 @@ Starke Kopplung, kleine Skalen & Frequenzabhängige Effekte & Klare Signale \\
 
 \begin{itemize}
     \item \textbf{Ziel:} Hintergrundstrahlungstemperatur aus thermischem Gleichgewicht
-    \item \textbf{Setup:} Gro{\ss}kaliges fraktales Netz mit \( D = 2,704 \)
+    \item \textbf{Setup:} Großkaliges fraktales Netz mit \( D = 2,704 \)
     \item \textbf{Ergebnis:} \( T_{\text{CMB}} \approx 2,7 \, \text{K} \) ohne Urknall
-    \item \textbf{Vorhersage:} Spezifische nicht-gau{\ss}sche Fluktuationen (siehe Kapitel~\ref{ch:testbare_vorhersagen})
+    \item \textbf{Vorhersage:} Spezifische nicht-gaußsche Fluktuationen (siehe Kapitel~\ref{ch:testbare_vorhersagen})
 \end{itemize}
 
 \section{Technische Implementierung}
@@ -237,7 +268,7 @@ Starke Kopplung, kleine Skalen & Frequenzabhängige Effekte & Klare Signale \\
 \label{sub:numerik_performance}
 
 \begin{itemize}
-    \item \textbf{Parallelisierung:} Nutzung von GPU-Clustern für gro{\ss}e \( N \)
+    \item \textbf{Parallelisierung:} Nutzung von GPU-Clustern für große \( N \)
     \item \textbf{Approximation:} Baumalgorithmen (Barnes-Hut) für weitreichende Kopplungen
     \item \textbf{Adaptive Zeitschritte:} Variable \( T \) bei schnellen Änderungen
     \item \textbf{Speicheroptimierung:} Sparse-Matrix-Darstellung für \( K_{kl} \)
@@ -248,9 +279,10 @@ Starke Kopplung, kleine Skalen & Frequenzabhängige Effekte & Klare Signale \\
 
 \begin{itemize}
     \item 3D-Darstellung: Einbettung der emergenten Raumgeometrie
-    \item Farbkodierung: \( I_k \) (Intensität), \( Q_k \) (Phase), \( g_{kl} \) (Abstand)
+    \item Farbkodierung: \( |I_k| \) (Amplitude), \( \arg(I_k) \) (Phase), \( g_{kl} \) (Abstand)
     \item Animation: Zeitliche Entwicklung der Informationsverteilung
     \item Korrelationen: Visualisierung von nichtlokalen Zusammenhängen
+    \item Teilchen als Interferenzmuster: Darstellung der kohärenten Strukturen im komplexen Feld
 \end{itemize}
 
 \section{Zusammenfassung}
@@ -263,6 +295,7 @@ Die numerische Simulation der IWT zeigt:
     \item Alle fundamentalen Gleichungen sind numerisch stabil.
     \item Die Emergenz etablierter Physik ist reproduzierbar (siehe Anhang~\ref{app:vergleich}).
     \item Die fraktale Dimension \( D \approx 2,704 \) erscheint als natürliche Konsequenz (siehe Kapitel~\ref{ch:fraktale_dimension}).
+    \item Teilchen entstehen als stabile Interferenzmuster der komplexen Wellen.
 \end{itemize}
 
 \subsection{Zukünftige Entwicklung}

@@ -52,11 +52,19 @@ mit dem diskreten Gradienten \( \Delta_{kl} I^{(n)} = I_l^{(n)} - I_k^{(n)} \).
 \subsection{Direkte Berechnung aus Kopplungsmatrix}
 \label{sub:metrik_kopplung}
 
-Alternativ kann die Metrik direkt aus der Kopplungsmatrix \( K_{kl}^{(n)} \) berechnet werden:
+Die Metrik kann direkt aus der fraktalen Kopplungsmatrix \( K_{kl}^{(n)} \) berechnet werden:
 
 \[
 g_{kl}^{(n)} = \frac{K_{kl}^{(n)}}{\sqrt{K_{kk}^{(n)} K_{ll}^{(n)}}}.
 \]
+
+Die Kopplungsmatrix selbst ist definiert als:
+
+\[
+K_{kl}^{(n)} = \frac{1}{d_{kl}^{3-D}},
+\]
+
+wobei \( d_{kl} \) die fraktale Distanz zwischen den Knoten \( k \) und \( l \) im Indexraum ist. Diese Definition stellt sicher, dass die Metrik der fraktalen Struktur des Raumes folgt.
 
 \subsection{Interpretation der diskreten Metrik}
 \label{sub:metrik_interpretation}
@@ -83,7 +91,7 @@ Das diskrete Linienelement zwischen Knoten \( k \) und \( l \) ist:
 ds_{kl}^{(n)} = \sqrt{g_{kl}^{(n)}} \cdot d_{kl},
 \]
 
-mit fundamentaler Distanz \( d_{kl} \) (z. B. Gitterkonstante).
+mit fundamentaler Distanz \( d_{kl} \), die aus der fraktalen Struktur des Netzwerks folgt.
 
 \subsection{Effektive kontinuierliche Metrik}
 \label{sub:kontinuierliche_metrik}
@@ -100,8 +108,8 @@ g_{ij}(x, t) = \lim_{\text{feine Diskretisierung}} \langle g_{kl}^{(n)} \rangle.
 In der digitalen Perspektive (IWT) besteht der fundamentale Zustand aus:
 
 \begin{itemize}
-    \item Knoten \( k = 1, \dots, N \) mit Informationswerten \( I_k^{(n)} \),
-    \item Kopplungen \( K_{kl}^{(n)} \): gewichtete Verbindungen zwischen Knoten,
+    \item Knoten \( k = 1, \dots, N \) mit komplexen Informationswerten \( I_k^{(n)} \),
+    \item Kopplungen \( K_{kl}^{(n)} \): gewichtete Verbindungen zwischen Knoten, definiert durch \( K_{kl}^{(n)} = 1/d_{kl}^{3-D} \),
     \item Update-Regeln: rekursive Transformationen \( I_k^{(n+1)} = U\bigl(I_k^{(n)}, \{I_l^{(n)}\}\bigr) \).
 \end{itemize}
 
@@ -185,7 +193,7 @@ Diese kontinuierliche Form ist kompakt und für analytische Berechnungen nützli
 Die diskrete Informationsgeometrie der IWT umfasst:
 
 \begin{itemize}
-    \item Eine diskrete Informationsmetrik \( g_{kl}^{(n)} \) aus der Kopplungsmatrix \( K_{kl}^{(n)} \),
+    \item Eine diskrete Informationsmetrik \( g_{kl}^{(n)} \) aus der fraktalen Kopplungsmatrix \( K_{kl}^{(n)} \),
     \item Einen emergenten Raum als effektive Geometrie aus der Netzwerkstruktur,
     \item Eine emergente Zeit als Schrittindex \( n \) der Updates,
     \item Eine dynamische Metrik, die aus der Informationsdynamik folgt,

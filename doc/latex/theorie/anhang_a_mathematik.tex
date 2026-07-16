@@ -26,7 +26,7 @@ Der Fokus liegt auf:
 \subsection{Diskretes Funktional}
 \label{sub:mathematik_funktional}
 
-Ein diskretes Informationssystem wird beschrieben durch Knoten \( k = 1, \dots, N \) mit Informationswerten \( I_k^{(n)} \) zum Zeitschrift \( n \). Das fundamentale diskrete Funktional lautet:
+Ein diskretes Informationssystem wird beschrieben durch Knoten \( k = 1, \dots, N \) mit komplexen Informationswerten \( I_k^{(n)} \) zum Zeitschrift \( n \). Das fundamentale diskrete Funktional lautet:
 
 \[
 S_d \left[ I_k^{(n)} \right] = \sum_{n=0}^{M-1} \sum_{k=1}^{N} \mathcal{F}_d \left( I_k^{(n)}, \Delta_t I_k^{(n)}, \Delta_s I_k^{(n)} \right) \cdot T \cdot V_k
@@ -40,6 +40,20 @@ mit:
     \item \( T \) – fundamentaler Zeitschrift
     \item \( V_k \) – diskretes Volumenelement am Knoten \( k \)
 \end{itemize}
+
+Die Kopplungsgewichte \( w_{kl} \) sind aus der fraktalen Kopplungsmatrix \( K_{kl}^{(n)} \) abgeleitet:
+
+\[
+w_{kl} = \frac{K_{kl}^{(n)}}{\sum_{m \in \mathcal{N}(k)} K_{km}^{(n)}}
+\]
+
+mit
+
+\[
+K_{kl}^{(n)} = \frac{1}{d_{kl}^{3-D}},
+\]
+
+wobei \( d_{kl} \) die fraktale Distanz zwischen den Knoten \( k \) und \( l \) im Indexraum ist.
 
 \subsection{Variation diskreter Funktionale}
 \label{sub:mathematik_variation}
@@ -79,7 +93,7 @@ mit den diskreten Operatoren:
 \subsection{Beispiel: Diskrete Wellengleichung}
 \label{sub:mathematik_wellengleichung}
 
-Für \( \mathcal{F}_d = \alpha (\Delta_t I_k^{(n)})^2 + \beta (\Delta_s I_k^{(n)})^2 \):
+Für \( \mathcal{F}_d = \alpha |\Delta_t I_k^{(n)}|^2 + \beta |\Delta_s I_k^{(n)}|^2 \):
 
 \[
 \alpha \frac{I_k^{(n+1)} - 2I_k^{(n)} + I_k^{(n-1)}}{T^2} + \beta \sum_{l \in \mathcal{N}(k)} w_{kl} (I_l^{(n)} - I_k^{(n)}) = 0
@@ -128,7 +142,7 @@ Q^{(n)} = \sum_k \left[ \xi_k^{(n)} \frac{\partial \mathcal{F}_d}{\partial (\Del
 Zeittranslation & \(I_k^{(n)} \to I_k^{(n+1)}\) & Diskrete Energie \(E^{(n)}\) \\
 Raumtranslation & \(I_k^{(n)} \to I_{k+\delta}^{(n)}\) & Diskreter Impuls \(\vec{P}^{(n)}\) \\
 Rotation & \(I_k^{(n)} \to I_{R(k)}^{(n)}\) & Diskreter Drehimpuls \(\vec{L}^{(n)}\) \\
-Informations-Shift & \(I_k^{(n)} \to I_k^{(n)} + c\) & Gesamtinformation \(\sum_k I_k^{(n)}\) \\
+Informations-Shift & \(I_k^{(n)} \to I_k^{(n)} + c\) & Gesamtinformation \(\sum_k |I_k^{(n)}|^2\) \\
 \hline
 \end{tabular}
 
@@ -147,10 +161,16 @@ g_{kl}^{(n)} = \frac{\partial^2 \mathcal{F}_d}{\partial (\Delta_s I_k^{(n)}) \pa
 \subsection{Alternative Definition über Kopplungsmatrix}
 \label{sub:mathematik_metrik_kopplung}
 
-Für viele Anwendungen ist die direkte Definition über die Kopplungsmatrix \( K_{kl}^{(n)} \) nützlicher:
+Für viele Anwendungen ist die direkte Definition über die fraktale Kopplungsmatrix \( K_{kl}^{(n)} \) nützlicher:
 
 \[
 g_{kl}^{(n)} = \frac{K_{kl}^{(n)}}{\sqrt{K_{kk}^{(n)} K_{ll}^{(n)}}}
+\]
+
+mit
+
+\[
+K_{kl}^{(n)} = \frac{1}{d_{kl}^{3-D}}
 \]
 
 \subsection{Eigenschaften}
@@ -177,6 +197,14 @@ N(R) \propto R^D \quad \text{für } R \to \infty
 
 wobei \( N(R) \) die Anzahl der Knoten innerhalb einer Distanz \( R \) von einem Referenzknoten ist.
 
+Die Kopplungsmatrix des Netzwerks ist definiert als:
+
+\[
+K_{kl} = \frac{1}{d_{kl}^{3-D}}
+\]
+
+wobei \( d_{kl} \) die fraktale Distanz im Indexraum ist. Diese Definition stellt sicher, dass die Kopplungen der fraktalen Struktur des Raumes folgen.
+
 \subsection{Praktische Berechnung}
 \label{sub:mathematik_fraktale_berechnung}
 
@@ -196,7 +224,11 @@ Für das in der IWT verwendete fraktale Netzwerk gilt (siehe Kapitel~\ref{ch:fra
 D = \frac{\ln(20\phi)}{\ln(2 + \phi)} \approx 2,704
 \]
 
-Dieses Netzwerk zeigt selbstähnliche Struktur auf allen Skalen.
+Dieses Netzwerk zeigt selbstähnliche Struktur auf allen Skalen. Die Kopplungsmatrix ist:
+
+\[
+K_{kl} = \frac{1}{d_{kl}^{3-D}} = \frac{1}{d_{kl}^{0,296}}
+\]
 
 \section{Diskrete Differenzengleichungen höherer Ordnung}
 \label{app:mathematik_differenzengleichungen}
@@ -257,6 +289,12 @@ Aus diskreten Differenzengleichungen erhält man charakteristische Dispersionsre
 \omega(q) = \frac{2}{T} \arcsin \left( \frac{cT}{2a} \sin(\pi q a) \right)
 \]
 
+Für das fraktale Netzwerk mit spektraler Dimension \( d_s = 2D/3 \) gilt (siehe Anhang~\ref{app:spektrale_dimension}):
+
+\[
+\omega \propto k^{D/3}
+\]
+
 \section{Matrixdarstellungen diskreter Operatoren}
 \label{app:mathematik_matrix}
 
@@ -292,11 +330,12 @@ Die diskrete IWT basiert auf folgenden mathematischen Grundlagen:
 \hline
 \textbf{Konzept} & \textbf{Mathematische Beschreibung} \\
 \hline
-Zustandsraum & Diskrete Felder \( I_k^{(n)} \) auf Netzwerkknoten \\
+Zustandsraum & Diskrete, komplexe Felder \( I_k^{(n)} \) auf Netzwerkknoten \\
 Dynamik & Diskretes Funktional \( S_d[I_k^{(n)}] \) mit Variationsprinzip \\
 Bewegungsgleichungen & Diskrete Euler-Lagrange-Gleichungen \\
 Symmetrien & Diskrete Noether-Theoreme mit Erhaltungssätzen \\
-Geometrie & Diskrete Metrik \( g_{kl}^{(n)} \) aus Kopplungsstruktur \\
+Geometrie & Diskrete Metrik \( g_{kl}^{(n)} = K_{kl}^{(n)} / \sqrt{K_{kk}^{(n)} K_{ll}^{(n)}} \) \\
+Kopplung & Fraktale Kopplungsmatrix \( K_{kl}^{(n)} = 1/d_{kl}^{3-D} \) \\
 Skalierung & Fraktale Dimension \( D \) charakterisiert Netzwerk \\
 Stabilität & Eigenwertanalyse rekursiver Update-Regeln \\
 \hline
