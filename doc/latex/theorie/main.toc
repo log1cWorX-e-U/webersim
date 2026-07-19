@@ -605,3 +605,25 @@
 \contentsline {subsection}{\numberline {L.7.1}Temperatur im stationären Zustand}{185}{}%
 \contentsline {subsection}{\numberline {L.7.2}Zeitpfeil und kosmologische Entropie}{185}{}%
 \contentsline {section}{\numberline {L.8}Zusammenfassung}{186}{}%
+\contentsline {chapter}{\numberline {M}Die inhärente Metrik der Weber-Elektrodynamik und Weber-Gravitation}{187}{}%
+\contentsline {section}{\numberline {M.1}Einleitung}{187}{}%
+\contentsline {section}{\numberline {M.2}Die Weber'sche Lagrange-Funktion der WED}{187}{}%
+\contentsline {section}{\numberline {M.3}Die Umformulierung und die inhärente Metrik der WED}{187}{}%
+\contentsline {section}{\numberline {M.4}Die Metrik und der kritische Radius der WED}{188}{}%
+\contentsline {section}{\numberline {M.5}Die inhärente Metrik der Weber-Gravitation (WG)}{188}{}%
+\contentsline {section}{\numberline {M.6}Physikalische Konsequenzen für ART und SRT}{189}{}%
+\contentsline {section}{\numberline {M.7}Die Implikationen für die Maxwell-Theorie und die ART}{190}{}%
+\contentsline {section}{\numberline {M.8}Verbindung zur IWT/WDBT+}{190}{}%
+\contentsline {section}{\numberline {M.9}Zusammenfassung}{190}{}%
+\contentsline {chapter}{\numberline {N}Die Suche nach magnetischen Monopolen}{193}{}%
+\contentsline {section}{\numberline {N.1}Einleitung}{193}{}%
+\contentsline {section}{\numberline {N.2}Die historische Suche nach fundamentalen Monopolen}{193}{}%
+\contentsline {section}{\numberline {N.3}Emergente magnetische Monopole in Festkörpern}{194}{}%
+\contentsline {subsection}{\numberline {N.3.1}Spin-Eis-Systeme}{194}{}%
+\contentsline {subsection}{\numberline {N.3.2}Künstliche Spin-Eis-Systeme}{194}{}%
+\contentsline {subsection}{\numberline {N.3.3}Chiral-induzierte Monopol-ähnliche Felder}{195}{}%
+\contentsline {section}{\numberline {N.4}Die Weber'sche Perspektive auf Monopole}{195}{}%
+\contentsline {subsection}{\numberline {N.4.1}Die WED und emergente Monopole}{195}{}%
+\contentsline {section}{\numberline {N.5}Die Konsequenz für die Monopolforschung}{195}{}%
+\contentsline {subsection}{\numberline {N.5.1}Was bedeutet dies für die IWT/WDBT+?}{196}{}%
+\contentsline {section}{\numberline {N.6}Zusammenfassung}{196}{}%
