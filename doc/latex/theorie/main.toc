@@ -627,3 +627,46 @@
 \contentsline {section}{\numberline {N.5}Die Konsequenz für die Monopolforschung}{195}{}%
 \contentsline {subsection}{\numberline {N.5.1}Was bedeutet dies für die IWT/WDBT+?}{196}{}%
 \contentsline {section}{\numberline {N.6}Zusammenfassung}{196}{}%
+\contentsline {chapter}{\numberline {O}Die Herleitung der Unschärferelation aus der diskreten Zeit}{197}{}%
+\contentsline {section}{\numberline {O.1}Einleitung und Motivation}{197}{}%
+\contentsline {section}{\numberline {O.2}Axiomatische Grundlage}{197}{}%
+\contentsline {section}{\numberline {O.3}Beweis Teil 1: Die Energie-Zeit-Unschärferelation}{198}{}%
+\contentsline {subsection}{\numberline {O.3.1}Die diskrete Fourier-Transformation der Zeit}{198}{}%
+\contentsline {paragraph}{Zentrale Aussage:}{198}{}%
+\contentsline {subsection}{\numberline {O.3.2}Die Bandbreiten-Unschärfe}{198}{}%
+\contentsline {paragraph}{Beweis:}{198}{}%
+\contentsline {subsection}{\numberline {O.3.3}Die Energie-Frequenz-Beziehung}{198}{}%
+\contentsline {subsection}{\numberline {O.3.4}Die Energie-Zeit-Unschärferelation}{198}{}%
+\contentsline {paragraph}{Spezialfall:}{199}{}%
+\contentsline {section}{\numberline {O.4}Beweis Teil 2: Die Orts-Impuls-Unschärferelation}{199}{}%
+\contentsline {subsection}{\numberline {O.4.1}Die Definition des Impulses}{199}{}%
+\contentsline {subsection}{\numberline {O.4.2}Die Orts-Wellenzahl-Unschärfe}{199}{}%
+\contentsline {paragraph}{Beweis:}{199}{}%
+\contentsline {subsection}{\numberline {O.4.3}Die Orts-Impuls-Unschärferelation}{199}{}%
+\contentsline {paragraph}{Die Heisenbergsche Unschärferelation}{199}{}%
+\contentsline {section}{\numberline {O.5}Die vollständige Kette der Implikationen}{199}{}%
+\contentsline {section}{\numberline {O.6}Die physikalische Interpretation}{200}{}%
+\contentsline {subsection}{\numberline {O.6.1}Die Unschärferelation ist ontologisch}{200}{}%
+\contentsline {subsection}{\numberline {O.6.2}Die diskrete Zeit ist die Quelle der Vakuumfluktuation}{200}{}%
+\contentsline {subsection}{\numberline {O.6.3}Die DBT ist unvollständig}{200}{}%
+\contentsline {subsection}{\numberline {O.6.4}Die IWT ist vollständig}{200}{}%
+\contentsline {section}{\numberline {O.7}Vergleich mit der De-Broglie-Bohm-Theorie}{200}{}%
+\contentsline {section}{\numberline {O.8}Zusammenfassung}{200}{}%
+\contentsline {section}{\numberline {O.9}Ausblick}{201}{}%
+\contentsline {chapter}{\numberline {P}Die vollständige Evolutionsgleichung der IWT}{203}{}%
+\contentsline {section}{\numberline {P.1}Einleitung}{203}{}%
+\contentsline {section}{\numberline {P.2}Die ursprüngliche Evolutionsgleichung der IWT}{203}{}%
+\contentsline {section}{\numberline {P.3}Die Erweiterung: Der Unschärfe-Term}{203}{}%
+\contentsline {section}{\numberline {P.4}Die Bedeutung des Unschärfe-Terms}{204}{}%
+\contentsline {subsection}{\numberline {P.4.1}Die Zufallsvariable \( \xi _k^{(n)} \)}{204}{}%
+\contentsline {subsection}{\numberline {P.4.2}Die Skalierung \( \sqrt {\hbar /(2T)} \)}{204}{}%
+\contentsline {subsection}{\numberline {P.4.3}Der Term ist nicht extern}{204}{}%
+\contentsline {section}{\numberline {P.5}Die vollständige Theorie – alle Terme im Überblick}{205}{}%
+\contentsline {section}{\numberline {P.6}Die algorithmische Implementierung}{205}{}%
+\contentsline {section}{\numberline {P.7}Die Konsequenzen für die Theorie}{206}{}%
+\contentsline {subsection}{\numberline {P.7.1}Die Vakuumfluktuation ist intrinsisch}{206}{}%
+\contentsline {subsection}{\numberline {P.7.2}Die Strukturbildung ist automatisch}{206}{}%
+\contentsline {subsection}{\numberline {P.7.3}Die DBT emergiert im Grenzfall}{206}{}%
+\contentsline {subsection}{\numberline {P.7.4}Die Theorie ist geschlossen}{206}{}%
+\contentsline {section}{\numberline {P.8}Zusammenfassung}{206}{}%
+\contentsline {section}{\numberline {P.9}Ausblick}{207}{}%
