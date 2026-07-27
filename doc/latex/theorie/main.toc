@@ -673,17 +673,10 @@
 \contentsline {chapter}{\numberline {Q}Rotverschiebung in der IWT}{209}{}%
 \contentsline {section}{\numberline {Q.1}Einleitung}{209}{}%
 \contentsline {section}{\numberline {Q.2}Axiomatische Grundlage}{209}{}%
-\contentsline {section}{\numberline {Q.3}Die Masse in der IWT}{209}{}%
-\contentsline {subsection}{\numberline {Q.3.1}Masse im fraktalen Raum}{210}{}%
-\contentsline {section}{\numberline {Q.4}Die Rotverschiebung am Rand}{210}{}%
-\contentsline {section}{\numberline {Q.5}Die Massenänderung am Rand}{210}{}%
-\contentsline {subsection}{\numberline {Q.5.1}Die Rotverschiebungsformel}{210}{}%
-\contentsline {subsection}{\numberline {Q.5.2}Frequenzabhängigkeit}{210}{}%
-\contentsline {section}{\numberline {Q.6}Die Rotverschiebung als Energiesenke}{211}{}%
-\contentsline {subsection}{\numberline {Q.6.1}Die Kodierung der Masse in der Phase}{211}{}%
-\contentsline {subsection}{\numberline {Q.6.2}Die Energiedifferenz}{211}{}%
-\contentsline {section}{\numberline {Q.7}Die Rückführung zur Vakuumenergie}{212}{}%
-\contentsline {section}{\numberline {Q.8}Der geschlossene Energiekreislauf}{212}{}%
-\contentsline {section}{\numberline {Q.9}Die Implementierung in der Simulation}{212}{}%
-\contentsline {section}{\numberline {Q.10}Zusammenfassung}{213}{}%
-\contentsline {section}{\numberline {Q.11}Offene Fragen}{213}{}%
+\contentsline {section}{\numberline {Q.3}Die Rotverschiebung als Massenänderung}{209}{}%
+\contentsline {subsection}{\numberline {Q.3.1}Masse im fraktalen Raum}{209}{}%
+\contentsline {subsection}{\numberline {Q.3.2}Massenänderung}{210}{}%
+\contentsline {section}{\numberline {Q.4}Die Rotverschiebung als Energiesenke}{210}{}%
+\contentsline {section}{\numberline {Q.5}Der geschlossene Energiekreislauf}{210}{}%
+\contentsline {section}{\numberline {Q.6}Zusammenfassung}{211}{}%
+\contentsline {section}{\numberline {Q.7}Offene Fragen}{211}{}%
