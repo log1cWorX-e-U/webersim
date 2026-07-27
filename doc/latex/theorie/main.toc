@@ -673,17 +673,17 @@
 \contentsline {chapter}{\numberline {Q}Rotverschiebung in der IWT}{209}{}%
 \contentsline {section}{\numberline {Q.1}Einleitung}{209}{}%
 \contentsline {section}{\numberline {Q.2}Axiomatische Grundlage}{209}{}%
-\contentsline {section}{\numberline {Q.3}Die Kodierung der Rotverschiebung}{209}{}%
+\contentsline {section}{\numberline {Q.3}Die Masse in der IWT}{209}{}%
+\contentsline {subsection}{\numberline {Q.3.1}Masse im fraktalen Raum}{210}{}%
 \contentsline {section}{\numberline {Q.4}Die Rotverschiebung am Rand}{210}{}%
-\contentsline {section}{\numberline {Q.5}Die quantitative Formel}{210}{}%
-\contentsline {section}{\numberline {Q.6}Die Dämpfungskonstante $\alpha $}{210}{}%
-\contentsline {subsection}{\numberline {Q.6.1}Herleitung aus der fraktalen Zustandsdichte}{210}{}%
-\contentsline {subsection}{\numberline {Q.6.2}Energieverlust am Rand}{210}{}%
-\contentsline {subsection}{\numberline {Q.6.3}Die Dämpfungskonstante}{211}{}%
-\contentsline {subsection}{\numberline {Q.6.4}Numerischer Wert}{211}{}%
-\contentsline {subsection}{\numberline {Q.6.5}Dimensionslose Dämpfungskonstante für die Simulation}{211}{}%
-\contentsline {subsection}{\numberline {Q.6.6}Physikalische Interpretation}{212}{}%
-\contentsline {section}{\numberline {Q.7}Die Implementierung in der Simulation}{212}{}%
-\contentsline {section}{\numberline {Q.8}Die Rückführung zur Vakuumenergie}{212}{}%
+\contentsline {section}{\numberline {Q.5}Die Massenänderung am Rand}{210}{}%
+\contentsline {subsection}{\numberline {Q.5.1}Die Rotverschiebungsformel}{210}{}%
+\contentsline {subsection}{\numberline {Q.5.2}Frequenzabhängigkeit}{210}{}%
+\contentsline {section}{\numberline {Q.6}Die Massenänderungskonstante $\alpha $}{211}{}%
+\contentsline {subsection}{\numberline {Q.6.1}Herleitung}{211}{}%
+\contentsline {subsection}{\numberline {Q.6.2}Numerischer Wert}{211}{}%
+\contentsline {subsection}{\numberline {Q.6.3}Dimensionslose Konstante für die Simulation}{211}{}%
+\contentsline {section}{\numberline {Q.7}Die vollständige Transformation am Rand}{212}{}%
+\contentsline {section}{\numberline {Q.8}Die Implementierung in der Simulation}{212}{}%
 \contentsline {section}{\numberline {Q.9}Zusammenfassung}{212}{}%
-\contentsline {section}{\numberline {Q.10}Offene Fragen}{213}{}%
+\contentsline {section}{\numberline {Q.10}Offene Fragen}{212}{}%

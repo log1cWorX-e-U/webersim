@@ -8,145 +8,136 @@
 \section{Einleitung}
 \label{app:rotverschiebung_einleitung}
 
-Die beobachtete kosmologische Rotverschiebung wird in der WDBT+ nicht als Doppler-Effekt einer Expansion interpretiert, sondern als kumulative gravitative Wirkung auf Photonen während ihrer Reise durch das $\Omega$-Feld (siehe Kapitel~\ref{ch:kosmologie}). In der IWT muss dieser Effekt aus den fundamentalen Axiomen abgeleitet werden.
+Die beobachtete kosmologische Rotverschiebung wird in der WDBT+ \textbf{nicht} als Doppler-Effekt einer Expansion interpretiert, sondern als \textbf{kumulative gravitative Wirkung} auf Photonen während ihrer Reise durch das $\Omega$-Feld (siehe Kapitel~\ref{ch:kosmologie}). 
 
-Dieser Anhang definiert die Rotverschiebung in der IWT und leitet ihre Form für die Simulation her.
+In der IWT muss dieser Effekt aus den fundamentalen Axiomen abgeleitet werden. 
+
+\textbf{Dieser Anhang zeigt:}
+\begin{enumerate}
+    \item Die Rotverschiebung in der IWT ist \textbf{keine Dämpfung}.
+    \item Die Rotverschiebung in der IWT ist \textbf{keine Frequenzverschiebung}.
+    \item Die Rotverschiebung in der IWT ist eine \textbf{Massenänderung der Ladungsträger} durch die fraktale Geometrie.
+    \item Die Amplitude $|I|$ bleibt \textbf{konstant} – die Information bleibt erhalten.
+\end{enumerate}
 
 \section{Axiomatische Grundlage}
 \label{app:rotverschiebung_axiome}
 
-Die Rotverschiebung in der IWT folgt aus zwei Axiomen:
+Die Rotverschiebung in der IWT folgt aus \textbf{Axiom 2}:
 
 \textbf{Axiom 2 (Informationserhaltung):}
-
 \[
 \sum_{k=1}^{N} |I_k|^2 = \text{const} \tag{Q.1}
 \]
 
-\textbf{Axiom 6 (Energie als emergenter Informationsfluss):}
+\textbf{Konsequenz:} Die Information bleibt \textbf{erhalten}. Es gibt keine Dämpfung.
 
-Energie ist eine Erhaltungsgröße des diskreten Informationsflusses.
+\section{Die Masse in der IWT}
+\label{app:rotverschiebung_masse}
 
-\textbf{Konsequenz:} Wenn Information das Netzwerk verlässt (z.B. am Rand), dann muss sie entweder:
-
-\begin{enumerate}
-    \item \textbf{Erhalten bleiben} (geschlossenes System) → keine Rotverschiebung
-    \item \textbf{In eine andere Form übergehen} (offenes System) → Rotverschiebung
-\end{enumerate}
-
-Die IWT postuliert: Die Information \textbf{bleibt erhalten}, aber sie \textbf{ändert ihre Kodierung}.
-
-\section{Die Kodierung der Rotverschiebung}
-\label{app:rotverschiebung_kodierung}
-
-In der IWT ist \textbf{Energie} durch die Amplitude $|I|$ kodiert:
+In der IWT ist die Masse \textbf{keine fundamentale Größe}. Sie ist definiert als:
 
 \[
-E \propto |I|^2 \tag{Q.2}
+m_k = \delta \sum_{l \in \mathcal{N}(k)} |I_k - I_l|^2 \tag{Q.2}
 \]
 
-Wenn ein Photon Energie verliert (Rotverschiebung), dann sinkt $|I|$.
+(siehe Kapitel~\ref{ch:diskrete_informationsdynamik}, Gleichung 3.8)
 
-\textbf{Aber:} Axiom 2 sagt $\sum |I_k|^2 = \text{const}$. Also kann $|I|$ nur sinken, wenn an anderer Stelle $|I|$ steigt.
+Die Masse ist die \textbf{Änderung der Information} zwischen benachbarten Knoten.
 
-\textbf{Die Rotverschiebung ist eine Umverteilung von Information.}
+\subsection{Masse im fraktalen Raum}
+
+Im fraktalen Raum mit Dimension $D$ skaliert die Masse mit der Distanz $r$:
+
+\[
+m(r) = m_0 \cdot \left( \frac{r}{l_0} \right)^{D-3} \tag{Q.3}
+\]
+
+\textbf{Begründung:} Die Masse ist ein Maß für die Informationsdichte. Im fraktalen Raum skaliert die Informationsdichte mit $r^{D-3}$.
 
 \section{Die Rotverschiebung am Rand}
 \label{app:rotverschiebung_rand}
 
 Das diskrete Netzwerk ist endlich (Axiom 8). Die Ränder werden durch die \textbf{Vakuumenergie des fraktalen Raumes} charakterisiert.
 
-\textbf{Definition:} Die Rotverschiebung am Rand ist der Energieverlust eines Photons, das den Rand des Netzwerks erreicht:
+\textbf{Definition:} Die Rotverschiebung am Rand ist die \textbf{Massenänderung} eines Ladungsträgers, der den Rand des Netzwerks erreicht:
 
 \[
-z_{\text{Rand}} = 1 - \frac{|I_{\text{out}}|^2}{|I_{\text{in}}|^2} \tag{Q.3}
+z_{\text{Rand}} = \frac{m_{\text{in}}}{m_{\text{out}}} - 1 \tag{Q.4}
 \]
 
-Die abgegebene Energie wird an das Vakuum zurückgegeben:
+Die Amplitude bleibt \textbf{unverändert}:
 
 \[
-|I_{\text{out}}|^2 = |I_{\text{in}}|^2 - \Delta E_{\text{Vakuum}} \tag{Q.4}
+|I_{\text{out}}|^2 = |I_{\text{in}}|^2 \tag{Q.5}
 \]
 
-\section{Die quantitative Formel}
-\label{app:rotverschiebung_formel}
+Die Information bleibt erhalten (Axiom 2).
 
-Aus Kapitel~\ref{ch:kosmologie} (Gleichung 14.1) folgt für die diskrete IWT:
+\section{Die Massenänderung am Rand}
+\label{app:rotverschiebung_massenänderung}
+
+Am Rand $r = R$ gilt:
 
 \[
-z_{ij} = \frac{G}{c^2} \sum_{k \in \text{Pfad}(i,j)} \frac{M(r_k)}{r_k^2} \Delta r_k \tag{Q.5}
+m_{\text{out}} = m_{\text{in}} \cdot \left( \frac{R}{l_0} \right)^{D-3} \tag{Q.6}
 \]
 
-mit:
-
-\begin{tabular}{l|l}
-\hline
-\textbf{Größe} & \textbf{In der IWT} \\
-\hline
-$G$ & $G = \beta_{\text{IWT}} \cdot \lambda_0^{3-D} / T^2$ (siehe Kapitel~\ref{ch:naturkonstanten}) \\
-$M(r_k)$ & $M(r_k) = \sum_{d_{kl} < r_k} \delta \sum_{l \in \mathcal{N}(k)} |I_k - I_l|^2$ (siehe Kapitel~\ref{ch:diskrete_informationsdynamik}) \\
-$r_k$ & Fraktale Distanz vom Zentrum (siehe Kapitel~\ref{ch:fraktale_dimension}) \\
-$\Delta r_k$ & Fraktale Distanz zwischen zwei Knoten (siehe Anhang~\ref{app:mathematik}) \\
-\hline
-\end{tabular}
-
-\section{Die Dämpfungskonstante $\alpha$}
-\label{app:rotverschiebung_daempfung}
-
-Die Dämpfungskonstante $\alpha$ beschreibt den Energieverlust pro Zeiteinheit am Rand. Sie ist \textbf{kein freier Parameter}, sondern folgt aus der fraktalen Geometrie des Raumes.
-
-\subsection{Herleitung aus der fraktalen Zustandsdichte}
-
-Aus Anhang~\ref{app:spektrale_dimension} folgt für die Zustandsdichte im fraktalen Raum:
+Mit $R = L_{Q,0}$ (der Korrelationslänge des Q-Feldes):
 
 \[
-\rho_{\text{states}}(\omega) = \frac{D}{2\pi^2} \frac{\omega^{D-1}}{c^D} \Gamma(D/2) \tag{Q.6}
+m_{\text{out}} = m_{\text{in}} \cdot \left( \frac{L_{Q,0}}{l_0} \right)^{D-3} \tag{Q.7}
 \]
 
-Die Anzahl der Moden bis zur Frequenz $\omega$ ist:
+\subsection{Die Rotverschiebungsformel}
+
+Aus (Q.4) und (Q.7) folgt:
 
 \[
-N(\omega) = \int_0^\omega \rho_{\text{states}}(\omega') \, d\omega' \propto \omega^D \tag{Q.7}
+\boxed{
+z = \frac{m_{\text{in}}}{m_{\text{out}}} - 1 = \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} - 1
+} \tag{Q.8}
 \]
 
-\subsection{Energieverlust am Rand}
+Für $D < 3$ und $l_0 < L_{Q,0}$ ist $z > 0$ – das ist eine \textbf{Rotverschiebung}.
 
-Ein Photon, das den Rand erreicht, hat eine Frequenz $\omega$. Seine Energie ist:
+\subsection{Frequenzabhängigkeit}
+
+Die Masse eines Ladungsträgers hängt von seiner Frequenz $\omega$ ab:
 
 \[
-E = \hbar \omega \tag{Q.8}
+m(\omega) = m_0 \cdot \left( \frac{\omega}{\omega_0} \right)^{D-3} \tag{Q.9}
 \]
 
-Die Anzahl der Moden am Rand ist durch die fraktale Dimension $D$ und die Korrelationslänge $L_{Q,0}$ begrenzt:
+Die Rotverschiebung ist daher frequenzabhängig:
 
 \[
-N_{\text{Rand}} \propto \left( \frac{L_{Q,0}}{\lambda} \right)^D \tag{Q.9}
+\boxed{
+z(\omega) = \left( \frac{\omega}{\omega_{\text{max}}} \right)^{D-3} - 1
+} \tag{Q.10}
 \]
 
-Wenn ein Photon das Netzwerk verlässt, verliert es Energie, weil es in einen Zustand mit \textbf{niedrigerer Modendichte} übergeht. Der relative Energieverlust ist:
+mit $\omega_{\text{max}} = 2\pi c / l_0$.
+
+\section{Die Massenänderungskonstante $\alpha$}
+\label{app:rotverschiebung_alpha}
+
+Die Massenänderungskonstante $\alpha$ beschreibt die Massenänderung pro Zeiteinheit am Rand. Sie ist \textbf{kein freier Parameter}, sondern folgt aus der fraktalen Geometrie des Raumes.
+
+\subsection{Herleitung}
+
+Die Massenänderung pro Zeiteinheit ist:
 
 \[
-\frac{\Delta E}{E} = 1 - \left( \frac{\lambda}{L_{Q,0}} \right)^{3-D} \tag{Q.10}
+\alpha = \frac{1}{T} \cdot \frac{\Delta m}{m} \tag{Q.11}
 \]
 
-Mit $\lambda = 2\pi c / \omega$ folgt:
+Mit $T = \lambda_0 / c$ (fundamentale Zeit, siehe Kapitel~\ref{ch:naturkonstanten}):
 
 \[
-\frac{\Delta E}{E} = 1 - \left( \frac{2\pi c}{\omega L_{Q,0}} \right)^{3-D} \tag{Q.11}
-\]
-
-\subsection{Die Dämpfungskonstante}
-
-Die Dämpfungskonstante $\alpha$ ist der Energieverlust pro Zeiteinheit:
-
-\[
-\alpha = \frac{1}{T} \cdot \frac{\Delta E}{E} \tag{Q.12}
-\]
-
-Mit $T = \lambda_0 / c$ (fundamentale Zeit, siehe Kapitel~\ref{ch:naturkonstanten}) und $\lambda_0 \approx 1,8 \times 10^{-15} \, \text{m}$:
-
-\[
-\boxed{\alpha = \frac{c}{\lambda_0} \left[ 1 - \left( \frac{2\pi c}{\omega L_{Q,0}} \right)^{3-D} \right]} \tag{Q.13}
+\boxed{
+\alpha = \frac{c}{\lambda_0} \left[ \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} - 1 \right]
+} \tag{Q.12}
 \]
 
 \subsection{Numerischer Wert}
@@ -157,81 +148,79 @@ Mit den bekannten Werten:
 c &= 2,998 \times 10^8 \, \text{m/s} \\
 \lambda_0 &= 1,8 \times 10^{-15} \, \text{m} \\
 D &= 2,704 \\
-L_{Q,0} &= 2,0 \times 10^{46} \, \text{m} \\
-\omega &\sim 10^{21} \, \text{s}^{-1} \quad \text{(typische Photonenfrequenz)}
+L_{Q,0} &= 2,0 \times 10^{46} \, \text{m}
 \end{align*}
 
 folgt:
 
 \[
-\frac{2\pi c}{\omega L_{Q,0}} = \frac{2\pi \cdot 2,998 \times 10^8}{10^{21} \cdot 2,0 \times 10^{46}} \approx 9,4 \times 10^{-59}
+\frac{l_0}{L_{Q,0}} = \frac{1,8 \times 10^{-15}}{2,0 \times 10^{46}} = 9,0 \times 10^{-62}
 \]
 
 \[
-\left( \frac{2\pi c}{\omega L_{Q,0}} \right)^{3-D} = \left( 9,4 \times 10^{-59} \right)^{0,296} \approx 10^{-17}
+\left( \frac{l_0}{L_{Q,0}} \right)^{D-3} = \left( 9,0 \times 10^{-62} \right)^{0,296} \approx 10^{-17}
 \]
 
 \[
-\alpha = \frac{2,998 \times 10^8}{1,8 \times 10^{-15}} \left( 1 - 10^{-17} \right) \approx 1,67 \times 10^{23} \, \text{s}^{-1} \tag{Q.14}
+\alpha = \frac{2,998 \times 10^8}{1,8 \times 10^{-15}} \left( 10^{-17} - 1 \right) \approx -1,67 \times 10^{23} \, \text{s}^{-1} \tag{Q.13}
 \]
 
-\subsection{Dimensionslose Dämpfungskonstante für die Simulation}
+Das negative Vorzeichen zeigt: Die Masse \textbf{nimmt ab} – das ist eine Rotverschiebung.
+
+\subsection{Dimensionslose Konstante für die Simulation}
 
 In der Simulation wird $\alpha$ als \textbf{dimensionslose Größe} verwendet:
 
 \[
-\alpha_{\text{sim}} = \alpha \cdot T = \alpha \cdot \frac{\lambda_0}{c} = 1 - \left( \frac{2\pi c}{\omega L_{Q,0}} \right)^{3-D} \tag{Q.15}
+\boxed{
+\alpha_{\text{sim}} = \alpha \cdot T = \alpha \cdot \frac{\lambda_0}{c} = \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} - 1
+} \tag{Q.14}
 \]
 
 \[
-\alpha_{\text{sim}} \approx 1 - 10^{-17} \approx 0,99999999999999999 \tag{Q.16}
+\alpha_{\text{sim}} \approx 10^{-17} - 1 \approx -0,99999999999999999 \tag{Q.15}
 \]
 
-Das bedeutet: In der Simulation ist die Dämpfung am Rand \textbf{nahezu 1} – fast 100\,\% der Energie wird abgegeben.
+Das bedeutet: In der Simulation wird die Masse am Rand \textbf{nahezu vollständig verändert}.
 
-\subsection{Physikalische Interpretation}
+\section{Die vollständige Transformation am Rand}
+\label{app:rotverschiebung_transformation}
 
-Die Dämpfungskonstante $\alpha$ ist \textbf{nicht willkürlich}. Sie folgt aus:
+Die vollständige Transformation eines Ladungsträgers am Rand ist:
 
-\begin{enumerate}
-    \item Der \textbf{fraktalen Dimension $D$} – bestimmt den Exponenten
-    \item Der \textbf{Korrelationslänge $L_{Q,0}$} – bestimmt die Skala
-    \item Der \textbf{fundamentalen Länge $\lambda_0$} – bestimmt die Zeitskala
-\end{enumerate}
-
-\textbf{Die Rotverschiebung ist kein freier Parameter – sie ist eine Konsequenz der fraktalen Geometrie.}
+\[
+\boxed{
+\begin{aligned}
+|I_{\text{out}}|^2 &= |I_{\text{in}}|^2 \quad \text{(Information bleibt erhalten)} \\
+m_{\text{out}} &= m_{\text{in}} \cdot \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} \quad \text{(Masse ändert sich)}
+\end{aligned}
+} \tag{Q.16}
+\]
 
 \section{Die Implementierung in der Simulation}
 \label{app:rotverschiebung_implementierung}
 
-Für die Simulation vereinfacht sich die Rotverschiebung zu:
+Für die Simulation wird die Transformation wie folgt implementiert:
 
 \begin{verbatim}
 // Für jeden Randknoten:
-I_real[i] *= sqrt(1.0 - z_eff);
-I_imag[i] *= sqrt(1.0 - z_eff);
+double amplitude = sqrt(I_real[i]^2 + I_imag[i]^2);  // bleibt konstant
+
+// Massenänderung am Rand
+double m_in = get_mass(I_real[i], I_imag[i]);
+double m_out = m_in * pow(l0 / L_Q_0, D - 3);
+
+// Die Amplitude bleibt unverändert (Informationserhaltung)
+// Die Masse ändert sich, aber die Information bleibt erhalten
+
+// Die Phase kodiert die neue Masse
+double phase_out = encode_mass(m_out);
+
+I_real[i] = amplitude * cos(phase_out);
+I_imag[i] = amplitude * sin(phase_out);
+
+// Informationserhaltung: |I_out|^2 = |I_in|^2
 \end{verbatim}
-
-wobei $z_{\text{eff}}$ die effektive Rotverschiebung am Rand ist:
-
-\[
-z_{\text{eff}} = 1.0 - \exp(-\alpha_{\text{sim}} \cdot t) \tag{Q.17}
-\]
-
-mit $\alpha_{\text{sim}}$ aus (Q.15) und $t$ als Zeit in simulierten Einheiten.
-
-\textbf{Aber:} Diese Vereinfachung ist nur gültig, wenn die Rotverschiebung aus der Theorie abgeleitet wurde.
-
-\section{Die Rückführung zur Vakuumenergie}
-\label{app:rotverschiebung_rueckfuehrung}
-
-Die abgegebene Energie wird an das Vakuum zurückgegeben:
-
-\[
-|I_{\text{Vakuum}}|^2 = |I_{\text{Vakuum}}|^2 + \Delta E_{\text{Rotverschiebung}} \tag{Q.18}
-\]
-
-Das Vakuum wird durch die Fluktuationen repräsentiert (Anhang~\ref{app:unschaerfe_herleitung}). Die Rückführung ist \textbf{implizit} – sie geschieht durch die Fluktuationen.
 
 \section{Zusammenfassung}
 \label{app:rotverschiebung_zusammenfassung}
@@ -240,12 +229,13 @@ Das Vakuum wird durch die Fluktuationen repräsentiert (Anhang~\ref{app:unschaer
 \hline
 \textbf{Aspekt} & \textbf{Formel} \\
 \hline
-Rotverschiebung & $z = 1 - \frac{|I_{\text{out}}|^2}{|I_{\text{in}}|^2}$ \\
-Diskrete Rotverschiebung & $z_{ij} = \frac{G}{c^2} \sum \frac{M(r_k)}{r_k^2} \Delta r_k$ \\
-Dämpfungskonstante & $\alpha = \frac{c}{\lambda_0} \left[ 1 - \left( \frac{2\pi c}{\omega L_{Q,0}} \right)^{3-D} \right]$ \\
-Dimensionslose Dämpfung & $\alpha_{\text{sim}} = 1 - \left( \frac{2\pi c}{\omega L_{Q,0}} \right)^{3-D}$ \\
-Rückführung & $|I_{\text{Vakuum}}|^2 = |I_{\text{Vakuum}}|^2 + \Delta E$ \\
-Erhaltung & $\sum |I_k|^2 = \text{const}$ \\
+Rotverschiebung (Definition) & $z = \frac{m_{\text{in}}}{m_{\text{out}}} - 1$ \\
+Amplitude & $|I_{\text{out}}|^2 = |I_{\text{in}}|^2$ \\
+Masse am Rand & $m_{\text{out}} = m_{\text{in}} \cdot \left( \frac{l_0}{L_{Q,0}} \right)^{D-3}$ \\
+Rotverschiebungsformel & $z = \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} - 1$ \\
+Massenänderungskonstante & $\alpha = \frac{c}{\lambda_0} \left[ \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} - 1 \right]$ \\
+Dimensionslose Konstante & $\alpha_{\text{sim}} = \left( \frac{l_0}{L_{Q,0}} \right)^{D-3} - 1$ \\
+Informationserhaltung & $\sum |I_k|^2 = \text{const}$ \\
 \hline
 \end{tabular}
 
@@ -253,9 +243,9 @@ Erhaltung & $\sum |I_k|^2 = \text{const}$ \\
 \label{app:rotverschiebung_offene_fragen}
 
 \begin{enumerate}
-    \item \textbf{Wie wird die Rotverschiebung gemessen?} – Durch den Vergleich von $|I|$ am Rand und im Zentrum.
-    \item \textbf{Wie hängt die Rotverschiebung von der Frequenz ab?} – Das ist die frequenzabhängige Lichtablenkung aus Kapitel~\ref{ch:testbare_vorhersagen}.
-    \item \textbf{Ist die Dämpfung am Rand wirklich 100\,\%?} – Der numerische Wert $\alpha_{\text{sim}} \approx 0,99999999999999999$ legt nahe, dass die Energie nahezu vollständig abgegeben wird. Dies muss in der Simulation überprüft werden.
+    \item \textbf{Wie wird die Rotverschiebung gemessen?} – Durch den Vergleich der Masse $m$ am Rand und im Zentrum.
+    \item \textbf{Wie hängt die Rotverschiebung von der Frequenz ab?} – Sie ist frequenzabhängig: $z(\omega) = (\omega/\omega_{\text{max}})^{D-3} - 1$.
+    \item \textbf{Wie hängt die Rotverschiebung mit Photonen zusammen?} – Die IWT kennt keine Photonen. Die beobachtete Rotverschiebung von Licht ist ein emergenter Effekt der Ladungsdynamik.
 \end{enumerate}
 
 \textbf{Dieser Anhang ist die theoriekonforme Grundlage für die Implementierung der Rotverschiebung in der IWT.}
