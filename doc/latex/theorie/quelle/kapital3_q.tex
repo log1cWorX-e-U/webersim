@@ -8,7 +8,7 @@ Die Antwort ist \( Q \).
 
 \( Q \) ist das Prinzip der Selbstorganisation. Es ist die Kraft, die die Information so ordnet, dass sie stabil bleibt. \( Q \) ist kein externes Postulat – es folgt zwingend aus den Axiomen der IWT.
 
-Dieses Kapitel zeigt, wie \( Q \) aus den Axiomen hergeleitet wird, und welche Rolle es in der Theorie spielt.
+Dieses Kapitel zeigt, wie \( Q \) aus den Axiomen hergeleitet wird, und welche Rolle es in der Theorie spielt. Darüber hinaus wird die Interpretation von \( I \) als Energie, Masse und Ladung dargestellt – und die Definition der Ladung als diskrete Divergenz der Phase aus physikalischer Plausibilität und Konsistenz mit der emergierten Physik (insbesondere der Weber-Elektrodynamik) begründet.
 
 \section{Q ist kein Axiom}
 
@@ -24,6 +24,89 @@ Die Axiome definieren:
 \( Q \) ist keine zusätzliche Annahme. \( Q \) ist eine Konsequenz.
 
 Es ist das, was passiert, wenn Information unter der Bedingung der Erhaltung und des Variationsprinzips sich selbst organisiert.
+
+\section{Die Interpretation von I als Energie, Masse und Ladung}
+
+Die fundamentale Größe der IWT ist die Information \( I_k^{(n)} \).
+
+Sie ist die einzige ontologische Größe der Theorie.
+
+Alle physikalischen Größen – Energie, Masse, Ladung – sind Interpretationen von \( I \). Sie sind nicht fundamental, sondern emergente Aspekte derselben Informationsdynamik.
+
+\subsection{Energie}
+
+Energie ist der Informationsfluss:
+
+\[
+E^{(n)} = \sum_k \left[ \frac{\partial \mathcal{L}_d}{\partial (\Delta_t I_k^{(n)})} \Delta_t I_k^{(n)} - \mathcal{L}_d \right]
+\]
+
+Sie ist die zum Zeitschritt \( T \) konjugierte Größe. Sie ist keine fundamentale Größe – sie ist eine Eigenschaft der Informationsdynamik.
+
+\subsection{Masse}
+
+Masse ist der Widerstand gegen Informationsänderung:
+
+\[
+m_k^{(n)} = \delta \sum_{l \in \mathcal{N}(k)} |I_k^{(n)} - I_l^{(n)}|^2
+\]
+
+Sie ist ein Maß für die lokale Struktur der Information. Je stärker die Information an einem Knoten von seiner Umgebung abweicht, desto größer ist die effektive Masse.
+
+\subsection{Ladung}
+
+Die Definition der Ladung in der IWT folgt aus physikalischer Plausibilität und der Konsistenz mit der emergierten Physik – insbesondere mit der Weber-Elektrodynamik (WED) und der Rotverschiebung.
+
+Die Information \( I \) ist komplex und besitzt zwei Aspekte:
+\begin{itemize}
+\item die \textbf{Amplitude} \( |I| \), welche die Intensität, Dichte und Masse beschreibt,
+\item die \textbf{Phase} \( \phi = \arg(I) \), welche die Kohärenz, Ausbreitung und das Feld beschreibt.
+\end{itemize}
+
+Die Masse ist die Änderung der Amplitude:
+\[
+m = \nabla |I|
+\]
+
+Die Ladung ist die Änderung der Phase – aber nicht der einfache Gradient, sondern die Divergenz des Phasengradienten:
+
+\[
+q = \nabla^2 \phi
+\]
+
+Im diskreten Fall der IWT bedeutet dies:
+
+\[
+\boxed{q_k^{(n)} = \sum_{l \in \mathcal{N}(k)} \left( \phi_k^{(n)} - \phi_l^{(n)} \right)}
+\]
+
+Begründung:
+
+\begin{enumerate}
+\item \textbf{Masse und Ladung sind komplementär:} Die Masse ist der Widerstand gegen Änderung der Amplitude (Materie). Die Ladung ist die Divergenz der Phasenänderung (Feld). Sie sind zwei Aspekte derselben Information – aber sie sind nicht identisch.
+
+\item \textbf{Ladung ist die Quelle des Feldes:} In der WED ist die Ladung die Quelle des elektrischen Potentials. Die WED ist eichinvariant – sie ist invariant unter der Transformation \( \phi \to \phi + \chi \), wobei \( \chi \) eine beliebige Funktion ist. Die Ladung muss daher eichinvariant sein. Der einfache Phasengradient \( \nabla \phi \) ist nicht eichinvariant – er ändert sich unter \( \phi \to \phi + \chi \). Seine Divergenz \( \nabla^2 \phi \) hingegen ist eichinvariant, weil sie unter der Transformation unverändert bleibt. Im diskreten Fall ist die Summe der Phasendifferenzen die natürliche diskrete Divergenz.
+
+\item \textbf{Die Rotverschiebung ist eine Phasenänderung:} Photonen verlieren Energie durch die Änderung ihrer Phase. Die Rotverschiebung ist die Energiesenke, die das Universum stabil hält. Sie ist mit der Phase und damit mit der Ladung gekoppelt.
+
+\item \textbf{Die Fluktuation aus der diskreten Zeit verändert die Ladung nicht:} Die Vakuumfluktuation (aus Anhang O) erzeugt Struktur, aber sie erzeugt oder vernichtet keine Ladung. Die Ladung ist eine Erhaltungsgröße.
+\end{enumerate}
+
+\subsection{Die Einheit}
+
+Energie, Masse und Ladung sind drei Interpretationen derselben Größe: der Information \( I \).
+
+\[
+\begin{aligned}
+\text{Energie} &= f_{\text{Energie}}(I) \\
+\text{Masse} &= f_{\text{Masse}}(I) \\
+\text{Ladung} &= f_{\text{Ladung}}(I)
+\end{aligned}
+\]
+
+Alle physikalischen Größen sind \( I \).
+
+\( I \) ist die einzige fundamentale Größe.
 
 \section{Die Herleitung von Q}
 
@@ -139,6 +222,10 @@ Die Information organisiert sich selbst, weil sie unter der Bedingung der Erhalt
 \begin{itemize}
 \item \( Q \) ist kein Axiom.
 \item \( Q \) folgt aus der Informationserhaltung und dem Variationsprinzip.
+\item Energie ist der Informationsfluss.
+\item Masse ist der Widerstand gegen Informationsänderung (Amplitude): \( m = \nabla |I| \).
+\item Ladung ist die eichinvariante Divergenz der Phase: \( q = \nabla^2 \phi \), diskret \( q_k = \sum_l (\phi_k - \phi_l) \).
+\item Ladung ist eine Erhaltungsgröße – sie wird weder durch Fluktuation noch durch Energiesenke verändert.
 \item \( Q \) ist das Bohm-Potential der DBT.
 \item \( Q \) ist die Quelle der Gravitation (\( \vec{F} = -\nabla Q \)).
 \item \( Q \) ist die Quelle der Elektrodynamik (\( \vec{F} = -\nabla Q \)).

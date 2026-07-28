@@ -24,207 +24,217 @@
 \contentsline {chapter}{\numberline {3}Q: Die Quelle der Selbstorganisation}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Einleitung}{23}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Q ist kein Axiom}{23}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Die Herleitung von Q}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Der Ansatz}{24}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Die Lagrange-Multiplikator-Methode}{24}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Die Lösung}{24}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Die Identifikation von Q}{25}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Q als Quelle}{25}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Q als Selbstorganisation}{25}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Zusammenfassung}{25}{section.3.6}%
-\contentsline {part}{II\hspace {1em}Die Emergenz der Physik aus Q}{27}{part.2}%
-\contentsline {chapter}{\numberline {4}Die drei Säulen – DBT, WG, WED}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Einleitung}{29}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Die strukturelle Identität}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Die De-Broglie-Bohm-Theorie (DBT)}{30}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Die Weber-Gravitation (WG)}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Die Weber-Elektrodynamik (WED)}{31}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Die Einheit}{31}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Zusammenfassung}{31}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Die Dynamische Schwere-Trägheits-Theorie (DSTT)}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Einleitung}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Die Axiome der DSTT}{33}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Axiom 1: Trennung von Ursache und Wirkung}{33}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Axiom 2: Anisotrope Trägheit}{33}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Axiom 3: Dynamische Aufteilung}{33}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Axiom 4: Monotonie}{34}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Die Konsequenzen der DSTT}{34}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Spiralbahnen statt Ellipsen}{34}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Der intrinsische Zeitpfeil}{34}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Die Widerlegung des Äquivalenzprinzips}{34}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}Die DSTT in der WG und WED}{35}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Zusammenfassung}{35}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Die Omega-Theorie und die Maxwell-Gravitation}{37}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Einleitung}{37}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Die Wirbelstruktur der Weber-Gravitation}{37}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Die Omega-Theorie}{37}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Axiom 1: Nicht-Lokalität und Instantaneität}{38}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Axiom 2: Das Rotationsfeld}{38}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Axiom 3: Aufspaltung von Ursache und Wirkung}{38}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Axiom 4: DSTT-Kompatibilität}{38}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Die Feldgleichungen}{38}{subsection.6.3.5}%
-\contentsline {section}{\numberline {6.4}Die Maxwell-Gravitation}{38}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Gravitationswellen mit Dispersion}{39}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Die ART als Grenzfall}{39}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Zusammenfassung}{39}{section.6.7}%
-\contentsline {chapter}{\numberline {7}Die fraktale Geometrie und die Naturkonstanten}{41}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Einleitung}{41}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Die fraktale Dimension D}{41}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Geometrischer Ursprung}{41}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Fibonacci-Rekursion}{42}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Definition der fraktalen Dimension}{42}{subsection.7.2.3}%
-\contentsline {section}{\numberline {7.3}Die fundamentale Längenskala l0}{42}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Die Emergenz der Naturkonstanten}{43}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Lichtgeschwindigkeit}{43}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Planck'sches Wirkungsquantum}{43}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Gravitationskonstante}{43}{subsection.7.4.3}%
-\contentsline {subsection}{\numberline {7.4.4}Feinstrukturkonstante}{43}{subsection.7.4.4}%
-\contentsline {section}{\numberline {7.5}Die Korrelationslänge des Q-Feldes}{43}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Zusammenfassung}{43}{section.7.6}%
-\contentsline {part}{III\hspace {1em}Die Bestätigung – Die Simulation}{45}{part.3}%
-\contentsline {chapter}{\numberline {8}Die Implementierung der IWT}{47}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Einleitung}{47}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Die diskrete Evolutionsgleichung}{47}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Die intrinsische Unschärfe}{48}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Die numerischen Parameter}{48}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Die eingefrorenen Funktionen}{48}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Fluktuationen (Vakuum)}{48}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {8.5.2}Energiesenke (Strukturen)}{48}{subsection.8.5.2}%
-\contentsline {subsection}{\numberline {8.5.3}Die Balance}{49}{subsection.8.5.3}%
-\contentsline {section}{\numberline {8.6}Die technische Implementierung}{49}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Die Stabilitätsbedingungen}{49}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Zusammenfassung}{49}{section.8.8}%
-\contentsline {chapter}{\numberline {9}Ergebnisse der Simulation}{51}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Einleitung}{51}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Beweis 1: Axiom 2 ist erfüllt}{51}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Beweis 2: Strukturbildung}{51}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Beweis 3: Q emergiert und ist negativ}{52}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Beweis 4: Gravitation emergiert aus Q}{52}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Beweis 5: Das System ist im Gleichgewicht}{52}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Die Fluktuationen}{53}{section.9.7}%
-\contentsline {section}{\numberline {9.8}Die Bestätigung}{53}{section.9.8}%
-\contentsline {section}{\numberline {9.9}Zusammenfassung}{53}{section.9.9}%
-\contentsline {chapter}{\numberline {10}Die Legende der Simulation}{55}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Einleitung}{55}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Die Kernstatistik}{55}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Die Energiestatistik}{56}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Die Fluktuationsstatistik}{56}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Die Bohm-Potential Statistik}{56}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Die physikalische Interpretation}{57}{section.10.6}%
-\contentsline {section}{\numberline {10.7}Das Fazit der Simulation}{57}{section.10.7}%
-\contentsline {section}{\numberline {10.8}Zusammenfassung}{57}{section.10.8}%
-\contentsline {part}{IV\hspace {1em}Die Folgen – Ein neues Verständnis der Physik}{59}{part.4}%
-\contentsline {chapter}{\numberline {11}Die vereinheitlichte Physik}{61}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Einleitung}{61}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Die Kette der Emergenz}{61}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Die drei Säulen}{62}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Die DSTT als Bindeglied}{62}{section.11.4}%
-\contentsline {section}{\numberline {11.5}Die Omega-Theorie und die Maxwell-Gravitation}{63}{section.11.5}%
-\contentsline {section}{\numberline {11.6}Das Neutrino als Graviton}{63}{section.11.6}%
-\contentsline {section}{\numberline {11.7}Die Einheit der Physik}{63}{section.11.7}%
-\contentsline {section}{\numberline {11.8}Die Konsequenz}{63}{section.11.8}%
-\contentsline {section}{\numberline {11.9}Die Wahrheit}{63}{section.11.9}%
-\contentsline {section}{\numberline {11.10}Zusammenfassung}{64}{section.11.10}%
-\contentsline {chapter}{\numberline {12}Testbare Vorhersagen}{65}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Einleitung}{65}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Fraktale Skalengesetze in der Kosmologie}{65}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Die maximale Masse kompakter Objekte}{65}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Gravitationsphysik}{66}{section.12.4}%
-\contentsline {subsection}{\numberline {12.4.1}Frequenzabhängige Lichtablenkung}{66}{subsection.12.4.1}%
-\contentsline {subsection}{\numberline {12.4.2}Gravitationswellen-Dispersion}{66}{subsection.12.4.2}%
-\contentsline {subsection}{\numberline {12.4.3}Shapiro-Laufzeitverzögerung}{66}{subsection.12.4.3}%
-\contentsline {section}{\numberline {12.5}Neutrinophysik}{66}{section.12.5}%
-\contentsline {subsection}{\numberline {12.5.1}Neutrinomasse}{66}{subsection.12.5.1}%
-\contentsline {subsection}{\numberline {12.5.2}Neutrino-Oszillationen}{67}{subsection.12.5.2}%
-\contentsline {section}{\numberline {12.6}Kosmologie}{67}{section.12.6}%
-\contentsline {subsection}{\numberline {12.6.1}Die Hubble-Spannung}{67}{subsection.12.6.1}%
-\contentsline {subsection}{\numberline {12.6.2}Stationäres Universum}{67}{subsection.12.6.2}%
-\contentsline {section}{\numberline {12.7}Sonnenphysik}{67}{section.12.7}%
-\contentsline {section}{\numberline {12.8}Zusammenfassung der wichtigsten Vorhersagen}{67}{section.12.8}%
-\contentsline {section}{\numberline {12.9}Fazit}{68}{section.12.9}%
-\contentsline {chapter}{\numberline {13}Schlussbetrachtung}{69}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Rückblick}{69}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Die Bestätigung}{69}{section.13.2}%
-\contentsline {section}{\numberline {13.3}Die Einheit der Physik}{69}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Die Konsequenzen}{70}{section.13.4}%
-\contentsline {section}{\numberline {13.5}Die offenen Fragen}{70}{section.13.5}%
-\contentsline {section}{\numberline {13.6}Der Abschied vom Paradigma}{70}{section.13.6}%
-\contentsline {section}{\numberline {13.7}Die Wahrheit}{71}{section.13.7}%
-\contentsline {section}{\numberline {13.8}Der Ausblick}{71}{section.13.8}%
-\contentsline {section}{\numberline {13.9}Zusammenfassung}{71}{section.13.9}%
-\contentsline {chapter}{\numberline {A}Mathematische Grundlagen}{73}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Einleitung}{73}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Diskrete Variationsrechnung}{73}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Das diskrete Funktional}{73}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Diskrete Euler-Lagrange-Gleichungen}{73}{subsection.A.2.2}%
-\contentsline {section}{\numberline {A.3}Diskrete Noether-Theoreme}{74}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Wichtige Symmetrien und Erhaltungssätze}{74}{subsection.A.3.1}%
-\contentsline {section}{\numberline {A.4}Die diskrete Informationsmetrik}{74}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Eigenschaften}{75}{subsection.A.4.1}%
-\contentsline {section}{\numberline {A.5}Fraktale Analysis diskreter Netzwerke}{75}{section.A.5}%
-\contentsline {subsection}{\numberline {A.5.1}Fraktale Dimension}{75}{subsection.A.5.1}%
-\contentsline {subsection}{\numberline {A.5.2}Die Kopplungsmatrix}{75}{subsection.A.5.2}%
-\contentsline {section}{\numberline {A.6}Diskrete Fourier-Analyse}{75}{section.A.6}%
-\contentsline {section}{\numberline {A.7}Zusammenfassung der mathematischen Struktur}{76}{section.A.7}%
-\contentsline {chapter}{\numberline {B}Herleitungen}{77}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Einleitung}{77}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Herleitung von Q}{77}{section.B.2}%
-\contentsline {subsection}{\numberline {B.2.1}Der Ansatz}{77}{subsection.B.2.1}%
-\contentsline {subsection}{\numberline {B.2.2}Die Lagrange-Multiplikator-Methode}{77}{subsection.B.2.2}%
-\contentsline {subsection}{\numberline {B.2.3}Die Lösung}{78}{subsection.B.2.3}%
-\contentsline {subsection}{\numberline {B.2.4}Die Identifikation}{78}{subsection.B.2.4}%
-\contentsline {section}{\numberline {B.3}Herleitung der DBT aus Q}{78}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Herleitung der WG aus Q}{78}{section.B.4}%
-\contentsline {subsection}{\numberline {B.4.1}Die Kraft}{79}{subsection.B.4.1}%
-\contentsline {subsection}{\numberline {B.4.2}Die Periheldrehung}{79}{subsection.B.4.2}%
-\contentsline {section}{\numberline {B.5}Herleitung der WED aus Q}{79}{section.B.5}%
-\contentsline {subsection}{\numberline {B.5.1}Die Kraft}{79}{subsection.B.5.1}%
-\contentsline {section}{\numberline {B.6}Herleitung der Unschärferelation}{80}{section.B.6}%
-\contentsline {subsection}{\numberline {B.6.1}Bandbegrenzung}{80}{subsection.B.6.1}%
-\contentsline {subsection}{\numberline {B.6.2}Bandbreiten-Unschärfe}{80}{subsection.B.6.2}%
-\contentsline {subsection}{\numberline {B.6.3}Energie-Zeit-Unschärfe}{80}{subsection.B.6.3}%
-\contentsline {subsection}{\numberline {B.6.4}Orts-Impuls-Unschärfe}{80}{subsection.B.6.4}%
-\contentsline {section}{\numberline {B.7}Herleitung der fraktalen Dimension}{80}{section.B.7}%
-\contentsline {subsection}{\numberline {B.7.1}Der Skalierungsfaktor}{80}{subsection.B.7.1}%
-\contentsline {subsection}{\numberline {B.7.2}Der Vermehrungsfaktor}{80}{subsection.B.7.2}%
-\contentsline {subsection}{\numberline {B.7.3}Die fraktale Dimension}{81}{subsection.B.7.3}%
-\contentsline {section}{\numberline {B.8}Zusammenfassung}{81}{section.B.8}%
-\contentsline {chapter}{\numberline {C}Vollständige Legende der Simulation}{83}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Einleitung}{83}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Die Ausgabe der Simulation}{83}{section.C.2}%
-\contentsline {subsection}{\numberline {C.2.1}Zeile 1: Kernstatistik}{83}{subsection.C.2.1}%
-\contentsline {subsection}{\numberline {C.2.2}Zeile 2: Energiestatistik}{83}{subsection.C.2.2}%
-\contentsline {subsection}{\numberline {C.2.3}Zeile 3: Fluktuationsstatistik}{83}{subsection.C.2.3}%
-\contentsline {subsection}{\numberline {C.2.4}Zeile 4: Summe |I|\texttwosuperior Historie}{84}{subsection.C.2.4}%
-\contentsline {subsection}{\numberline {C.2.5}Zeile 5: I\_max Historie}{84}{subsection.C.2.5}%
-\contentsline {subsection}{\numberline {C.2.6}Zeile 6: Realteil-Statistik}{84}{subsection.C.2.6}%
-\contentsline {subsection}{\numberline {C.2.7}Zeile 7: Imaginärteil-Statistik}{84}{subsection.C.2.7}%
-\contentsline {subsection}{\numberline {C.2.8}Zeile 8: Phasen-Statistik}{84}{subsection.C.2.8}%
-\contentsline {subsection}{\numberline {C.2.9}Zeile 9: Fluss-Statistik}{84}{subsection.C.2.9}%
-\contentsline {subsection}{\numberline {C.2.10}Zeile 10: Bohm-Potential Statistik}{84}{subsection.C.2.10}%
-\contentsline {subsection}{\numberline {C.2.11}Zeile 11: Realteil-Fluktuationen}{85}{subsection.C.2.11}%
-\contentsline {subsection}{\numberline {C.2.12}Zeile 12: Imaginärteil-Fluktuationen}{85}{subsection.C.2.12}%
-\contentsline {section}{\numberline {C.3}Die physikalische Interpretation}{85}{section.C.3}%
-\contentsline {section}{\numberline {C.4}Das Fazit der Simulation}{86}{section.C.4}%
-\contentsline {section}{\numberline {C.5}Zusammenfassung}{86}{section.C.5}%
-\contentsline {chapter}{\numberline {D}Vergleich mit etablierten Theorien}{87}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Einleitung}{87}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Vergleich mit der klassischen Mechanik}{87}{section.D.2}%
-\contentsline {subsection}{\numberline {D.2.1}Fundamentale Konzepte}{87}{subsection.D.2.1}%
-\contentsline {subsection}{\numberline {D.2.2}Emergenz aus der IWT}{87}{subsection.D.2.2}%
-\contentsline {subsection}{\numberline {D.2.3}Emergente Gleichungen}{88}{subsection.D.2.3}%
-\contentsline {subsection}{\numberline {D.2.4}Fundamentaler vs. emergenter Status}{88}{subsection.D.2.4}%
-\contentsline {section}{\numberline {D.3}Vergleich mit der Elektrodynamik}{88}{section.D.3}%
-\contentsline {subsection}{\numberline {D.3.1}Drei Formen der Elektrodynamik}{88}{subsection.D.3.1}%
-\contentsline {subsection}{\numberline {D.3.2}Maxwell-Theorie als effektive Feldbeschreibung}{88}{subsection.D.3.2}%
-\contentsline {subsection}{\numberline {D.3.3}Weber-Kraft als lokaler Grenzfall der IWT}{88}{subsection.D.3.3}%
-\contentsline {section}{\numberline {D.4}Vergleich mit der Quantenmechanik}{89}{section.D.4}%
-\contentsline {subsection}{\numberline {D.4.1}Fundamentale Konzepte}{89}{subsection.D.4.1}%
-\contentsline {subsection}{\numberline {D.4.2}Emergenz aus der IWT}{89}{subsection.D.4.2}%
-\contentsline {subsection}{\numberline {D.4.3}Emergente Schrödinger-Gleichung}{89}{subsection.D.4.3}%
-\contentsline {section}{\numberline {D.5}Vergleich mit der Relativitätstheorie}{89}{section.D.5}%
-\contentsline {subsection}{\numberline {D.5.1}Spezielle Relativitätstheorie (SRT)}{89}{subsection.D.5.1}%
-\contentsline {subsection}{\numberline {D.5.2}Allgemeine Relativitätstheorie (ART)}{90}{subsection.D.5.2}%
-\contentsline {section}{\numberline {D.6}Vergleich mit der ART+}{90}{section.D.6}%
-\contentsline {section}{\numberline {D.7}Grenzfälle und Übergänge}{90}{section.D.7}%
-\contentsline {section}{\numberline {D.8}Zusammenfassung}{91}{section.D.8}%
+\contentsline {section}{\numberline {3.3}Die Interpretation von I als Energie, Masse und Ladung}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Energie}{24}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Masse}{24}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Ladung}{24}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Die Einheit}{25}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Die Herleitung von Q}{25}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Der Ansatz}{25}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Die Lagrange-Multiplikator-Methode}{26}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Die Lösung}{26}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Die Identifikation von Q}{26}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Q als Quelle}{27}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Q als Selbstorganisation}{27}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Zusammenfassung}{27}{section.3.7}%
+\contentsline {part}{II\hspace {1em}Die Emergenz der Physik aus Q}{29}{part.2}%
+\contentsline {chapter}{\numberline {4}Emergenz der Physik aus Q}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Einleitung}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Die gemeinsame Struktur}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Realteil: Die Hamilton-Jacobi-Gleichung}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Imaginärteil: Die Kontinuitätsgleichung}{32}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Die Emergenz der DBT aus Q}{32}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Die Emergenz der WG aus Q}{32}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Die Emergenz der WED aus Q}{33}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Die Quellen der drei Theorien}{34}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Die Einheit der Physik}{34}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Die Konsequenz}{34}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Zusammenfassung}{34}{section.4.9}%
+\contentsline {chapter}{\numberline {5}Dynamische Schwere-Trägheits-Theorie (DSTT)}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Einleitung}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Die vier Axiome der DSTT}{35}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Axiom 1: Trennung von Ursache und Wirkung}{35}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Axiom 2: Anisotrope Trägheit}{35}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Axiom 3: Dynamische Aufteilung}{35}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Axiom 4: Monotonie}{36}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Die Konsequenzen der DSTT}{36}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Spiralbahnen statt Ellipsen}{36}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Der intrinsische Zeitpfeil}{36}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Die Widerlegung des Äquivalenzprinzips}{36}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Die DSTT in der WG und WED}{37}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Einordnung in die IWT}{37}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Zusammenfassung}{37}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Die Omega-Theorie und die Maxwell-Gravitation}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Einleitung}{39}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Die Wirbelstruktur der Weber-Gravitation}{39}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Die Omega-Theorie}{39}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Axiom 1: Nicht-Lokalität und Instantaneität}{40}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Axiom 2: Das Rotationsfeld}{40}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Axiom 3: Aufspaltung von Ursache und Wirkung}{40}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Axiom 4: DSTT-Kompatibilität}{40}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Die Feldgleichungen}{40}{subsection.6.3.5}%
+\contentsline {section}{\numberline {6.4}Die Maxwell-Gravitation}{40}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Gravitationswellen mit Dispersion}{41}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Die ART als Grenzfall}{41}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Zusammenfassung}{41}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Die fraktale Geometrie und die Naturkonstanten}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Einleitung}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Die fraktale Dimension D}{43}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Geometrischer Ursprung}{43}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Fibonacci-Rekursion}{44}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Definition der fraktalen Dimension}{44}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Die fundamentale Längenskala l0}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Die Emergenz der Naturkonstanten}{45}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Lichtgeschwindigkeit}{45}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Planck'sches Wirkungsquantum}{45}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Gravitationskonstante}{45}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}Feinstrukturkonstante}{45}{subsection.7.4.4}%
+\contentsline {section}{\numberline {7.5}Die Korrelationslänge des Q-Feldes}{45}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Zusammenfassung}{45}{section.7.6}%
+\contentsline {part}{III\hspace {1em}Die Bestätigung – Die Simulation}{47}{part.3}%
+\contentsline {chapter}{\numberline {8}Die Implementierung der IWT}{49}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Einleitung}{49}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Die diskrete Evolutionsgleichung}{49}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Die intrinsische Unschärfe}{50}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Die numerischen Parameter}{50}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Die eingefrorenen Funktionen}{50}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Fluktuationen (Vakuum)}{50}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Energiesenke (Strukturen)}{50}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.5.3}Die Balance}{51}{subsection.8.5.3}%
+\contentsline {section}{\numberline {8.6}Die technische Implementierung}{51}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Die Stabilitätsbedingungen}{51}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Zusammenfassung}{51}{section.8.8}%
+\contentsline {chapter}{\numberline {9}Ergebnisse der Simulation}{53}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Einleitung}{53}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Beweis 1: Axiom 2 ist erfüllt}{53}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Beweis 2: Strukturbildung}{53}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Beweis 3: Q emergiert und ist negativ}{54}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Beweis 4: Gravitation emergiert aus Q}{54}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Beweis 5: Das System ist im Gleichgewicht}{54}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Die Fluktuationen}{55}{section.9.7}%
+\contentsline {section}{\numberline {9.8}Die Bestätigung}{55}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Zusammenfassung}{55}{section.9.9}%
+\contentsline {chapter}{\numberline {10}Die Legende der Simulation}{57}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Einleitung}{57}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Die Kernstatistik}{57}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Die Energiestatistik}{58}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Die Fluktuationsstatistik}{58}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Die Bohm-Potential Statistik}{58}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Die physikalische Interpretation}{59}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Das Fazit der Simulation}{59}{section.10.7}%
+\contentsline {section}{\numberline {10.8}Zusammenfassung}{59}{section.10.8}%
+\contentsline {part}{IV\hspace {1em}Die Folgen – Ein neues Verständnis der Physik}{61}{part.4}%
+\contentsline {chapter}{\numberline {11}Die vereinheitlichte Physik}{63}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Einleitung}{63}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Die Kette der Emergenz}{63}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Die drei Säulen}{64}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Die DSTT als Bindeglied}{64}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Die Omega-Theorie und die Maxwell-Gravitation}{65}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Das Neutrino als Graviton}{65}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Die Einheit der Physik}{65}{section.11.7}%
+\contentsline {section}{\numberline {11.8}Die Konsequenz}{65}{section.11.8}%
+\contentsline {section}{\numberline {11.9}Die Wahrheit}{65}{section.11.9}%
+\contentsline {section}{\numberline {11.10}Zusammenfassung}{66}{section.11.10}%
+\contentsline {chapter}{\numberline {12}Testbare Vorhersagen}{67}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Einleitung}{67}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Fraktale Skalengesetze in der Kosmologie}{67}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Die maximale Masse kompakter Objekte}{67}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Gravitationsphysik}{68}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}Frequenzabhängige Lichtablenkung}{68}{subsection.12.4.1}%
+\contentsline {subsection}{\numberline {12.4.2}Gravitationswellen-Dispersion}{68}{subsection.12.4.2}%
+\contentsline {subsection}{\numberline {12.4.3}Shapiro-Laufzeitverzögerung}{68}{subsection.12.4.3}%
+\contentsline {section}{\numberline {12.5}Neutrinophysik}{68}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}Neutrinomasse}{68}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}Neutrino-Oszillationen}{69}{subsection.12.5.2}%
+\contentsline {section}{\numberline {12.6}Kosmologie}{69}{section.12.6}%
+\contentsline {subsection}{\numberline {12.6.1}Die Hubble-Spannung}{69}{subsection.12.6.1}%
+\contentsline {subsection}{\numberline {12.6.2}Stationäres Universum}{69}{subsection.12.6.2}%
+\contentsline {section}{\numberline {12.7}Sonnenphysik}{69}{section.12.7}%
+\contentsline {section}{\numberline {12.8}Zusammenfassung der wichtigsten Vorhersagen}{69}{section.12.8}%
+\contentsline {section}{\numberline {12.9}Fazit}{70}{section.12.9}%
+\contentsline {chapter}{\numberline {13}Schlussbetrachtung}{71}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Rückblick}{71}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Die Bestätigung}{71}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Die Einheit der Physik}{71}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Die Konsequenzen}{72}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Die offenen Fragen}{72}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Der Abschied vom Paradigma}{72}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Die Wahrheit}{73}{section.13.7}%
+\contentsline {section}{\numberline {13.8}Der Ausblick}{73}{section.13.8}%
+\contentsline {section}{\numberline {13.9}Zusammenfassung}{73}{section.13.9}%
+\contentsline {chapter}{\numberline {A}Mathematische Grundlagen}{75}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Einleitung}{75}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Diskrete Variationsrechnung}{75}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Das diskrete Funktional}{75}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Diskrete Euler-Lagrange-Gleichungen}{75}{subsection.A.2.2}%
+\contentsline {section}{\numberline {A.3}Diskrete Noether-Theoreme}{76}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Wichtige Symmetrien und Erhaltungssätze}{76}{subsection.A.3.1}%
+\contentsline {section}{\numberline {A.4}Die diskrete Informationsmetrik}{76}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Eigenschaften}{77}{subsection.A.4.1}%
+\contentsline {section}{\numberline {A.5}Fraktale Analysis diskreter Netzwerke}{77}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Fraktale Dimension}{77}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}Die Kopplungsmatrix}{77}{subsection.A.5.2}%
+\contentsline {section}{\numberline {A.6}Diskrete Fourier-Analyse}{77}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Zusammenfassung der mathematischen Struktur}{78}{section.A.7}%
+\contentsline {chapter}{\numberline {B}Herleitungen}{79}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Einleitung}{79}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Herleitung von Q}{79}{section.B.2}%
+\contentsline {subsection}{\numberline {B.2.1}Der Ansatz}{79}{subsection.B.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}Die Lagrange-Multiplikator-Methode}{79}{subsection.B.2.2}%
+\contentsline {subsection}{\numberline {B.2.3}Die Lösung}{80}{subsection.B.2.3}%
+\contentsline {subsection}{\numberline {B.2.4}Die Identifikation}{80}{subsection.B.2.4}%
+\contentsline {section}{\numberline {B.3}Herleitung der DBT aus Q}{80}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Herleitung der WG aus Q}{80}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}Die Kraft}{81}{subsection.B.4.1}%
+\contentsline {subsection}{\numberline {B.4.2}Die Periheldrehung}{81}{subsection.B.4.2}%
+\contentsline {section}{\numberline {B.5}Herleitung der WED aus Q}{81}{section.B.5}%
+\contentsline {subsection}{\numberline {B.5.1}Die Kraft}{81}{subsection.B.5.1}%
+\contentsline {section}{\numberline {B.6}Herleitung der Unschärferelation}{82}{section.B.6}%
+\contentsline {subsection}{\numberline {B.6.1}Bandbegrenzung}{82}{subsection.B.6.1}%
+\contentsline {subsection}{\numberline {B.6.2}Bandbreiten-Unschärfe}{82}{subsection.B.6.2}%
+\contentsline {subsection}{\numberline {B.6.3}Energie-Zeit-Unschärfe}{82}{subsection.B.6.3}%
+\contentsline {subsection}{\numberline {B.6.4}Orts-Impuls-Unschärfe}{82}{subsection.B.6.4}%
+\contentsline {section}{\numberline {B.7}Herleitung der fraktalen Dimension}{82}{section.B.7}%
+\contentsline {subsection}{\numberline {B.7.1}Der Skalierungsfaktor}{82}{subsection.B.7.1}%
+\contentsline {subsection}{\numberline {B.7.2}Der Vermehrungsfaktor}{82}{subsection.B.7.2}%
+\contentsline {subsection}{\numberline {B.7.3}Die fraktale Dimension}{83}{subsection.B.7.3}%
+\contentsline {section}{\numberline {B.8}Zusammenfassung}{83}{section.B.8}%
+\contentsline {chapter}{\numberline {C}Vollständige Legende der Simulation}{85}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Einleitung}{85}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Die Ausgabe der Simulation}{85}{section.C.2}%
+\contentsline {subsection}{\numberline {C.2.1}Zeile 1: Kernstatistik}{85}{subsection.C.2.1}%
+\contentsline {subsection}{\numberline {C.2.2}Zeile 2: Energiestatistik}{85}{subsection.C.2.2}%
+\contentsline {subsection}{\numberline {C.2.3}Zeile 3: Fluktuationsstatistik}{85}{subsection.C.2.3}%
+\contentsline {subsection}{\numberline {C.2.4}Zeile 4: Summe |I|\texttwosuperior Historie}{86}{subsection.C.2.4}%
+\contentsline {subsection}{\numberline {C.2.5}Zeile 5: I\_max Historie}{86}{subsection.C.2.5}%
+\contentsline {subsection}{\numberline {C.2.6}Zeile 6: Realteil-Statistik}{86}{subsection.C.2.6}%
+\contentsline {subsection}{\numberline {C.2.7}Zeile 7: Imaginärteil-Statistik}{86}{subsection.C.2.7}%
+\contentsline {subsection}{\numberline {C.2.8}Zeile 8: Phasen-Statistik}{86}{subsection.C.2.8}%
+\contentsline {subsection}{\numberline {C.2.9}Zeile 9: Fluss-Statistik}{86}{subsection.C.2.9}%
+\contentsline {subsection}{\numberline {C.2.10}Zeile 10: Bohm-Potential Statistik}{86}{subsection.C.2.10}%
+\contentsline {subsection}{\numberline {C.2.11}Zeile 11: Realteil-Fluktuationen}{87}{subsection.C.2.11}%
+\contentsline {subsection}{\numberline {C.2.12}Zeile 12: Imaginärteil-Fluktuationen}{87}{subsection.C.2.12}%
+\contentsline {section}{\numberline {C.3}Die physikalische Interpretation}{87}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Das Fazit der Simulation}{88}{section.C.4}%
+\contentsline {section}{\numberline {C.5}Zusammenfassung}{88}{section.C.5}%
+\contentsline {chapter}{\numberline {D}Vergleich mit etablierten Theorien}{89}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Einleitung}{89}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Vergleich mit der klassischen Mechanik}{89}{section.D.2}%
+\contentsline {subsection}{\numberline {D.2.1}Fundamentale Konzepte}{89}{subsection.D.2.1}%
+\contentsline {subsection}{\numberline {D.2.2}Emergenz aus der IWT}{89}{subsection.D.2.2}%
+\contentsline {subsection}{\numberline {D.2.3}Emergente Gleichungen}{90}{subsection.D.2.3}%
+\contentsline {subsection}{\numberline {D.2.4}Fundamentaler vs. emergenter Status}{90}{subsection.D.2.4}%
+\contentsline {section}{\numberline {D.3}Vergleich mit der Elektrodynamik}{90}{section.D.3}%
+\contentsline {subsection}{\numberline {D.3.1}Drei Formen der Elektrodynamik}{90}{subsection.D.3.1}%
+\contentsline {subsection}{\numberline {D.3.2}Maxwell-Theorie als effektive Feldbeschreibung}{90}{subsection.D.3.2}%
+\contentsline {subsection}{\numberline {D.3.3}Weber-Kraft als lokaler Grenzfall der IWT}{90}{subsection.D.3.3}%
+\contentsline {section}{\numberline {D.4}Vergleich mit der Quantenmechanik}{91}{section.D.4}%
+\contentsline {subsection}{\numberline {D.4.1}Fundamentale Konzepte}{91}{subsection.D.4.1}%
+\contentsline {subsection}{\numberline {D.4.2}Emergenz aus der IWT}{91}{subsection.D.4.2}%
+\contentsline {subsection}{\numberline {D.4.3}Emergente Schrödinger-Gleichung}{91}{subsection.D.4.3}%
+\contentsline {section}{\numberline {D.5}Vergleich mit der Relativitätstheorie}{91}{section.D.5}%
+\contentsline {subsection}{\numberline {D.5.1}Spezielle Relativitätstheorie (SRT)}{91}{subsection.D.5.1}%
+\contentsline {subsection}{\numberline {D.5.2}Allgemeine Relativitätstheorie (ART)}{92}{subsection.D.5.2}%
+\contentsline {section}{\numberline {D.6}Vergleich mit der ART+}{92}{section.D.6}%
+\contentsline {section}{\numberline {D.7}Grenzfälle und Übergänge}{92}{section.D.7}%
+\contentsline {section}{\numberline {D.8}Zusammenfassung}{93}{section.D.8}%
