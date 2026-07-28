@@ -1,0 +1,179 @@
+% ============================================================================
+% main.tex - DIE QUELLE: IWT UND Q
+% ============================================================================
+
+\documentclass[11pt,a4paper]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=2.5cm}
+
+% ============================================================================
+% FANCYHDR - KORREKTUR
+% ============================================================================
+
+\setlength{\headheight}{13.7pt}
+\addtolength{\topmargin}{-0.1pt}
+
+% ============================================================================
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+% ============================================================================
+% TITEL
+% ============================================================================
+
+\title{
+    {\Huge \textbf{Die Quelle}}\\
+    {\Large Information, Selbstorganisation und Q}\\
+    \vspace{0.5cm}
+    {\large Die IWT als fundamentale Ur-Theorie}
+}
+\author{Michael Czybor}
+\date{27. Juli 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% ============================================================================
+% EINLEITUNG
+% ============================================================================
+
+\chapter{Einleitung}
+\label{ch:einleitung}
+
+\input{kapitel/einleitung}
+
+% ============================================================================
+% TEIL I: THEORIE
+% ============================================================================
+
+\part{Die Theorie}
+
+\chapter{Die Informations-Weber-Theorie (IWT)}
+\label{ch:iwt}
+
+\input{kapitel/iwt}
+
+\chapter{Q: Die Quelle der Organisation}
+\label{ch:q}
+
+\input{kapitel/q}
+
+\chapter{Emergenz der Physik aus Q}
+\label{ch:emergenz}
+
+\input{kapitel/emergenz}
+
+\chapter{Axiome der IWT}
+\label{ch:axiome}
+
+\input{kapitel/axiome}
+
+% ============================================================================
+% TEIL II: SIMULATION
+% ============================================================================
+
+\part{Die Simulation}
+
+\chapter{Die Simulation der IWT}
+\label{ch:simulation}
+
+\input{kapitel/simulation}
+
+\chapter{Ergebnisse der Simulation}
+\label{ch:ergebnisse}
+
+\input{kapitel/ergebnisse}
+
+\chapter{Die Bestätigung der Theorie}
+\label{ch:bestaetigung}
+
+\input{kapitel/bestaetigung}
+
+% ============================================================================
+% TEIL III: DIE FOLGEN
+% ============================================================================
+
+\part{Die Folgen}
+
+\chapter{Die Emergenz der Gravitation aus Q}
+\label{ch:gravitation}
+
+\input{kapitel/gravitation}
+
+\chapter{Die Emergenz der Quantenmechanik aus Q}
+\label{ch:quantenmechanik}
+
+\input{kapitel/quantenmechanik}
+
+\chapter{Die Emergenz der Elektrodynamik aus Q}
+\label{ch:elektrodynamik}
+
+\input{kapitel/elektrodynamik}
+
+\chapter{Die Einheit der Physik}
+\label{ch:einheit}
+
+\input{kapitel/einheit}
+
+% ============================================================================
+% ANHANG
+% ============================================================================
+
+\appendix
+
+\chapter{Herleitungen}
+\label{app:herleitungen}
+
+\input{kapitel/herleitungen}
+
+\chapter{Numerische Details}
+\label{app:numerik}
+
+\input{kapitel/numerik}
+
+\chapter{Die eingefrorenen Funktionen}
+\label{app:frozen}
+
+\input{kapitel/frozen}
+
+% ============================================================================
+% LITERATUR
+% ============================================================================
+
+\bibliographystyle{plain}
+\bibliography{literatur}
+
+\end{document}
