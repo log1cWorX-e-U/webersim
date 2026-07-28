@@ -1,0 +1,155 @@
+\chapter{Mathematische Grundlagen}
+
+\section{Einleitung}
+
+Dieser Anhang stellt die mathematischen Werkzeuge bereit, auf denen die diskrete Formulierung der IWT basiert.
+
+Im Gegensatz zu den kontinuierlichen Approximationen im Haupttext werden hier ausschließlich die fundamentalen diskreten Strukturen entwickelt.
+
+\section{Diskrete Variationsrechnung}
+
+\subsection{Das diskrete Funktional}
+
+Ein diskretes Informationssystem wird beschrieben durch Knoten \( k = 1, \dots, N \) mit komplexen Informationswerten \( I_k^{(n)} \) zum Zeitschritt \( n \).
+
+Das fundamentale diskrete Funktional lautet:
+
+\[
+\mathcal{S}_d[I_k^{(n)}] = \sum_{n=0}^{M-1} \sum_{k=1}^{N} \mathcal{F}_d\left(I_k^{(n)}, \Delta_t I_k^{(n)}, \Delta_s I_k^{(n)}\right) \cdot T \cdot V_k
+\]
+
+mit:
+\begin{itemize}
+\item \( \Delta_t I_k^{(n)} = I_k^{(n)} - I_k^{(n-1)} \) – zeitliche Differenz
+\item \( \Delta_s I_k^{(n)} = \sum_{l \in \mathcal{N}(k)} w_{kl}(I_l^{(n)} - I_k^{(n)}) \) – räumliche Differenz
+\item \( T \) – fundamentaler Zeitschrift
+\item \( V_k \) – diskretes Volumenelement am Knoten \( k \)
+\end{itemize}
+
+\subsection{Diskrete Euler-Lagrange-Gleichungen}
+
+Die Variation des Funktionals:
+
+\[
+\delta \mathcal{S}_d = 0
+\]
+
+führt zu den diskreten Euler-Lagrange-Gleichungen:
+
+\[
+\frac{\partial \mathcal{F}_d}{\partial I_k^{(n)}} - \Delta_t^+ \left( \frac{\partial \mathcal{F}_d}{\partial (\Delta_t I_k^{(n)})} \right) - \Delta_s \left( \frac{\partial \mathcal{F}_d}{\partial (\Delta_s I_k^{(n)})} \right) = 0
+\]
+
+mit:
+\begin{itemize}
+\item \( \Delta_t^+ f^{(n)} = \frac{f^{(n+1)} - f^{(n)}}{T} \) – diskrete Vorwärtsdifferenz
+\item \( \Delta_s f_k = \sum_{l \in \mathcal{N}(k)} w_{kl}(f_l - f_k) \) – diskreter Laplace-Operator
+\end{itemize}
+
+\section{Diskrete Noether-Theoreme}
+
+Eine diskrete Transformation:
+
+\[
+I_k^{(n)} \to I_k^{(n)} + \epsilon \cdot \xi_k^{(n)}
+\]
+
+ist eine Symmetrie, wenn das Funktional invariant bleibt.
+
+Aus jeder solchen Symmetrie folgt eine diskrete Erhaltungsgröße:
+
+\[
+Q^{(n+1)} - Q^{(n)} = -\sum_k \Delta_s J_k^{(n)}
+\]
+
+mit:
+
+\[
+Q^{(n)} = \sum_k \left[ \xi_k^{(n)} \frac{\partial \mathcal{F}_d}{\partial (\Delta_t I_k^{(n)})} - K^{(n)} \right]
+\]
+
+\subsection{Wichtige Symmetrien und Erhaltungssätze}
+
+\begin{itemize}
+\item \textbf{Zeittranslation:} \( I_k^{(n)} \to I_k^{(n+1)} \) – Erhaltung der Energie \( E^{(n)} \).
+\item \textbf{Raumtranslation:} \( I_k^{(n)} \to I_{k+\delta}^{(n)} \) – Erhaltung des Impulses \( \vec{P}^{(n)} \).
+\item \textbf{Rotation:} \( I_k^{(n)} \to I_{R(k)}^{(n)} \) – Erhaltung des Drehimpulses \( \vec{L}^{(n)} \).
+\item \textbf{Informations-Shift:} \( I_k^{(n)} \to I_k^{(n)} + c \) – Erhaltung der Gesamtinformation \( \sum |I|^2 \).
+\end{itemize}
+
+\section{Die diskrete Informationsmetrik}
+
+Die diskrete Informationsmetrik zwischen Knoten \( k \) und \( l \) ist definiert als:
+
+\[
+g_{kl}^{(n)} = \frac{\partial^2 \mathcal{F}_d}{\partial (\Delta_s I_k^{(n)}) \partial (\Delta_s I_l^{(n)})}
+\]
+
+Alternativ über die fraktale Kopplungsmatrix:
+
+\[
+g_{kl}^{(n)} = \frac{K_{kl}^{(n)}}{\sqrt{K_{kk}^{(n)} K_{ll}^{(n)}}}
+\]
+
+mit:
+
+\[
+K_{kl}^{(n)} = \frac{1}{d_{kl}^{3-D}}
+\]
+
+\subsection{Eigenschaften}
+
+\begin{itemize}
+\item Symmetrie: \( g_{kl}^{(n)} = g_{lk}^{(n)} \)
+\item Positive Definitheit: \( \sum_{k,l} v_k g_{kl}^{(n)} v_l \ge 0 \) für alle \( v_k \)
+\item Normierung: \( g_{kk}^{(n)} = 1 \)
+\item Lokalität: \( g_{kl}^{(n)} \to 0 \) für \( |k-l| \to \infty \)
+\end{itemize}
+
+\section{Fraktale Analysis diskreter Netzwerke}
+
+\subsection{Fraktale Dimension}
+
+Für eine selbstähnliche Struktur gilt:
+
+\[
+N(R) \propto R^D
+\]
+
+wobei \( N(R) \) die Anzahl der Knoten innerhalb einer Distanz \( R \) von einem Referenzknoten ist.
+
+\subsection{Die Kopplungsmatrix}
+
+Die Kopplungsmatrix des fraktalen Netzwerks ist:
+
+\[
+K_{kl} = \frac{1}{d_{kl}^{3-D}}
+\]
+
+wobei \( d_{kl} \) die fraktale Distanz im Indexraum ist.
+
+\section{Diskrete Fourier-Analyse}
+
+Für ein diskretes Feld \( I_k \) auf \( N \) regelmäßig angeordneten Knoten:
+
+\[
+\tilde{I}_q = \frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} I_k e^{-2\pi i q k / N}
+\]
+
+Die Dispersionsrelation für das fraktale Netzwerk mit spektraler Dimension \( d_s = 2D/3 \):
+
+\[
+\omega \propto k^{D/3}
+\]
+
+\section{Zusammenfassung der mathematischen Struktur}
+
+\begin{itemize}
+\item Zustandsraum: Diskrete, komplexe Felder \( I_k^{(n)} \) auf Netzwerkknoten.
+\item Dynamik: Diskretes Funktional \( \mathcal{S}_d[I_k^{(n)}] \) mit Variationsprinzip.
+\item Bewegungsgleichungen: Diskrete Euler-Lagrange-Gleichungen.
+\item Symmetrien: Diskrete Noether-Theoreme mit Erhaltungssätzen.
+\item Geometrie: Diskrete Metrik \( g_{kl}^{(n)} = K_{kl}^{(n)} / \sqrt{K_{kk}^{(n)} K_{ll}^{(n)}} \).
+\item Kopplung: Fraktale Kopplungsmatrix \( K_{kl}^{(n)} = 1/d_{kl}^{3-D} \).
+\item Skalierung: Fraktale Dimension \( D \) charakterisiert das Netzwerk.
+\end{itemize}

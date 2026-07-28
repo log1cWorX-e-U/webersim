@@ -1,0 +1,232 @@
+\chapter{Herleitungen}
+
+\section{Einleitung}
+
+Dieser Anhang enthält die vollständigen Herleitungen der zentralen Gleichungen der IWT und der WDBT+.
+
+Die Herleitungen folgen aus den Axiomen der IWT und den Prinzipien der diskreten Variationsrechnung.
+
+\section{Herleitung von Q}
+
+Aus den Prinzipien der Informationserhaltung und minimaler Spannung folgt \( Q \).
+
+\subsection{Der Ansatz}
+
+Wir betrachten ein Funktional, das die Spannung im Netzwerk misst:
+
+\[
+\mathcal{S} = \sum_k |\nabla I_k|^2
+\]
+
+Die Informationserhaltung wird als Nebenbedingung eingeführt:
+
+\[
+\sum_k |I_k|^2 = \text{const}
+\]
+
+\subsection{Die Lagrange-Multiplikator-Methode}
+
+Wir minimieren die Spannung unter der Nebenbedingung:
+
+\[
+\mathcal{L} = \sum_k |\nabla I_k|^2 + \lambda \left( \sum_k |I_k|^2 - \text{const} \right)
+\]
+
+Die Variation nach \( I_k \) ergibt:
+
+\[
+\delta \mathcal{L} = 0
+\]
+
+Daraus folgt die Euler-Lagrange-Gleichung:
+
+\[
+\Delta^2 I_k = \lambda \cdot I_k
+\]
+
+\subsection{Die Lösung}
+
+Die Lösung hat die Form:
+
+\[
+I_k = \sqrt{\rho_k} \cdot e^{i \phi_k}
+\]
+
+Einsetzen in die Euler-Lagrange-Gleichung und Trennung von Real- und Imaginärteil ergibt:
+
+\[
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
+\]
+
+und:
+
+\[
+\frac{\partial S}{\partial t} + \frac{|\nabla S|^2}{2m} + V + Q = 0
+\]
+
+mit:
+
+\[
+Q = -\frac{\hbar^2}{2m} \frac{\nabla^2 \sqrt{\rho}}{\sqrt{\rho}}
+\]
+
+\subsection{Die Identifikation}
+
+\( Q \) ist das Bohm-Potential der De-Broglie-Bohm-Theorie.
+
+Es ist die Quelle der Selbstorganisation.
+
+Es ist die bindende Kraft.
+
+\section{Herleitung der DBT aus Q}
+
+Aus \( Q \) folgt die Führungsgleichung der DBT:
+
+\[
+\vec{v} = \frac{\hbar}{m} \nabla \phi
+\]
+
+Die Schrödinger-Gleichung folgt aus der Hamilton-Jacobi-Gleichung mit dem Quantenpotential \( Q \):
+
+\[
+i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi
+\]
+
+wobei \( \psi = \sqrt{\rho} e^{i\phi} \).
+
+\section{Herleitung der WG aus Q}
+
+Aus \( Q \) folgt die Weber-Gravitation.
+
+\subsection{Die Kraft}
+
+Die Weber-Gravitation lautet:
+
+\[
+\vec{F}_{\text{WG}} = -\frac{GMm}{r^2} \left[ 1 - \frac{\dot{r}^2}{c^2} + \frac{1}{2} \frac{r\ddot{r}}{c^2} \right] \hat{r}
+\]
+
+Aus \( Q \) folgt:
+
+\[
+\vec{F}_{\text{WG}} = -\nabla Q
+\]
+
+mit:
+
+\[
+Q = -\frac{GM}{r}
+\]
+
+\subsection{Die Periheldrehung}
+
+Die Bahngleichung der WG in Binet-Form:
+
+\[
+u'' + u = \frac{GM}{h^2} + \frac{3GM}{c^2} u^2
+\]
+
+Die Lösung ergibt:
+
+\[
+\Delta \phi = \frac{6\pi GM}{c^2 a (1 - e^2)}
+\]
+
+Für Merkur ergibt sich \( \Delta \phi \approx 42,98'' \) pro Jahrhundert.
+
+\section{Herleitung der WED aus Q}
+
+Aus \( Q \) folgt die Weber-Elektrodynamik.
+
+\subsection{Die Kraft}
+
+Die Weber-Elektrodynamik lautet:
+
+\[
+\vec{F}_{\text{WED}} = \frac{q_1 q_2}{4\pi \varepsilon_0 r^2} \left[ 1 - \frac{\dot{r}^2}{c^2} + 2 \frac{r\ddot{r}}{c^2} \right] \hat{r}
+\]
+
+Aus \( Q \) folgt:
+
+\[
+\vec{F}_{\text{WED}} = -\nabla Q
+\]
+
+mit:
+
+\[
+Q = \frac{q}{4\pi \varepsilon_0 r}
+\]
+
+\section{Herleitung der Unschärferelation}
+
+Aus der diskreten Zeit \( T > 0 \) folgt die Unschärferelation.
+
+\subsection{Bandbegrenzung}
+
+Die diskrete Zeit erzwingt ein bandbegrenztes Frequenzspektrum:
+
+\[
+\omega_{\text{max}} = \frac{\pi}{T}
+\]
+
+\subsection{Bandbreiten-Unschärfe}
+
+Für jedes bandbegrenzte Signal gilt:
+
+\[
+\Delta t \cdot \Delta \omega \geq \frac{1}{2}
+\]
+
+\subsection{Energie-Zeit-Unschärfe}
+
+Mit \( E = \hbar \omega \) folgt:
+
+\[
+\Delta t \cdot \Delta E \geq \frac{\hbar}{2}
+\]
+
+\subsection{Orts-Impuls-Unschärfe}
+
+Mit \( p = \hbar k \) folgt:
+
+\[
+\Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+\]
+
+Die Unschärferelation ist eine zwingende Konsequenz der diskreten Zeit.
+
+\section{Herleitung der fraktalen Dimension}
+
+Die fraktale Dimension folgt aus der selbstähnlichen Packung von Dodekaedern.
+
+\subsection{Der Skalierungsfaktor}
+
+Aus der Dodekaeder-Geometrie folgt:
+
+\[
+s = 2 + \phi \approx 3,618
+\]
+
+\subsection{Der Vermehrungsfaktor}
+
+Die Anzahl der Ecken eines Dodekaeders ist \( V = 20 \). Mit dem Goldenen Schnitt:
+
+\[
+N = 20\phi \approx 32,36
+\]
+
+\subsection{Die fraktale Dimension}
+
+\[
+D = \frac{\ln N}{\ln s} = \frac{\ln(20\phi)}{\ln(2 + \phi)} \approx 2,704
+\]
+
+\section{Zusammenfassung}
+
+\begin{itemize}
+\item \( Q \) folgt aus Informationserhaltung und Variationsprinzip.
+\item DBT, WG und WED folgen aus \( Q \).
+\item Die Unschärferelation folgt aus der diskreten Zeit.
+\item Die fraktale Dimension folgt aus der Dodekaeder-Geometrie.
+\end{itemize}

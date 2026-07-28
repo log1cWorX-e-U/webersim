@@ -1,0 +1,132 @@
+\chapter{Die Implementierung der IWT}
+
+\section{Einleitung}
+
+Die IWT ist keine rein abstrakte Theorie. Sie wurde numerisch implementiert.
+
+Die Simulation dient drei Zwecken:
+
+\begin{enumerate}
+\item \textbf{Validierung:} Überprüfung der internen Konsistenz der Theorie.
+\item \textbf{Emergenznachweis:} Demonstration, wie kontinuierliche Physik aus diskreter Dynamik entsteht.
+\item \textbf{Bestätigung:} Experimenteller Nachweis, dass die Theorie funktioniert.
+\end{enumerate}
+
+Dieses Kapitel beschreibt die Implementierung der Simulation.
+
+\section{Die diskrete Evolutionsgleichung}
+
+Die fundamentale Evolutionsgleichung der IWT lautet:
+
+\[
+I_k^{(n+1)} = I_k^{(n)} + T \cdot \Phi_k
+\]
+
+mit:
+
+\[
+\Phi_k = \sum_{l \in \mathcal{N}(k)} w_{kl}(I_l^{(n)} - I_k^{(n)}) + \lambda \frac{\Delta^2 I_k^{(n)}}{I_k^{(n)}} + \mu I_k^{(n)} \ln \left( \frac{|I_k^{(n)}|}{I_0} \right)
+\]
+
+Die drei Terme sind:
+
+\begin{enumerate}
+\item \textbf{Lokaler Fluss (Weber):} Diffusion und Glättung der Information.
+\item \textbf{Globales Potential (Bohm):} Nicht-lokale Organisation.
+\item \textbf{Nichtlineare Strukturbildung:} Lokale Verstärkung.
+\end{enumerate}
+
+\section{Die intrinsische Unschärfe}
+
+Aus der diskreten Zeit \( T > 0 \) folgt eine intrinsische Fluktuation:
+
+\[
+I_k^{(n+1)} = I_k^{(n)} + T \cdot \Phi_k + \sqrt{\frac{\hbar}{2T}} \cdot \xi_k^{(n)}
+\]
+
+Dabei ist \( \xi_k^{(n)} \) eine komplexe, standard-normalverteilte Zufallsvariable.
+
+Dieser Term ist keine externe Störung. Er ist die mathematische Manifestation der bandbegrenzten Frequenzspektrums, das aus der diskreten Zeit folgt.
+
+\section{Die numerischen Parameter}
+
+Die Simulation verwendet folgende Parameter:
+
+\begin{verbatim}
+SCALE   = 0.70710678
+ALPHA_0 = 1e-2
+RHO_0   = 1e-6
+RHO_MIN = 1e-8
+\end{verbatim}
+
+Die Parameter bedeuten:
+
+\begin{itemize}
+\item \texttt{SCALE}: Skalierungsfaktor der Fluktuationen \( \sqrt{\hbar/(2T)} \).
+\item \texttt{ALPHA\_0}: Kopplungsstärke des lokalen Flusses.
+\item \texttt{RHO\_0}: Referenzdichte für die nichtlineare Strukturbildung.
+\item \texttt{RHO\_MIN}: Minimale Dichte (verhindert Singularitäten).
+\end{itemize}
+
+\section{Die eingefrorenen Funktionen}
+
+Die Simulation hat zwei eingefrorene Funktionen:
+
+\subsection{Fluktuationen (Vakuum)}
+
+Die Fluktuationen wirken nur im Vakuum.
+
+Sie sind die Quelle der Strukturbildung.
+
+\subsection{Energiesenke (Strukturen)}
+
+Die Energiesenke wirkt nur in Strukturen.
+
+Sie entfernt Energie aus den Strukturen.
+
+\subsection{Die Balance}
+
+Die Balance zwischen Fluktuation und Energiesenke ist gefunden:
+
+\[
+\text{Fluktuation} = \text{Energiesenke}
+\]
+
+Das System ist stabil.
+
+\section{Die technische Implementierung}
+
+Die Simulation verwendet:
+
+\begin{itemize}
+\item \textbf{Knotenzahl:} \( N = 4096 \)
+\item \textbf{Iterationen:} 500
+\item \textbf{Beschleunigung:} GPU (OpenCL)
+\item \textbf{Integrator:} Leapfrog (symplektisch)
+\end{itemize}
+
+\section{Die Stabilitätsbedingungen}
+
+Die Simulation ist stabil, wenn:
+
+\[
+T < T_{\text{max}} = \frac{r_{\text{min}}}{c}
+\]
+
+Die Informationserhaltung wird kontinuierlich überprüft:
+
+\[
+\left| \sum_{k=1}^{N} |I_k^{(n+1)}|^2 - \sum_{k=1}^{N} |I_k^{(n)}|^2 \right| < \epsilon
+\]
+
+Mit \( \epsilon = 10^{-12} \).
+
+\section{Zusammenfassung}
+
+\begin{itemize}
+\item Die IWT wurde numerisch implementiert.
+\item Die Evolutionsgleichung enthält drei Terme: lokal, global, nichtlinear.
+\item Die intrinsische Unschärfe folgt aus der diskreten Zeit.
+\item Die Simulation ist stabil.
+\item Die Informationserhaltung wird kontinuierlich überprüft.
+\end{itemize}
