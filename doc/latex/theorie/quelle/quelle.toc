@@ -211,3 +211,13 @@
 \contentsline {section}{\numberline {C.6}Vergleich mit der ART+}{84}{section.C.6}%
 \contentsline {section}{\numberline {C.7}Grenzfälle und Übergänge}{84}{section.C.7}%
 \contentsline {section}{\numberline {C.8}Zusammenfassung}{85}{section.C.8}%
+\contentsline {chapter}{\numberline {D}Herleitung des Informationsflusses}{87}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Einleitung}{87}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Ausgangspunkt: Die diskrete Euler-Lagrange-Gleichung}{87}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Die Kontinuitätsgleichung aus der Phasen-Amplitude-Darstellung}{87}{section.D.3}%
+\contentsline {section}{\numberline {D.4}Die Kopplung von Phase und Bohm-Potential}{88}{section.D.4}%
+\contentsline {section}{\numberline {D.5}Der Fluss im diskreten Netzwerk}{88}{section.D.5}%
+\contentsline {section}{\numberline {D.6}Substitution von \( \Delta \phi \) durch \( \Delta Q \)}{89}{section.D.6}%
+\contentsline {section}{\numberline {D.7}Die physikalische Interpretation}{89}{section.D.7}%
+\contentsline {section}{\numberline {D.8}Die Implementierung im Code}{89}{section.D.8}%
+\contentsline {section}{\numberline {D.9}Zusammenfassung}{90}{section.D.9}%

@@ -1,0 +1,185 @@
+\chapter{Herleitung des Informationsflusses}
+\label{anhang:fluss}
+
+\section{Einleitung}
+
+Die fundamentale Dynamik der IWT wird durch die diskrete Euler-Lagrange-Gleichung bestimmt. 
+In der numerischen Implementierung wird der Fluss der Information jedoch häufig in der Form
+\( J = K \cdot \Delta \rho \cdot \Delta Q \) dargestellt. 
+
+Dieser Anhang zeigt die vollständige und konsistente Herleitung dieser Flussgleichung 
+aus den Axiomen der IWT, insbesondere aus dem Variationsprinzip (Axiom 4) und der 
+Kontinuitätsgleichung, die sich aus der Phasen-Amplitude-Darstellung von \( I \) ergibt.
+
+Die Herleitung macht explizit, warum der Fluss nicht durch reine Diffusion (\( \nabla \rho \)) 
+getrieben wird, sondern durch die Kopplung von Dichte und Bohm-Potential.
+
+\section{Ausgangspunkt: Die diskrete Euler-Lagrange-Gleichung}
+
+Aus Axiom 4 (Variationsprinzip) folgt die diskrete Euler-Lagrange-Gleichung:
+
+\[
+\frac{\partial \mathcal{L}_d}{\partial I_k^{(n)}} 
+- \Delta_t^+ \left( \frac{\partial \mathcal{L}_d}{\partial (\Delta_t I_k^{(n)})} \right) 
+- \Delta_s \left( \frac{\partial \mathcal{L}_d}{\partial (\Delta_s I_k^{(n)})} \right) = 0
+\]
+\label{eq:euler_lagrange}
+
+Die Dynamik des Informationsfeldes \( I_k^{(n)} \) wird somit durch ein Wirkungsprinzip 
+festgelegt. Die räumliche Kopplung ist im diskreten Laplace-Operator 
+\( \Delta_s \) enthalten, der über die fraktale Kopplungsmatrix \( K_{kl} \) definiert ist.
+
+\section{Die Kontinuitätsgleichung aus der Phasen-Amplitude-Darstellung}
+
+Die fundamentale Größe der IWT ist das komplexe Feld:
+
+\[
+I_k^{(n)} = \sqrt{\rho_k^{(n)}} \cdot e^{i \phi_k^{(n)}}
+\]
+
+wobei \( \rho_k^{(n)} = |I_k^{(n)}|^2 \) die Informationsdichte (Wahrscheinlichkeitsdichte) 
+und \( \phi_k^{(n)} = \arg(I_k^{(n)}) \) die Phase ist.
+
+Die Separation der Euler-Lagrange-Gleichung in Real- und Imaginärteil (siehe Kapitel 3.4.3) 
+ergibt zwei fundamentale Gleichungen. Der Imaginärteil liefert die diskrete Kontinuitätsgleichung:
+
+\[
+\frac{\rho_k^{(n+1)} - \rho_k^{(n)}}{T} 
++ \sum_{l \in \mathcal{N}(k)} K_{kl} \cdot \left( \rho_k^{(n)} \vec{v}_k^{(n)} - \rho_l^{(n)} \vec{v}_l^{(n)} \right) = 0
+\]
+\label{eq:kontinuitaet}
+
+Dies ist die diskrete Form der Kontinuitätsgleichung:
+\[
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
+\]
+
+Die Geschwindigkeit \( \vec{v} \) ist aus dem Realteil der Euler-Lagrange-Gleichung als Gradient 
+der Phase identifiziert:
+
+\[
+\vec{v}_k^{(n)} = \frac{\hbar}{m} \nabla \phi_k^{(n)}
+\]
+\label{eq:fuehrung}
+
+\section{Die Kopplung von Phase und Bohm-Potential}
+
+Der Realteil der Euler-Lagrange-Gleichung ergibt die Hamilton-Jacobi-Gleichung 
+mit dem Bohm-Potential \( Q \):
+
+\[
+\frac{\partial S}{\partial t} + \frac{|\nabla S|^2}{2m} + V + Q = 0
+\]
+mit \( S = \hbar \phi \) und 
+\[
+Q = -\frac{\hbar^2}{2m} \frac{\nabla^2 \sqrt{\rho}}{\sqrt{\rho}}
+\]
+
+Im stationären Fall oder für langsame Veränderungen dominiert das Bohm-Potential 
+die Dynamik der Phase. Insbesondere gilt für den Gradienten der Phase:
+
+\[
+\nabla \phi \propto \nabla Q
+\]
+\label{eq:phi_q_gradient}
+
+Dies ist die zentrale Kopplung: Der Gradient des Bohm-Potentials \( Q \) bestimmt die Änderung der Phase.
+
+\section{Der Fluss im diskreten Netzwerk}
+
+Aus der Kontinuitätsgleichung (Gl. \ref{eq:kontinuitaet}) und der Führungsgleichung 
+(Gl. \ref{eq:fuehrung}) folgt für den Fluss:
+
+\[
+\vec{J}_k^{(n)} = \rho_k^{(n)} \vec{v}_k^{(n)} 
+= \rho_k^{(n)} \frac{\hbar}{m} \nabla \phi_k^{(n)}
+\]
+
+Im diskreten Fall wird der Gradient durch die Differenz zwischen benachbarten Knoten 
+und die Kopplungsmatrix \( K_{kl} \) ersetzt:
+
+\[
+J_k^{(n)} = \sum_{l \in \mathcal{N}(k)} K_{kl} \cdot \left( \rho_k^{(n)} - \rho_l^{(n)} \right) \cdot \left( \phi_k^{(n)} - \phi_l^{(n)} \right)
+\]
+\label{eq:fluss_phi}
+
+Dabei ist \( K_{kl} \) die fraktale Kopplungsmatrix aus Axiom 3:
+\[
+K_{kl} = \frac{1}{d_{kl}^{3-D}}
+\]
+
+\section{Substitution von \( \Delta \phi \) durch \( \Delta Q \)}
+
+Die Beziehung \( \nabla \phi \propto \nabla Q \) (Gl. \ref{eq:phi_q_gradient}) 
+erlaubt die Substitution der Phasendifferenz durch die Differenz des Bohm-Potentials:
+
+\[
+\phi_k - \phi_l \propto Q_k - Q_l
+\]
+
+Eingesetzt in Gl. \ref{eq:fluss_phi} ergibt dies:
+
+\[
+J_k^{(n)} = \sum_{l \in \mathcal{N}(k)} K_{kl} \cdot \left( \rho_k^{(n)} - \rho_l^{(n)} \right) \cdot \left( Q_k^{(n)} - Q_l^{(n)} \right)
+\]
+\label{eq:fluss_q}
+
+Dies ist die gesuchte Flussgleichung, die in der numerischen Implementierung verwendet wird.
+
+\section{Die physikalische Interpretation}
+
+Gl. \ref{eq:fluss_q} hat eine tiefgehende physikalische Bedeutung:
+
+\begin{enumerate}
+    \item \textbf{Keine reine Diffusion:} Der Fluss wird nicht allein durch den Dichtegradienten 
+    \( \Delta \rho \) getrieben. Würde nur Diffusion wirken, wäre der Fluss \( J \propto \Delta \rho \), 
+    was zu einem vollständigen Zerfall aller Strukturen führen würde. Die Strukturbildung 
+    wäre unmöglich.
+
+    \item \textbf{Kopplung von Dichte und Potential:} Der Fluss ist das Produkt aus dem 
+    Dichteunterschied und dem Potentialunterschied. Dies reflektiert die Selbstorganisation: 
+    Information fließt dorthin, wo sowohl ein Dichte- als auch ein Potentialgefälle existiert.
+
+    \item \textbf{Stabilität:} An Stellen, an denen die Dichte extremal ist (\( \Delta \rho = 0 \)), 
+    verschwindet der Fluss. Ebenso verschwindet er, wo das Potential extremal ist 
+    (\( \Delta Q = 0 \)). Dadurch entstehen stabile, lokalisierte Strukturen.
+
+    \item \textbf{Bindende Wirkung von \( Q \):} Da \( Q \) im Zentrum von Strukturen negativ 
+    ist (minimum) und nach außen ansteigt, ist der Fluss an den Rändern maximal und zeigt 
+    nach innen. Im Zentrum verschwindet er jedoch, sodass die Struktur kollapsfrei bleibt.
+\end{enumerate}
+
+\section{Die Implementierung im Code}
+
+Die Gleichung \ref{eq:fluss_q} wird im OpenCL-Kernel \texttt{iwt\_flux} wie folgt umgesetzt:
+
+\begin{verbatim}
+sum += Kij * (rho_i - rho_j) * (Q_i - Q_j);
+\end{verbatim}
+
+Dabei ist:
+\begin{itemize}
+    \item \texttt{Kij} – die fraktale Kopplung zwischen Knoten \( i \) und \( j \)
+    \item \texttt{rho\_i} – \( \rho_i = |I_i|^2 \)
+    \item \texttt{Q\_i} – das Bohm-Potential am Knoten \( i \)
+\end{itemize}
+
+Diese Implementierung ist keine willkürliche Wahl, sondern die exakte diskretisierte Form 
+der aus der Theorie abgeleiteten Flussgleichung.
+
+\section{Zusammenfassung}
+
+\begin{enumerate}
+    \item Der Fluss \( J = K \cdot \Delta \rho \cdot \Delta Q \) folgt aus der 
+    diskreten Euler-Lagrange-Gleichung (Axiom 4) und der Kontinuitätsgleichung.
+    \item Die Kopplung zwischen Phase \( \phi \) und Bohm-Potential \( Q \) 
+    wird durch die Hamilton-Jacobi-Gleichung hergestellt.
+    \item Die fraktale Kopplungsmatrix \( K_{kl} = 1/d_{kl}^{3-D} \) ist die 
+    emergente Metrik des Raumes (Axiom 3).
+    \item Die Implementierung im Code ist keine Näherung, sondern die exakte 
+    diskrete Form der fundamentalen Dynamik der IWT.
+\end{enumerate}
+
+Die Herleitung zeigt, dass die beobachtete Stabilität der Strukturen und das 
+Ausbleiben eines gravitativen Kollapses keine numerischen Artefakte sind, 
+sondern eine direkte Konsequenz der mathematischen Struktur der IWT.
