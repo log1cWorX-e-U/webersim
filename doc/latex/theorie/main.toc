@@ -696,6 +696,11 @@
 \contentsline {subsection}{\numberline {R.5.1}Stabile Muster im fraktalen Netzwerk}{217}{}%
 \contentsline {subsection}{\numberline {R.5.2}Der Grundzustand des Elektrons}{218}{}%
 \contentsline {subsection}{\numberline {R.5.3}Alle Elektronen sind identisch}{218}{}%
-\contentsline {section}{\numberline {R.6}Die vollständige Kette der Quantisierung}{218}{}%
-\contentsline {section}{\numberline {R.7}Physikalische Interpretation}{219}{}%
-\contentsline {section}{\numberline {R.8}Zusammenfassung}{219}{}%
+\contentsline {section}{\numberline {R.6}Die Unterscheidung von Erscheinungsform und Wirkung}{218}{}%
+\contentsline {subsection}{\numberline {R.6.1}Definitionen}{218}{}%
+\contentsline {subsection}{\numberline {R.6.2}Das Elektron: Ausgedehnte Erscheinungsform, punktuelle Wirkung}{218}{}%
+\contentsline {subsection}{\numberline {R.6.3}Die Analogie: Ein Wirbel im Wasser}{219}{}%
+\contentsline {subsection}{\numberline {R.6.4}Die Konsequenz für das Messproblem}{219}{}%
+\contentsline {section}{\numberline {R.7}Die vollständige Kette der Quantisierung}{219}{}%
+\contentsline {section}{\numberline {R.8}Physikalische Interpretation}{219}{}%
+\contentsline {section}{\numberline {R.9}Zusammenfassung}{220}{}%
