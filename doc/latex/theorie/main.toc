@@ -79,14 +79,15 @@
 \contentsline {section}{\numberline {6.1}Einleitung}{47}{}%
 \contentsline {section}{\numberline {6.2}Geometrischer Ursprung: Dodekaeder und goldener Schnitt}{47}{}%
 \contentsline {section}{\numberline {6.3}Fibonacci-Rekursion als Wachstumsgesetz}{47}{}%
+\contentsline {subsection}{\numberline {6.3.1}Die Randbedingung der optimalen Packung}{48}{}%
 \contentsline {section}{\numberline {6.4}Definition der fraktalen Dimension}{48}{}%
 \contentsline {subsection}{\numberline {6.4.1}Vermehrungsfaktor}{48}{}%
-\contentsline {subsection}{\numberline {6.4.2}Skalierungsfaktor}{48}{}%
-\contentsline {subsection}{\numberline {6.4.3}Fraktale Dimension}{48}{}%
-\contentsline {section}{\numberline {6.5}Numerischer Wert}{48}{}%
+\contentsline {subsection}{\numberline {6.4.2}Skalierungsfaktor}{49}{}%
+\contentsline {subsection}{\numberline {6.4.3}Fraktale Dimension}{49}{}%
+\contentsline {section}{\numberline {6.5}Numerischer Wert}{49}{}%
 \contentsline {section}{\numberline {6.6}Physikalische Bedeutung}{49}{}%
-\contentsline {section}{\numberline {6.7}Zum Status der fraktalen Dimension}{49}{}%
-\contentsline {section}{\numberline {6.8}Zusammenfassung}{49}{}%
+\contentsline {section}{\numberline {6.7}Zum Status der fraktalen Dimension}{50}{}%
+\contentsline {section}{\numberline {6.8}Zusammenfassung}{50}{}%
 \contentsline {chapter}{\numberline {7}Emergenz der Naturkonstanten}{51}{}%
 \contentsline {section}{\numberline {7.1}Zwei Ebenen physikalischer Konstanten}{51}{}%
 \contentsline {section}{\numberline {7.2}Fundamentale IWT-Parameter}{51}{}%
@@ -255,7 +256,7 @@
 \contentsline {section}{\numberline {15.2}Kosmologie und Galaxien}{105}{}%
 \contentsline {subsection}{\numberline {15.2.1}Fraktale Skalengesetze}{105}{}%
 \contentsline {subsection}{\numberline {15.2.2}Maximale Masse kompakter Objekte}{105}{}%
-\contentsline {subsection}{\numberline {15.2.3}Doppelkern-Systeme}{105}{}%
+\contentsline {subsection}{\numberline {15.2.3}Doppelkern-Systeme}{106}{}%
 \contentsline {subsection}{\numberline {15.2.4}Hubble-Gesetz und Hubble-Spannung}{106}{}%
 \contentsline {subsection}{\numberline {15.2.5}Übersicht der testbaren Vorhersagen}{106}{}%
 \contentsline {section}{\numberline {15.3}Gravitationsphysik}{106}{}%
@@ -430,8 +431,8 @@
 \contentsline {subsection}{\numberline {F.6.3}Konvergenz der diskreten Operatoren}{145}{}%
 \contentsline {subsection}{\numberline {F.6.4}Die Rolle der fraktalen Dimension im Limes}{145}{}%
 \contentsline {subsection}{\numberline {F.6.5}Existenz des Kontinuumslimes}{145}{}%
-\contentsline {section}{\numberline {F.7}Beispiel: Diskrete Wellengleichung}{145}{}%
-\contentsline {subsection}{\numberline {F.7.1}Diskrete Form}{145}{}%
+\contentsline {section}{\numberline {F.7}Beispiel: Diskrete Wellengleichung}{146}{}%
+\contentsline {subsection}{\numberline {F.7.1}Diskrete Form}{146}{}%
 \contentsline {subsection}{\numberline {F.7.2}Kontinuierlicher Limes}{146}{}%
 \contentsline {section}{\numberline {F.8}Fazit zum Kontinuumslimes}{146}{}%
 \contentsline {section}{\numberline {F.9}Zusammenfassung}{146}{}%
@@ -530,13 +531,13 @@
 \contentsline {section}{\numberline {J.5}Drei Neutrino-Generationen}{171}{}%
 \contentsline {subsection}{\numberline {J.5.1}Moden des fraktalen Q-Feldes}{171}{}%
 \contentsline {subsection}{\numberline {J.5.2}Numerische Werte der drei Generationen}{171}{}%
-\contentsline {section}{\numberline {J.6}Neutrino-Oszillationen aus fraktaler Dispersion}{171}{}%
-\contentsline {subsection}{\numberline {J.6.1}Dispersionsrelation für das Q-Feld}{171}{}%
+\contentsline {section}{\numberline {J.6}Neutrino-Oszillationen aus fraktaler Dispersion}{172}{}%
+\contentsline {subsection}{\numberline {J.6.1}Dispersionsrelation für das Q-Feld}{172}{}%
 \contentsline {subsection}{\numberline {J.6.2}Phasengeschwindigkeit der Masseneigenzustände}{172}{}%
 \contentsline {subsection}{\numberline {J.6.3}Oszillationslänge}{172}{}%
 \contentsline {subsection}{\numberline {J.6.4}Testbare Vorhersage}{172}{}%
-\contentsline {section}{\numberline {J.7}Neutrinos als Dunkle Materie}{172}{}%
-\contentsline {subsection}{\numberline {J.7.1}Kosmologische Neutrinodichte}{172}{}%
+\contentsline {section}{\numberline {J.7}Neutrinos als Dunkle Materie}{173}{}%
+\contentsline {subsection}{\numberline {J.7.1}Kosmologische Neutrinodichte}{173}{}%
 \contentsline {subsection}{\numberline {J.7.2}Dunkle Materie ist Neutrino-Gesamtheit}{173}{}%
 \contentsline {section}{\numberline {J.8}Die Verbindung zur Hubble-Spannung}{173}{}%
 \contentsline {subsection}{\numberline {J.8.1}Das konsistente Bild}{173}{}%
