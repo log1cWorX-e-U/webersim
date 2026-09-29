@@ -21,12 +21,12 @@ set(INCLUDES
     ${CMAKE_CURRENT_LIST_DIR}/physics
 )
 
-add_subdirectory(sm)
-add_subdirectory(threading)
-add_subdirectory(string)
-add_subdirectory(physics)
-add_subdirectory(logging)
-add_subdirectory(vector)
+add_subdirectory(sm ${CMAKE_BINARY_DIR}/libs_build/sm)
+add_subdirectory(threading ${CMAKE_BINARY_DIR}/libs_build/threading)
+add_subdirectory(string ${CMAKE_BINARY_DIR}/libs_build/string)
+add_subdirectory(physics ${CMAKE_BINARY_DIR}/libs_build/physics)
+add_subdirectory(logging ${CMAKE_BINARY_DIR}/libs_build/logging)
+add_subdirectory(vector ${CMAKE_BINARY_DIR}/libs_build/vector)
 add_executable(simulator ${SOURCES})
 
 target_link_libraries(simulator ${LIBRARIES})
