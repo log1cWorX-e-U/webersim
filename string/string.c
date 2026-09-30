@@ -72,7 +72,7 @@ const char* string_append_directory_to_path_and_create(const char* path, const c
 int32_t string_calculate_substring_index(const char* string, const char* sub_string)
 {
     int index = -1;
-    char* delimiter = strstr(string, sub_string);
+    const char* delimiter = strstr(string, sub_string);
     if (delimiter != NULL)
     {
         index = delimiter - string;
